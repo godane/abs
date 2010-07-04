@@ -53,7 +53,7 @@ have to use git pull --rebase. I have not tested it yet.
 I've added a wiki page on how to work with single or groups of packages it can be found
 here [single package workflow](http://wiki.github.com/str1ngs/abs/working-with-single-packages)
 
-Make sure you add content to the wiki [wiki](http://wiki.github.com/str1ngs/abs/) or fix any errors you see.
+Make sure you add content to the [wiki](http://wiki.github.com/str1ngs/abs/) or fix any errors you see.
 
 Contact
 --------------
