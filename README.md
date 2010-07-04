@@ -3,6 +3,7 @@ Archlinux ABS Git
 
 This is a unofficial mirror of the Archlinux svn server.
 
+
 Why
 ---------------
 
@@ -48,3 +49,14 @@ use abs to sync. You just cd into the abs directory to pull. I also suggest you 
 custom changes on another branch then git rebase the master branch when you want to update
 your packages.  You could also pull origin master into your custom branch but you might 
 have to use git pull --rebase. I have not tested it yet. 
+
+I've added a wiki page on how to work with single or groups of packages it can be found
+here [single package workflow](http://wiki.github.com/str1ngs/abs/working-with-single-packages)
+
+Make sure you add content to the wiki [wiki](http://wiki.github.com/str1ngs/abs/) or fix any errors you see.
+
+Contact
+--------------
+
+If you need to contact me. I'm generally on freenode as str1ngs. 
+or you can email me schizoid29 at gmail.com
