@@ -1,0 +1,43 @@
+#!/bin/sh
+#I orignally used this hacked up script to detrunk. its really not needed anymore. 
+
+git reset --hard HEAD
+git clean -fd
+rm -rf trunk svn extra core community README.md config
+mkdir svn
+git mv -k * svn
+
+move() {
+  repo=$1
+  mkdir $repo
+  for source in $(find svn -name $repo);  do 
+    target=$repo/$(basename $(dirname $(dirname $source)))
+    git mv $source $target
+  done
+}
+
+detrunk () {
+  repo=$1
+  mkdir trunk
+  for source in $(find svn -name trunk); do
+    target=trunk/$(basename $(dirname $source))
+    git mv $source $target
+  done
+}
+
+for repo in core-i686 core-any extra-i686 extra-any community-i686 community-any; do
+  move $repo
+done
+
+detrunk
+
+git mv core-i686 core
+git mv core-any/* core
+git mv extra-i686 extra
+git mv extra-any/* extra
+git mv community-i686 community
+git mv community-any/* community
+git clean -fd
+git co .
+git commit
+# vim: set ft=sh ts=2 sw=2 et:

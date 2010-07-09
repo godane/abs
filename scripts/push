@@ -1,0 +1,11 @@
+#!/bin/bash
+#this scripts just pushes to some mirrors so there are lots of backups
+
+
+repos=('gitorious' 'github' 'stargate')
+
+for r in ${repos[@]}; do
+  flag=
+  if [[ $r = github ]]; then flag="--all"; fi
+  git push $flag $r
+done
