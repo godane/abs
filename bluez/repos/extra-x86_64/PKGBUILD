@@ -4,7 +4,7 @@
 
 pkgname=bluez
 pkgver=4.67
-pkgrel=1
+pkgrel=2
 pkgdesc="Libraries and tools for the Bluetooth protocol stack"
 url="http://www.bluez.org/"
 arch=('i686' 'x86_64')
@@ -21,7 +21,7 @@ optdepends=("gstreamer0.10-base: bluetooth GStreamer support"
 conflicts=('bluez-libs' 'bluez-utils')
 provides=('bluez-libs' 'bluez-utils')
 replaces=('bluez-libs' 'bluez-utils')
-options=('!libtool')
+options=('!libtool' 'force')
 backup=(etc/bluetooth/{main,rfcomm,audio,network,input,serial}.conf
         etc/conf.d/bluetooth)
 source=("http://www.kernel.org/pub/linux/bluetooth/${pkgname}-${pkgver}.tar.bz2"
