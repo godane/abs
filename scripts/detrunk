@@ -3,7 +3,7 @@
 
 git reset --hard HEAD
 git clean -fd
-rm -rf trunk svn extra core community README.md config
+rm -rf scripts trunk svn extra core community README.md config
 mkdir svn
 git mv -k * svn
 
