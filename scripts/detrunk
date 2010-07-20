@@ -39,5 +39,4 @@ git mv community-i686 community
 git mv community-any/* community
 git clean -fd
 git co .
-git commit
 # vim: set ft=sh ts=2 sw=2 et:
