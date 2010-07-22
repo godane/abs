@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 69434 2010-02-20 14:17:33Z allan $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gconf-perl

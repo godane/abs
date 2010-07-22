@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85260 2010-07-11 10:14:05Z ibiru $
 # Maintainer: Ionut Biru <ibiru@archlinux.org>
 pkgname=vdpau-video
 pkgver=0.6.9

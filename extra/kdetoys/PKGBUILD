@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 84251 2010-06-27 17:28:10Z andrea $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgbase=kdetoys

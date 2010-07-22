@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 24698 2009-01-20 04:18:32Z eric $
 # Maintainer: Eric Belanger <eric@archlinux.org>
 
 pkgname=xmms

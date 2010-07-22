@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 72935 2010-03-21 16:14:26Z tpowa $
 # Maintainer: Paul Mattal <paul@archlinux.org>
 
 pkgname=hdparm

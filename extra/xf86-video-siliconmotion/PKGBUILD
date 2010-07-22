@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 79857 2010-05-08 12:49:29Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 # Contributor: Alexander Baldeck <alexander@archlinux.org>
 pkgname=xf86-video-siliconmotion

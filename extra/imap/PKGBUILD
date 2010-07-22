@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75284 2010-04-01 07:07:12Z pierre $
 # Maintainer: judd <jvinet@zeroflux.org>
 pkgname=imap
 pkgver=2007e

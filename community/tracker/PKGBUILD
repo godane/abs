@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 19371 2010-06-22 22:34:08Z foutrelis $
 # Maintainer: Alexander Fehr <pizzapunk gmail com>
 
 pkgname=tracker

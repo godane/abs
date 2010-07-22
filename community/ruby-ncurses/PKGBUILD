@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 2403 2009-09-17 19:54:33Z shusmann $
 # Maintainer: Jeff Mickey <j@codemac.net>
 # Contributor: Alessio 'mOLOk' Bolognino <themolok@gmail.com>
 pkgname=ruby-ncurses

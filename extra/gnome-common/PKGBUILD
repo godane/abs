@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 54859 2009-10-11 19:55:23Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gnome-common

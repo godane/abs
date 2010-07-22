@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 80841 2010-05-22 14:31:00Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 # Contributor: Alexander Baldeck <alexander@archlinux.org>
 pkgname=pixman

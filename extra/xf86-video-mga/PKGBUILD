@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 80849 2010-05-22 15:00:10Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xf86-video-mga

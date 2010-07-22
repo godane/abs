@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 13306 2010-03-20 23:49:14Z cbrannon $
 # Contributor: Chris Brannon <cmbrannon@cox.net>
 pkgname=espeakup
 pkgver=0.71

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 11972 2010-02-24 02:57:47Z dgriffiths $
 # Maintainer: dibblethewrecker dibblethewrecker.at.jiwe.dot.org
 
 pkgname=gpsman

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 3446 2009-10-03 13:27:57Z ibiru $
 # Maintainer: Jeff Mickey <jeff@archlinux.org>
 # And Maintainer: Angel 'angvp' Velasquez <angvp[at]archlinux.com.ve> 
 pkgname=typespeed

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 18126 2010-05-31 11:16:10Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 pkgname=frei0r-plugins
 pkgver=1.1.22

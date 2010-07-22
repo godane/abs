@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 19565 2010-06-25 20:09:43Z ibiru $
 #Maintainer: Ionut Biru <ibiru@archlinux.org>
 pkgbase=('virtualbox-ose')
 pkgname=('virtualbox-ose' 'virtualbox-ose-additions' 'virtualbox-ose-additions-modules')

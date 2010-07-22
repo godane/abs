@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 15946 2010-04-18 20:09:41Z aschaefer $
 # Maintainer: Aaron Schaefer <aaron@elasticdog.com>
 
 pkgname=optipng

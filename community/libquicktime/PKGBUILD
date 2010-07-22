@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 18588 2010-06-08 15:51:01Z ibiru $
 # Maintainer: Mateusz Herych <heniekk@gmail.com>
 
 pkgname=libquicktime

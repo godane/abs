@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 84997 2010-07-06 07:47:55Z pierre $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=zsh

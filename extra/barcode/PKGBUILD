@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 71608 2010-03-07 21:45:43Z giovanni $
 # Maintainer: Giovanni Scafora <giovanni@archlinux.org>
 
 pkgname=barcode

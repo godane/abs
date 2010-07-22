@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 49765 2009-08-15 15:10:25Z jgc $
 # Maintainer: Andreas Radke <andyrtr@archlinux.org>
 
 pkgname=libdca

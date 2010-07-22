@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 84958 2010-07-05 21:33:11Z tpowa $
 # Maintainer: Andreas Radke <andyrtr at archlinux.org>
 
 pkgbase=kernel26-lts

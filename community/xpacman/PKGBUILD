@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 17716 2010-05-24 20:47:33Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=xpacman

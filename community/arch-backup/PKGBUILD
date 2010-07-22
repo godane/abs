@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 11502 2010-02-12 23:32:15Z spupykin $
 # Contributor: Sergej Pupykin <ps@lx-ltd.ru>
 
 pkgname=arch-backup

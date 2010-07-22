@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85336 2010-07-12 17:15:23Z jgc $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xf86-video-sisusb

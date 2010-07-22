@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 17824 2010-05-25 17:40:37Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=perl-danga-socket

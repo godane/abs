@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83334 2010-06-21 11:46:47Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgbase=mesa

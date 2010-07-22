@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 18003 2010-05-29 07:22:31Z ebelanger $
 # Maintainer: Eric Belanger <eric@archlinux.org>
 
 pkgname=pysol-sound-server

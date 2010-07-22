@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75211 2010-04-01 02:26:14Z pierre $
 # Maintainer: Thomas Bächler <thomas@archlinux.org>
 
 pkgname=openvpn

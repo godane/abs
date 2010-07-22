@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 77149 2010-04-11 11:02:48Z thomas $
 # Maintainer: Thomas Bächler <thomas@archlinux.org>
 
 pkgname=libpcap

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 7504 2010-01-07 03:36:46Z dgriffiths $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=pptpd

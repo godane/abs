@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85854 2010-07-20 22:32:23Z ibiru $
 # Contributor: Jakub Schmidtke <sjakub@gmail.com>
 
 pkgname=firefox

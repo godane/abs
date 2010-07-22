@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83716 2010-06-22 17:55:04Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgbase=poppler

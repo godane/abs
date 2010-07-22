@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 52324 2009-09-17 11:00:27Z allan $
 # Maintainer: Paul Mattal <paul@archlinux.org>
 # Contributor: Comete <la_comete@tiscali.fr>
 pkgname=pam_ldap

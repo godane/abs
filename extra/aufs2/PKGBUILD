@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 80414 2010-05-17 07:59:57Z tpowa $
 # Maintainer: Paul Mattal <pjmattal@elys.com>
 
 pkgname=aufs2

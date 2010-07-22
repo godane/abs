@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 71576 2010-03-07 19:52:53Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 # Contributor: Alexander Baldeck <alexander@archlinux.org>
 pkgname=glproto

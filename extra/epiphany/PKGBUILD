@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 76957 2010-04-09 09:41:38Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=epiphany

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 84715 2010-07-03 18:33:18Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=udisks

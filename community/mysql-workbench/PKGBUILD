@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 20315 2010-07-04 18:09:01Z ibiru $
 # Maintainer : Ionut Biru <ibiru@archlinux.org>
 # Contributor: totoloco <totoloco at gmail _dot_com>
 pkgname=mysql-workbench

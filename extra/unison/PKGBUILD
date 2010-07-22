@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 57697 2009-11-01 15:08:02Z tpowa $
 #Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=unison

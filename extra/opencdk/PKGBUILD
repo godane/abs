@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 69392 2010-02-20 12:36:11Z allan $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=opencdk

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 53022 2009-09-25 05:08:10Z paul $
 # Maintainer: dorphell <dorphell@archlinux.org>
 pkgname=mt-st
 pkgver=1.1

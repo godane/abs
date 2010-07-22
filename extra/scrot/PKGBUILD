@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 71789 2010-03-09 16:23:42Z giovanni $
 # Maintainer: Giovanni Scafora <giovanni@archlinux.org>
 
 pkgname=scrot

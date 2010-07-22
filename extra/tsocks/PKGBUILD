@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 27692 2009-02-24 21:16:23Z eric $
 
 pkgname=tsocks
 pkgver=1.8beta5

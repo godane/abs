@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 77972 2010-04-19 07:51:48Z dgriffiths $
 # Maintainer: Dale Blount <dale@archlinux.org>
 
 pkgname=perl-net-cidr-lite

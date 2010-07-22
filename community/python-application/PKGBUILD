@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 4183 2009-10-17 12:21:33Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=python-application

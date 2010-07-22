@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82579 2010-06-13 18:31:37Z ibiru $
 # Maintainer: Hugo Doria <hugo@archlinux.org>
 
 pkgname=banshee

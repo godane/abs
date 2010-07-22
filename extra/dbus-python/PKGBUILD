@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75824 2010-04-04 12:03:46Z jgc $
 # Contributor: Jan de Groot <jgc@archlinux.org>
 
 pkgname=dbus-python

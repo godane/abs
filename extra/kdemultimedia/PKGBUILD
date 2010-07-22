@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 84333 2010-06-29 14:14:53Z andrea $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgbase=kdemultimedia

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83790 2010-06-22 22:25:19Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libgnomekbd

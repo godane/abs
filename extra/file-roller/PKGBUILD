@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83551 2010-06-22 07:12:27Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=file-roller

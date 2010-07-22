@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75955 2010-04-04 20:24:00Z jgc $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xf86-input-void

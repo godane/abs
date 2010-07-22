@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 84324 2010-06-29 11:07:53Z ronald $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgbase=kdepim

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 66522 2010-01-31 13:12:49Z thomas $
 # Maintainer: Thomas Baechler <thomas@archlinux.org>
 pkgname=ppp
 pkgver=2.4.5

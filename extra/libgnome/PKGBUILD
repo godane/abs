@@ -1,4 +1,4 @@
-# $Id$ 
+# $Id: PKGBUILD 74368 2010-03-30 20:53:16Z ibiru $ 
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libgnome

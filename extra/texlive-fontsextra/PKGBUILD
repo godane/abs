@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 65392 2010-01-28 05:28:45Z eric $
 # Maintainer: Firmicus <firmicus āt gmx dōt net>
 
 pkgname=texlive-fontsextra

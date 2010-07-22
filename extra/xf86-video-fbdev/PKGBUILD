@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75934 2010-04-04 20:02:12Z jgc $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xf86-video-fbdev

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 17513 2010-05-24 14:18:53Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=diff2html

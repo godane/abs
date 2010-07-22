@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 81295 2010-05-27 22:01:30Z pierre $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=run-parts

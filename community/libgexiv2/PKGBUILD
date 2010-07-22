@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 20135 2010-07-02 17:33:04Z ibiru $
 # Maintainer: Ionut Biru <ibiru@archlinux.org>
 pkgname=libgexiv2
 pkgver=0.1.0

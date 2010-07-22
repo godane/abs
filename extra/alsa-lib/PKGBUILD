@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 79040 2010-04-30 05:28:10Z tpowa $
 # Maintainer: judd <jvinet@zeroflux.org>
 
 pkgname=alsa-lib

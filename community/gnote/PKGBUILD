@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 18979 2010-06-18 14:07:09Z ibiru $
 # Maintainer:  Ionut Biru <ibiru@archlinux.org>
 # Contributor: uastasi <uastasi@archlinux.us>
 pkgname=gnote

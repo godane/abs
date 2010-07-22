@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 21156 2010-07-14 17:56:52Z svenstaro $
 # Maintainer: Sven-Hendrik Haase <sh@lutzhaase.com>
 # Contributor: scippio <scippio@berounet.cz>
 pkgname=ois

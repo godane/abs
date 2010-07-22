@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75560 2010-04-01 20:34:09Z giovanni $
 # Maintainer: Hugo Doria <hugo@archlinux.org>
 
 pkgname=nmap

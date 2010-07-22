@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 74174 2010-03-30 17:11:38Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 pkgname=atk
 pkgver=1.30.0

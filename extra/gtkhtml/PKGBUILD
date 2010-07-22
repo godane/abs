@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83390 2010-06-21 12:58:44Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gtkhtml

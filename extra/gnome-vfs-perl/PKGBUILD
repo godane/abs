@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 1028 2008-04-27 19:10:08Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gnome-vfs-perl

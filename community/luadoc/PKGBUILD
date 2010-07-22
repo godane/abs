@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 17324 2010-05-22 20:56:29Z cbrannon $
 # Maintainer: Chris Brannon <cmbrannon79@gmail.com>
 # Contributor: Paulo Matias <matiasΘarchlinux-br·org>
 pkgname="luadoc"

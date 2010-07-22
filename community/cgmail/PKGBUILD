@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 14679 2010-04-06 20:25:38Z ibiru $
 # Contributor: Geoffroy Carrier <geoffroy.carrier@aur.archlinux.org>
 # Contributor: Marco Ferragina <marco.ferragina@gmail.com>
 pkgname=cgmail

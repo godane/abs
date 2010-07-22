@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 71811 2010-03-09 20:45:11Z paul $
 # Contributor: Paul Mattal <paul@mattal.com>
 # Maintainer: Paul Mattal <paul@archlinux.org>
 pkgname=eclipse-cdt

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83616 2010-06-22 09:08:48Z ibiru $
 # Maintainer : Ionut Biru <ibiru@archlinux.org>
 # Contributor: Timm Preetz <timm@preetz.us>
 pkgname=telepathy-sofiasip

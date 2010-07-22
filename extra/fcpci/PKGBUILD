@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 80487 2010-05-17 18:08:21Z tpowa $
 #Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=fcpci

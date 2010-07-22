@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82625 2010-06-15 04:22:56Z allan $
 # Maintainer: Aaron Griffin <aaron@archlinux.org>
 
 pkgname=iputils

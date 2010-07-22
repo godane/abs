@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 71245 2010-03-05 16:17:11Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libcaca

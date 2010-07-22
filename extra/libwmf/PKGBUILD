@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 64443 2010-01-20 12:19:05Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 # Contributor: FJ <joostef@gmail.com>
 pkgname=libwmf

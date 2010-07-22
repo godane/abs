@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 62172 2010-01-04 03:04:28Z eric $
 # Maintainer: Alexander Fehr <pizzapunk gmail com>
 
 pkgname=gxine

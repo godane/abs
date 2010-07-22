@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75723 2010-04-02 20:03:25Z pierre $
 # Maintainer: dorphell <dorphell@archlinux.org>
 
 pkgname=tin

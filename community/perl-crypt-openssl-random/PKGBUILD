@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 14249 2010-04-02 09:49:50Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=perl-crypt-openssl-random

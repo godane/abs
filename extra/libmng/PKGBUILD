@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 63248 2010-01-16 20:44:09Z jgc $
 # Contributor: Tom Newsom <Jeepster@gmx.co.uk>
 # Maintainer: judd <jvinet@zeroflux.org>
 pkgname=libmng

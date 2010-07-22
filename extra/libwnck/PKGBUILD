@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83588 2010-06-22 07:23:03Z ibiru $
 # Maintainer: Jan de Groot  <jgc@archlinux.org>
 pkgname=libwnck
 pkgver=2.30.2

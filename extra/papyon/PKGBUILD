@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85210 2010-07-10 14:49:40Z ibiru $
 # Maintainer: Ionut Biru <ibiru@archlinux.org>
 
 pkgname=papyon

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 69314 2010-02-20 10:20:37Z tpowa $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 pkgname=pciutils
 pkgver=3.1.7

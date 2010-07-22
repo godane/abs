@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 7631 2010-01-08 23:55:55Z dgriffiths $
 # Maintainer: Douglas Soares de Andrade <dsandrade@gmail.com>
 
 pkgname=python-numarray

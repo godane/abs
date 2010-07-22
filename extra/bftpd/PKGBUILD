@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 60250 2009-12-02 15:28:25Z ibiru $
 # Maintainer: Thomas Baechler <thomas@archlinux.org>
 
 pkgname=bftpd

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75658 2010-04-02 04:17:23Z pierre $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=qtscriptgenerator

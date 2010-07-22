@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 84550 2010-06-30 21:45:04Z thomas $
 # Maintainer: Thomas Bächler <thomas@archlinux.org>
 pkgname=mkinitcpio-busybox
 pkgver=1.16.2

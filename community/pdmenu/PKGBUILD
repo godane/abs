@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 21428 2010-07-16 12:04:00Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=pdmenu

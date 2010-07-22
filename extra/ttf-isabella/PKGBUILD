@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 79140 2010-04-30 16:06:31Z thayer $
 # Maintainer : Damir Perisa <damir.perisa@bluewin.ch>
 
 pkgname=ttf-isabella

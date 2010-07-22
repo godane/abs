@@ -1,4 +1,4 @@
-#$Id$
+#$Id: PKGBUILD 81998 2010-06-07 14:12:43Z jgc $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libmms

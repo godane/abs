@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 72496 2010-03-17 04:36:17Z eric $
 # Maintainer: Eric Belanger <eric@archlinux.org>
 
 pkgname=mutagen

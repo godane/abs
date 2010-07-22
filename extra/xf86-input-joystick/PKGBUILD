@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75970 2010-04-04 20:35:30Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xf86-input-joystick

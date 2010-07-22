@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 69775 2010-02-22 17:18:35Z giovanni $
 
 pkgname=gnash-gtk
 pkgver=0.8.7

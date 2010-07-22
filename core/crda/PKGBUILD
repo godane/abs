@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 79865 2010-05-08 15:22:52Z thomas $
 # Maintainer: Thomas Bächler <thomas@archlinux.org>
 
 pkgname=crda

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 78065 2010-04-19 08:54:18Z dgriffiths $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libxevie

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82261 2010-06-09 19:07:36Z tpowa $
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=kaffeine

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 74349 2010-03-30 20:16:27Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libgnomeprintui

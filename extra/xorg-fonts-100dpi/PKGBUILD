@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 71678 2010-03-08 11:58:02Z jgc $
 # Maintainer: Alexander Baldeck <alexander@archlinux.org>
 # Contributor: Jan de Groot <jgc@archlinux.org>
 pkgname=xorg-fonts-100dpi

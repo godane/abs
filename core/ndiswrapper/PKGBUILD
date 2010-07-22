@@ -1,4 +1,4 @@
-#$Id$
+#$Id: PKGBUILD 80412 2010-05-17 07:56:55Z tpowa $
 #Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=ndiswrapper

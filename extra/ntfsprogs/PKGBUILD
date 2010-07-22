@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 48342 2009-08-01 14:46:45Z jgc $
 # Maintainer: Ronald van Haren <ronald.archlinux.org>
 
 pkgname=ntfsprogs

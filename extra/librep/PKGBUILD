@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 72741 2010-03-19 11:30:30Z allan $
 # Maintainer: Juergen Hoetzel <juergen@archlinux.org>
 
 pkgname=librep

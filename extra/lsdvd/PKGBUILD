@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 39826 2009-05-21 14:24:22Z jgc $
 # Maintainer: Aaron Griffin <aaron@archlinux.org>
 
 pkgname=lsdvd

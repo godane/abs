@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75925 2010-04-04 19:55:01Z jgc $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xf86-video-i740

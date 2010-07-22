@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75985 2010-04-04 20:54:28Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xf86-input-acecad

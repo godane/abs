@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 68060 2010-02-10 16:21:25Z giovanni $
 # Maintainer: Giovanni Scafora <giovanni@archlinux.org>
 
 pkgname=libwpd

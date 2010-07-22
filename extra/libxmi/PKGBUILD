@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 57020 2009-10-31 09:40:29Z allan $
 # Contributor: Tobias Kieslich [tobias.justdreams.de]
 
 pkgname=libxmi

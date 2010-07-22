@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 10546 2010-02-01 08:19:19Z dgriffiths $
 # Maintainer: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=murrine-themes-collection

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 8887 2010-01-22 03:24:05Z dgriffiths $
 # Maintainer: Mateusz Herych <heniekk@gmail.com>
 
 pkgname=gmerlin

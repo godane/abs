@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 71698 2010-03-08 13:58:14Z jgc $
 # Maintainer: Firmicus <francois.archlinux.org>
 
 pkgname=ttf-junicode

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 9457 2010-01-25 14:29:43Z spupykin $
 # Contributor: William Rea <sillywilly@gmail.com>
 pkgname=python-galago-gtk
 pkgver=0.5.0

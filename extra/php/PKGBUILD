@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75713 2010-04-02 19:47:03Z pierre $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgbase=php

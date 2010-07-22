@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 78249 2010-04-20 04:42:42Z dgriffiths $
 # Maintainer: tobias [tobias [at] archlinux.org]
 pkgname=mutt
 pkgver=1.5.20

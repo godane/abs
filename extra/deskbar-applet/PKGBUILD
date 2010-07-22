@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83492 2010-06-21 21:50:24Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=deskbar-applet

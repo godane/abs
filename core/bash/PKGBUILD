@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82719 2010-06-16 04:44:35Z allan $
 # Maintainer: Aaron Griffin <aaron@archlinux.org>
 
 pkgname=bash

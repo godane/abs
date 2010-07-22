@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 20202 2010-07-03 13:38:44Z tdziedzic $
 # Maintainer: Vesa Kaihlavirta <vegai@iki.fi>
 
 pkgname=quassel

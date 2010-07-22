@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83339 2010-06-21 12:03:15Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xorg-server

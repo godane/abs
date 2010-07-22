@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 73021 2010-03-21 21:20:23Z andyrtr $
 # Maintainer: AndyRTR <andyrtr@archlinux.org>
 
 pkgname=ghostscript

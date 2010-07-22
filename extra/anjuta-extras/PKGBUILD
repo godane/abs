@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 78974 2010-04-29 15:44:05Z ibiru $
 # Mantainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=anjuta-extras

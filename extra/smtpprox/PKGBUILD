@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 55995 2009-10-17 12:06:55Z andrea $
 # Contributor: Paul Mattal <pjmattal@elys.com>
 
 pkgname=smtpprox

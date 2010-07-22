@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 84702 2010-07-03 16:47:54Z ibiru $
 # Maintainer: judd <jvinet@zeroflux.org>
 # Contributor: Mario Vazquez <mario_vazq@hotmail.com>
 pkgname=bind

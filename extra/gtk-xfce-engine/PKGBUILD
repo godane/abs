@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 28200 2009-02-28 10:50:49Z andyrtr $
 # Maintainer: Tobias Kieslich <tobias funnychar archlinux.org>
 
 pkgname=gtk-xfce-engine

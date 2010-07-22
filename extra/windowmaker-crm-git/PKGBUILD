@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 71465 2010-03-07 11:09:23Z daniel $
 # Maintainer: Daniel Isenmann <daniel@archlinux.org>
 
 pkgname=windowmaker-crm-git

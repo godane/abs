@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 4456 2008-07-07 16:29:51Z jgc $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libxtrap

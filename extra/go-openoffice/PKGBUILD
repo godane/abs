@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82009 2010-06-07 15:51:20Z andyrtr $
 # Maintainer: AndyRTR <andyrtr@archlinux.org>
 
 pkgname=go-openoffice

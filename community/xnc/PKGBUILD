@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 8981 2010-01-23 01:17:11Z foutrelis $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=xnc

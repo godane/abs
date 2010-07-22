@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 11873 2010-02-20 15:41:06Z ebelanger $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=rsyslog

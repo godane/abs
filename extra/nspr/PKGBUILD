@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 72882 2010-03-21 13:46:43Z jgc $
 # Maintainer: Alexander Baldeck <alexander@archlinux.org>
 # Contributor: Jan de Groot <jgc@archlinux.org>
 pkgname=nspr

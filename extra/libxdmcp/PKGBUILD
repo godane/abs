@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 55304 2009-10-12 17:02:08Z andyrtr $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libxdmcp

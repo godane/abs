@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 20581 2010-07-09 07:28:48Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=cross-arm-wince-cegcc-importlibs

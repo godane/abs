@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 16438 2010-04-30 08:31:15Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=flyspray

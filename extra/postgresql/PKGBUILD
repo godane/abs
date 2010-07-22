@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 81011 2010-05-25 17:53:11Z dgriffiths $
 # Maintainer: Douglas Soares de Andrade <douglas@archlinux.org>
 
 pkgbase=('postgresql')

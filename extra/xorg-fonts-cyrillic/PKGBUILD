@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 71689 2010-03-08 12:59:27Z jgc $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xorg-fonts-cyrillic

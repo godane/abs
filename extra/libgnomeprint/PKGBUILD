@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75344 2010-04-01 11:05:03Z allan $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libgnomeprint

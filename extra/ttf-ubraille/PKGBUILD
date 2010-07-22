@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 77770 2010-04-17 17:58:21Z thayer $
 # Maintainer: Firmicus <francois.archlinux.org>
 # Contributor: Damir Perisa <damir.perisa@bluewin.ch>
 pkgname=ttf-ubraille

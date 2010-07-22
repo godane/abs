@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83757 2010-06-22 19:45:20Z andyrtr $
 # Maintainer: Andreas Radke <andyrtr@archlinux.org>
 
 pkgname=man-pages

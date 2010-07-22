@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 12108 2010-02-27 14:47:28Z ibiru $
 # Contributor: Jaroslaw Swierczynski <swiergot@juvepoland.com>
 
 pkgname=em8300

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 74317 2010-03-30 19:00:27Z ibiru $
 # Maintainer:  Jan de Groot <jan@archlinux.org>
 
 pkgname=gconf

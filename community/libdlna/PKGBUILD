@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 7625 2010-01-08 23:33:47Z dgriffiths $
 # Maintainer: Kessia 'even' Pinheiro <kessiapinheiro at gmail.com> 
 # Contributor: kastor <kastor@fobos.org.ar>
 pkgname=libdlna

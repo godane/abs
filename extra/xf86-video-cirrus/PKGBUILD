@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75940 2010-04-04 20:06:47Z jgc $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xf86-video-cirrus

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 60615 2009-12-05 19:11:42Z thomas $
 # Maintainer: Thomas Bächler <thomas@archlinux.org>
 
 pkgname=iw

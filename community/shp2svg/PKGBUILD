@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 2514 2009-09-19 12:56:22Z ibiru $
 # Contributor: dibblethewrecker dibblethewrecker.at.jiwe.dot.org
 
 pkgname=shp2svg

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 51199 2009-09-05 20:11:42Z andyrtr $
 # Maintainer: AndyRTR <andyrtr@archlinux.org>
 
 # build twice that pango-graphite can pickup the new libgraphite dependency - take care when .so names happen!

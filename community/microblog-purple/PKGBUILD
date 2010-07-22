@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 18639 2010-06-10 11:06:23Z ibiru $
 # Maintainer: Biru Ionut <biru.ionut at gmail.com>
 pkgname=microblog-purple
 pkgver=0.3.0

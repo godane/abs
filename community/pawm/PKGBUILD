@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 19617 2010-06-26 08:01:18Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=pawm

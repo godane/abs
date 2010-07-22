@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 81975 2010-06-07 13:30:21Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libxext

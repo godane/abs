@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 81955 2010-06-07 12:18:47Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=ptlib

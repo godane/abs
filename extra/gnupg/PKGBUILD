@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 52155 2009-09-16 11:08:07Z allan $
 # Maintainer: Andreas Radke <andyrtr at archlinux.org>
 # Committer: Judd Vinet <jvinet@zeroflux.org>
 pkgname=gnupg

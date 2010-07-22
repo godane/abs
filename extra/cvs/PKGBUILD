@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75326 2010-04-01 10:25:20Z allan $
 # Contributor: dorphell <dorphell@archlinux.org>
 
 pkgname=cvs

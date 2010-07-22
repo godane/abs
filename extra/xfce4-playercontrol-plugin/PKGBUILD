@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 30697 2009-03-21 12:09:32Z allan $
 # Maintainer: tobias <tobias funnychar archlinux.org>
 
 pkgname=xfce4-playercontrol-plugin

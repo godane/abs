@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 80816 2010-05-22 13:17:01Z andyrtr $
 # Maintainer: tobias <tobias funnychar archlinux.org>
 
 pkgname=libxfcegui4

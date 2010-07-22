@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 73000 2010-03-21 17:33:15Z jgc $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libxt

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 55289 2009-10-12 16:45:45Z andyrtr $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libxtst

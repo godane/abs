@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 9206 2010-01-24 19:00:55Z ttopper $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=greycstoration

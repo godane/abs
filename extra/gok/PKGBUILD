@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 74238 2010-03-30 17:31:45Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gok

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 54533 2009-10-11 09:28:09Z andyrtr $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=inputproto

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82618 2010-06-15 04:05:25Z allan $
 # Maintainer: Thomas Bächler <thomas@archlinux.org>
 pkgname=attr
 pkgver=2.4.44

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82630 2010-06-15 04:26:01Z allan $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 pkgname=pcmciautils
 pkgver=017

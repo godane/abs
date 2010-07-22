@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 78951 2010-04-29 14:38:50Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=seahorse-plugins

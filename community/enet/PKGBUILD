@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 20793 2010-07-11 20:15:23Z tdziedzic $
 # Maintainer: Mateusz Herych <heniekk@gmail.com>
 # Contributor: Bj?indeijer <bjorn@lindeijer.nl>
 pkgname=enet

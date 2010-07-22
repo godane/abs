@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 72879 2010-03-21 12:12:44Z thomas $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 pkgname=mod_fcgid
 pkgver=2.3.5

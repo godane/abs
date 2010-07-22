@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75193 2010-04-01 02:03:01Z pierre $
 # Maintainer: Thomas Baechler <thomas@archlinux.org>
 
 pkgname=wpa_supplicant

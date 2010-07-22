@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 21698 2010-07-16 22:37:29Z lcarlier $
 # Maintainer: Eric Belanger <belanger@astro.umontreal.ca>
 
 pkgname=adesklet-yab

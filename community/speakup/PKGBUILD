@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 17111 2010-05-19 15:54:35Z cbrannon $
 # Maintainer: Chris Brannon <cmbrannon79@gmail.com>
 _kernver='2.6.34-ARCH'
 pkgname=speakup

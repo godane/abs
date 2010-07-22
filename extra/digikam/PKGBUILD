@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82386 2010-06-10 16:03:35Z tpowa $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=digikam

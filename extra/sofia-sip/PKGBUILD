@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75544 2010-04-01 19:17:05Z ibiru $
 # Maintainer : Ionut Biru <ibiru@archlinux.org>
 # Contributor: Bjorn Lindeijer <bjorn lindeijer nl>
 pkgname=sofia-sip

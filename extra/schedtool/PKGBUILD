@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 57081 2009-10-31 12:40:46Z allan $
 # Maintainer: James Rayner <james@archlinux.org>
 
 pkgname=schedtool

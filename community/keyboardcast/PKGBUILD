@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 21577 2010-07-16 19:22:40Z tdziedzic $
 # Contributor: William Rea <sillywilly@gmail.com>
 
 pkgname=keyboardcast

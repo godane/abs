@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 21398 2010-07-16 11:57:45Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=libsieve

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 1264 2009-08-14 05:18:24Z dgriffiths $
 # Maintainer: Jeff Mickey <j@codemac.net>
 
 pkgname=wtf

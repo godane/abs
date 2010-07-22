@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 14464 2010-04-03 17:23:11Z foutrelis $
 # Maintainer: Ray Rashif <schivmeister@gmail.com>
 
 pkgbase="google-gadgets"

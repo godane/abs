@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 78043 2010-04-19 08:33:13Z dgriffiths $
 # Maintainer: damir <damir@archlinux.org>
 
 pkgname=pth

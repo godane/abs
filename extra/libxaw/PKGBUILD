@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 56419 2009-10-21 20:31:46Z andyrtr $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libxaw

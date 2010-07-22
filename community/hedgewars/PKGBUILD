@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 14666 2010-04-06 18:38:23Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=hedgewars

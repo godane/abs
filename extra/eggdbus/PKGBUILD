@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 59198 2009-11-21 11:27:17Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=eggdbus

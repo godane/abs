@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83567 2010-06-22 07:18:43Z ibiru $
 # Maintainer: Jan de Groot <jan@archlinux.org>
 
 pkgname=gnome-menus

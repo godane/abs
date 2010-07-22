@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85189 2010-07-10 01:08:16Z eric $
 # Maintainer: Alexander Fehr <pizzapunk gmail com>
 
 pkgname=gtklp

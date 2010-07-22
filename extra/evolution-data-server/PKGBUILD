@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83438 2010-06-21 17:23:53Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=evolution-data-server

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 74029 2010-03-29 21:11:27Z ibiru $
 # Maintainer: Roman Kyrylych <roman@archlinux.org>
 
 pkgname=gnome-user-share

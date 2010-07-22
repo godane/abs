@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 30402 2009-03-19 06:26:50Z eric $
 # Contributor: Nick Martens (nick1337@xs4all.nl)
 
 pkgname=ed2k-gtk-gui

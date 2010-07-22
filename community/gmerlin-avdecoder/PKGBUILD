@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 9275 2010-01-24 22:50:20Z foutrelis $
 # Maintainer: Mateusz Herych <heniekk@gmail.com>
 
 pkgname=gmerlin-avdecoder

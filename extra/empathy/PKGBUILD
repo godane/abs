@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83443 2010-06-21 17:31:07Z jgc $
 # Maintainer: Ionut Biru <ibiru@archlinux.org>
 pkgname=empathy
 pkgver=2.30.2

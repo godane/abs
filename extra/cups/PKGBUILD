@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82848 2010-06-18 06:18:19Z andyrtr $
 # Maintainer: Andreas Radke <andyrtr@archlinux.org>
 
 pkgbase="cups"

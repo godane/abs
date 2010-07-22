@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 64666 2010-01-21 21:00:59Z eric $
 # Maintainer: Ronald van Haren <ronald.archlinux.org>
 
 pkgname=qwt

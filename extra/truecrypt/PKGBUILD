@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 59737 2009-11-27 03:57:04Z paul $
 # Maintainer: Paul Mattal <paul.archlinux.org>
 
 pkgname=truecrypt

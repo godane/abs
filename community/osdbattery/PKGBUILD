@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 7259 2010-01-03 16:11:37Z ibiru $
 # Contributor: dibblethewrecker <dibblethewrecker@jiwe.org>
 pkgname=osdbattery
 pkgver=1.4

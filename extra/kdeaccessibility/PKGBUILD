@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 84243 2010-06-27 17:27:36Z andrea $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgbase=kdeaccessibility

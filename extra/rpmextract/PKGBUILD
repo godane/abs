@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83879 2010-06-23 15:55:24Z andrea $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=rpmextract

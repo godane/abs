@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 73005 2010-03-21 18:23:06Z jgc $
 # Maintainer: Alexander Fehr <pizzapunk gmail com>
 
 pkgname=desktop-file-utils

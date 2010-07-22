@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 14475 2010-04-03 18:48:30Z ibiru $
 # Contributor: Corrado Primier <bardo@aur.archlinux.org>
 
 pkgname=avrdude

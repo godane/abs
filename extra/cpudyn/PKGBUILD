@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 56001 2009-10-17 12:27:14Z andrea $
 # Contributor: Kevin Piche <kevin@archlinux.org>
 
 pkgname=cpudyn

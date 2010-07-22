@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 78033 2010-04-19 08:27:04Z dgriffiths $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=progsreiserfs

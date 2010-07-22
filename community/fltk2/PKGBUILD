@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 9011 2010-01-23 03:04:56Z foutrelis $
 
 pkgname=fltk2
 pkgver=2.0

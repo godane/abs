@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 12002 2010-02-24 21:29:09Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=phpldapadmin

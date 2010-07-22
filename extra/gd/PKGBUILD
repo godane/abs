@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 64437 2010-01-20 12:10:30Z ibiru $
 # Maintainer: Eric Belanger <eric@archlinux.org>
 
 pkgname=gd

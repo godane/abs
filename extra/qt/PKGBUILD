@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82062 2010-06-08 11:58:32Z pierre $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=qt

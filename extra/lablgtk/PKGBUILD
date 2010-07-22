@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 37056 2009-04-30 06:41:36Z eric $
 #Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=lablgtk

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 15835 2010-04-16 08:47:24Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=x-docs-pdf

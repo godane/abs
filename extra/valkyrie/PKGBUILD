@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 35979 2009-04-19 06:36:39Z eric $
 # Maintainer : Aaron Griffin <aaron@archlinux.org>
 
 pkgname=valkyrie

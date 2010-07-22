@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 15891 2010-04-17 20:38:59Z cbrannon $
 # Maintainer: Paulo Matias <matiasΘarchlinux-br·org>
 # Contributor: Anders Bergh <anders1@gmail.com>
 pkgname=luajit 

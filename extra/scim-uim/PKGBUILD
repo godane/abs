@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 28136 2009-02-28 00:27:04Z eric $
 # Maintainer: damir <damir@archlinux.org>
 
 pkgname=scim-uim

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 49638 2009-08-14 06:20:28Z tobias $
 # Maintainer : Aaron Griffin <aaron@archlinux.org>
 
 pkgname=vim-minibufexpl

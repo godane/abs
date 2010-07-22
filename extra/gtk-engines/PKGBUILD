@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 77722 2010-04-17 14:38:39Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gtk-engines

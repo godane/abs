@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82650 2010-06-15 05:16:19Z allan $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=kbd

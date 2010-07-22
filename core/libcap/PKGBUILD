@@ -1,4 +1,4 @@
-#$Id$
+#$Id: PKGBUILD 64614 2010-01-21 11:40:53Z allan $
 # Maintainer: Hugo Doria <hugo@archlinux.org>
 
 pkgname=libcap

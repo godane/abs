@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83823 2010-06-23 07:57:27Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgbase=gstreamer0.10-good

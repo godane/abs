@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82161 2010-06-08 21:57:35Z ibiru $
 # Maintainer : Ionut Biru <ibiru@archlinux.org>
 # Contributor: Roberto Alsina <ralsina@kde.org>
 pkgname=python-mako

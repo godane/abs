@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 1212 2009-08-14 01:14:28Z dgriffiths $
 # Maintainer: dtw <dibble.at.thewrecker.dot.net>
 
 pkgname=lrmi

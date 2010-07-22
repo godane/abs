@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 21560 2010-07-16 16:18:53Z lcarlier $
 # Contributor: Geoffroy Carrier <geoffroy.carrier@koon.fr>
 
 pkgname=xtmsplit

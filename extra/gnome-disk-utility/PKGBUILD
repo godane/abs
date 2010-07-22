@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 74333 2010-03-30 19:31:03Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gnome-disk-utility

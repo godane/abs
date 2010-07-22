@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 59233 2009-11-21 16:09:20Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 # Contributor: Leslie P. Polzer <leslie.polzer@gmx.net>
 pkgname=xcompmgr

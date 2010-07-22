@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 33026 2009-04-03 21:30:33Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=cairo-perl

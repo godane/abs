@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 54608 2009-10-11 11:43:26Z andyrtr $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libxxf86vm

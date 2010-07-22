@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 14252 2010-04-02 09:50:49Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=perl-crypt-openssl-rsa

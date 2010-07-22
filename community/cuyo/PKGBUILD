@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 5434 2009-11-08 13:15:53Z jlichtblau $
 # Maintainer: Jaroslav Lichtblau <dragonlord@aur.archlinux.org>
 
 pkgname=cuyo

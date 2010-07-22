@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 16794 2010-05-09 16:21:09Z mherych $
 # Contributor: Jaroslaw Swierczynski <swiergot@aur.archlinux.org>
 
 pkgname=kadu

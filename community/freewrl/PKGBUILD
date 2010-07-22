@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 9797 2010-01-30 03:43:16Z dgriffiths $
 # Contributor: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=freewrl

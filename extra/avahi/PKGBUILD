@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 70504 2010-02-27 03:24:54Z dgriffiths $
 # Contributor: Douglas Soares de Andrade <douglas@archlinux.org>
 
 pkgname=avahi

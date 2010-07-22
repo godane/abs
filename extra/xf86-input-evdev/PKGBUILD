@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 76112 2010-04-07 19:40:40Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 # Contributor: Alexander Baldeck <Alexander@archlinux.org
 pkgname=xf86-input-evdev

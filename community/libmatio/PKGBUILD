@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 19610 2010-06-26 06:08:09Z shusmann $
 # Maintainer: Stefan Husmann <stefan-husmann@t-online.de>
 # Contributor: William Rea <sillywilly@gmail.com>
 pkgname=libmatio

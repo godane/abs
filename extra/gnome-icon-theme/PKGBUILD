@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 81100 2010-05-26 15:28:01Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gnome-icon-theme

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 78703 2010-04-27 20:31:45Z jgc $
 # Maintainer: Jan de Groot <jan@archlinux.org>
 
 pkgname=at-spi

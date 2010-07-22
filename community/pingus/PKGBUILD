@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 19006 2010-06-18 19:06:48Z heftig $
 # Maintainer: Eric Belanger <eric@archlinux.org>
 
 pkgname=pingus

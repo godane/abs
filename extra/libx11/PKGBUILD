@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 81970 2010-06-07 13:27:07Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libx11

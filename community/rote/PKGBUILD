@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 21784 2010-07-17 10:23:37Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=rote

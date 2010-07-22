@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 19704 2010-06-28 06:21:44Z angvp $
 # Maintainer: Angel 'angvp' Velasquez <angvp[at]archlinux.com.ve>  
 # Contributor: Corrado Primier <bardo@aur.archlinux.org>
 pkgname=eclipse-mylyn

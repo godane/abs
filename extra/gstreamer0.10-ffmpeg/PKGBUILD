@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 72240 2010-03-13 20:27:01Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gstreamer0.10-ffmpeg

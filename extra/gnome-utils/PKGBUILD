@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 74386 2010-03-30 21:30:43Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gnome-utils

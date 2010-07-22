@@ -1,4 +1,4 @@
-#$Id$
+#$Id: PKGBUILD 17045 2008-10-24 16:02:11Z andyrtr $
 #Maintainer: Andreas Radke <andyrtr@archlinux.org>
 
 pkgname=swfdec-mozilla

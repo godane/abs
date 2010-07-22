@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 81870 2010-06-06 12:40:37Z andyrtr $
 # Maintainer: Andreas Radke <andyrtr@archlinux.org>
 
 pkgname=nouveau-firmware

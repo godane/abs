@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 55299 2009-10-12 16:53:43Z andyrtr $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libxmu

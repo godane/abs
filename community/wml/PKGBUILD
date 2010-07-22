@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 11525 2010-02-13 09:36:20Z dgriffiths $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=wml

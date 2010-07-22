@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 73832 2010-03-28 21:32:17Z pierre $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=php-suhosin

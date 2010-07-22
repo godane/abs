@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 69614 2010-02-21 14:29:07Z thomas $
 # Maintainer: Thomas Bächler <thomas@archlinux.org>
 pkgname=wpa_actiond
 pkgver=1.1

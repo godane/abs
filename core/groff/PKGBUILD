@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 71613 2010-03-07 21:58:14Z paul $
 # Maintainer: judd <jvinet@zeroflux.org>
 pkgname=groff
 pkgver=1.20.1

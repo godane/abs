@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 21656 2010-07-16 21:29:57Z lcarlier $
 # Maintainer: Mateusz Herych <heniekk@gmail.com>
 
 pkgname=asciijump

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 80494 2010-05-17 19:34:49Z tpowa $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 _kernver=2.6.34-ARCH;

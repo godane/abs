@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 80410 2010-05-17 07:53:48Z tpowa $
 # Maintainer: James Rayner <iphitus@gmail.com>
 
 pkgname=tiacx

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 84000 2010-06-25 09:22:24Z tpowa $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=pmount

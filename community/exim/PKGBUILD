@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 20957 2010-07-13 04:38:21Z angvp $
 # Maintainer: Angel 'angvp' Velasquez <angvp[at]archlinux.com.ve>
 # Maintainer: judd <jvinet@zeroflux.org>
 pkgname=exim

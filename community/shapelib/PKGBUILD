@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 21347 2010-07-16 01:42:18Z tdziedzic $
 #Contributor: Bob Finch <w9ya@arrl.net>
 
 pkgname=shapelib

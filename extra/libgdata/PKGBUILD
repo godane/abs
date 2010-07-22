@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 74131 2010-03-30 16:40:16Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libgdata

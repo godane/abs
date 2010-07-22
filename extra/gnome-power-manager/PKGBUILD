@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 78708 2010-04-27 20:38:42Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gnome-power-manager

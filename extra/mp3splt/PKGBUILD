@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 79687 2010-05-06 07:50:08Z tpowa $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=mp3splt

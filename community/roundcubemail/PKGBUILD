@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 11280 2010-02-09 01:57:31Z dgriffiths $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=roundcubemail

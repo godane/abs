@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 68931 2010-02-15 09:34:37Z ibiru $
 # Maintainer: Ionut Biru <ionut@archlinux.ro>
 pkgname=modemmanager
 _realname=ModemManager

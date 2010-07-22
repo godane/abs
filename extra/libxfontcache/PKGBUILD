@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 55250 2009-10-12 16:05:23Z andyrtr $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libxfontcache

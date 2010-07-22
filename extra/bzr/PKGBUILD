@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82564 2010-06-13 18:04:12Z ibiru $
 # Maintainer: Hugo Doria <hugo@archlinux.org>
 
 pkgname=bzr

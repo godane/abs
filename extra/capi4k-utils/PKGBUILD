@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 39034 2009-05-11 08:28:48Z tpowa $
 #Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=capi4k-utils

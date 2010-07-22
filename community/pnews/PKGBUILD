@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 21954 2010-07-19 13:40:28Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=pnews

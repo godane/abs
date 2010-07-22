@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 71747 2010-03-08 22:47:11Z andyrtr $
 # Maintainer: Andreas Radke <andyrtr@archlinux.org>
  
 pkgbase="foomatic"

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 65502 2010-01-30 14:00:00Z jgc $
 # Maintainer: Daniel Isenmann <daniel @ archlinux.org>
 # Contributor: Shadowhand <woody.gilk@gmail.com>
 pkgname=beagle

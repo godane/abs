@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 12823 2010-03-14 16:29:00Z aschaefer $
 # Maintainer: Aaron Schaefer <aaron@elasticdog.com>
 
 pkgname=duplicity

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 42572 2009-06-15 20:10:02Z tpowa $
 # Maintainer: judd <jvinet@zeroflux.org>
 # Contributor: Tom Newsom <Jeepster@gmx.co.uk>
 pkgname=ypbind-mt

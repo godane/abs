@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 20832 2010-07-12 09:11:48Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 pkgname=sk1libs
 pkgver=0.9.1

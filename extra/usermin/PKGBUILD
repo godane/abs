@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 72963 2010-03-21 16:50:34Z tpowa $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 pkgname=usermin
 pkgver=1.440

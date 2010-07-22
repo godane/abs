@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 26709 2009-02-11 17:19:18Z tpowa $
 # Maintainer : Aaron Griffin <aaron@archlinux.org>
 
 pkgname=convmv

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 67089 2010-02-03 00:48:47Z andrea $
 # Maintainer : Aaron Griffin <aaron@archlinux.org>
 
 pkgname=oprofile

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 2636 2009-09-19 18:21:47Z ibiru $
 
 pkgname=pppd-ldap
 pkgver=0.12b

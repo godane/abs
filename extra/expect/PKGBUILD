@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 73840 2010-03-28 22:17:41Z kevin $
 # Maintainer: kevin <kevin@archlinux.org>
 
 pkgname=expect

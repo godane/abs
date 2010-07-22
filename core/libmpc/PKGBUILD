@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82441 2010-06-11 06:42:48Z allan $
 # Maintainer: Allan McRae <allan@archlinux.org>
 
 pkgname=libmpc

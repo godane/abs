@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 39400 2009-05-16 01:59:03Z thomas $
 # Maintainer: Thomas Bächler <thomas@archlinux.org>
 
 pkgname=watchdog

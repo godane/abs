@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 21301 2010-07-15 21:35:35Z ibiru $
 # Maintainer: Sven-Hendrik Haase <sh@lutzhaase.com>
 
 pkgname=pypy

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75435 2010-04-01 15:31:54Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libgnomecanvas

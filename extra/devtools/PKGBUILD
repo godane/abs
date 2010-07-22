@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 84278 2010-06-28 08:35:48Z pierre $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=devtools

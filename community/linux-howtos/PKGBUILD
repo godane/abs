@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 1606 2009-08-26 12:30:11Z spupykin $
 # Contributor: Martin -dadexter- Lefebvre <dadexter@gmail.com>
 
 pkgname=linux-howtos

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 65230 2010-01-25 13:11:11Z allan $
 # Maintainer: Allan McRae <allan@archlinux.org>
 
 pkgname=abs

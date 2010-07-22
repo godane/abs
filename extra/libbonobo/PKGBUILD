@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 74314 2010-03-30 18:54:58Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libbonobo

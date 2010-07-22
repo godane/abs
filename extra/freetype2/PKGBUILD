@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85761 2010-07-19 13:01:22Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=freetype2

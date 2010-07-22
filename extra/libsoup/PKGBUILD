@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83780 2010-06-22 22:11:32Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgbase=libsoup

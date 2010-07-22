@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82391 2010-06-10 19:08:59Z ibiru $
 # Maintainer: Hugo Doria <hugo@archlinux.org>
 
 pkgname=wireshark

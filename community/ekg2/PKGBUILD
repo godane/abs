@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 17979 2010-05-28 20:50:35Z mherych $
 # Maintainer: Mateusz Herych <heniekk@gmail.com>
 
 pkgname=ekg2

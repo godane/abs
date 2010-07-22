@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 72966 2010-03-21 16:55:55Z tpowa $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 pkgname=ocfs2-tools
 pkgver=1.4.3

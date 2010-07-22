@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 64675 2010-01-21 21:29:39Z eric $
 # Maintainer: damir <damir@archlinux.org>
 
 pkgname=qwtplot3d

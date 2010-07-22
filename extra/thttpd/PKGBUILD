@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 77185 2010-04-11 11:44:48Z ibiru $
 # Maintainer: Damir Perisa <damir.perisa@bluewin.ch>
 
 pkgname=thttpd

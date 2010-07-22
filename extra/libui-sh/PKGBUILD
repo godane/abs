@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 77887 2010-04-18 21:31:36Z dieter $
 # Maintainer: Dieter Plaetinck <dieter@plaetinck.be>
 
 pkgname=libui-sh

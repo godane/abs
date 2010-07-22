@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 80490 2010-05-17 18:21:17Z tpowa $
 #Maintainer: Tobias Powalowski <t.powa@gmx.de>
 
 pkgname=fcpcmcia

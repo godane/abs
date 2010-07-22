@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85013 2010-07-06 20:42:00Z tpowa $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 pkgname=hwdetect
 pkgver=2010.07

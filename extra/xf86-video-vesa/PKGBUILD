@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75871 2010-04-04 18:46:26Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xf86-video-vesa

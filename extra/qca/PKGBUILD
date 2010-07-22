@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 63014 2010-01-14 00:33:41Z pierre $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=qca

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83559 2010-06-22 07:14:24Z ibiru $
 # Maintainer:  Jan de Groot <jan@archlinux.org>
 
 pkgname=gnome-desktop

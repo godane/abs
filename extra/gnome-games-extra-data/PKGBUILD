@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 74421 2010-03-30 22:30:54Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gnome-games-extra-data

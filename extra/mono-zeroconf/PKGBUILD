@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 39533 2009-05-18 20:57:59Z hugo $
 # Maintainer: Hugo Doria <hugo@archlinux.org>
 
 pkgname=mono-zeroconf

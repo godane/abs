@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75961 2010-04-04 20:27:50Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xf86-input-penmount

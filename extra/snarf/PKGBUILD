@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 77998 2010-04-19 08:10:26Z dgriffiths $
 # Maintainer: dorphell <dorphell@archlinux.org>
 # Committer: Judd Vinet <jvinet@zeroflux.org>
 pkgname=snarf

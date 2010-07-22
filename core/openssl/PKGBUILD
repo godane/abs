@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 81714 2010-06-02 11:00:36Z pierre $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=openssl

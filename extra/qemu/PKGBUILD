@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 84905 2010-07-05 12:06:11Z tpowa $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 pkgname=qemu
 pkgver=0.12.4

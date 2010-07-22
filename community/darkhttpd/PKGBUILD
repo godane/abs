@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 17385 2010-05-24 09:45:21Z spupykin $
 # Maintainer: Vesa Kaihlavirta <vegai@iki.fi>
 
 pkgname=darkhttpd

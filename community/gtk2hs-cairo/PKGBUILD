@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 20731 2010-07-11 18:15:21Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=gtk2hs-cairo

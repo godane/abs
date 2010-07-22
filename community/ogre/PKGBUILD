@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 21173 2010-07-14 21:23:50Z svenstaro $
 # Maintainer: Sven-Hendrik Haase <sh@lutzhaase.com>
 pkgname=ogre
 pkgver=1.7.1

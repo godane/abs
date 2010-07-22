@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 54646 2009-10-11 16:21:38Z andyrtr $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=fixesproto

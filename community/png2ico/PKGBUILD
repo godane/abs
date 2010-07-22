@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 8479 2010-01-20 08:15:47Z dgriffiths $
 # Contributor: dibblethewrecker dibblethewrecker.at.jiwe.dot.org
 pkgname=png2ico
 pkgver=20021208

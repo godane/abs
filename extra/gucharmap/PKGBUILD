@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83578 2010-06-22 07:20:53Z ibiru $
 # Maintainer: Jan De Groot <jgc@archlinux.org>
 
 pkgname=gucharmap

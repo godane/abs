@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 20575 2010-07-09 07:27:21Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=cross-arm-wince-cegcc-cegccdll-dummy

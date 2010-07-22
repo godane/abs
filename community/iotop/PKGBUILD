@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 19787 2010-06-29 16:28:55Z jlichtblau $
 # Maintainer: Jaroslav Lichtblau <dragonlord@aur.archlinux.org>
 
 pkgname=iotop

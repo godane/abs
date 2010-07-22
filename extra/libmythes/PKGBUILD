@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83749 2010-06-22 19:17:16Z andyrtr $
 # Maintainer: AndyRTR <andyrtr@archlinux.org>
 
 pkgname=libmythes

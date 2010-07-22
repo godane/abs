@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 78028 2010-04-19 08:23:42Z dgriffiths $
 # Maintainer: dorphell <dorphell@archlinux.org>
 pkgname=rcs
 pkgver=5.7

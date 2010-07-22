@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83502 2010-06-21 21:59:34Z ibiru $
 # Maintainer: Roman Kyrylych <roman@archlinux.org>
 
 pkgname=gnome-phone-manager

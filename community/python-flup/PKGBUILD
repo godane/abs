@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 5908 2009-11-23 03:47:06Z aschaefer $
 # Maintainer: Aaron Schaefer <aaron@elasticdog.com>
 
 pkgname=python-flup

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 72186 2010-03-13 19:06:23Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=polkit

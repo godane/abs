@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 73829 2010-03-28 19:11:48Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libepc

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85670 2010-07-17 10:08:56Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=vte

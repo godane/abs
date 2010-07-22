@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82657 2010-06-15 05:20:44Z allan $
 # Maintainer: Ronald van Haren <ronald.archlinux.org>
 
 pkgname=grub

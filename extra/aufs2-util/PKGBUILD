@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 80416 2010-05-17 08:02:02Z tpowa $
 # Contributor: Paul Mattal <paul@mattal.com>
 # Maintainer: Paul Mattal <pjmattal@elys.com>
 pkgname=aufs2-util

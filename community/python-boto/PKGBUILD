@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 15940 2010-04-18 19:45:47Z aschaefer $
 # Maintainer: Aaron Schaefer <aaron@elasticdog.com>
 pkgname=python-boto
 pkgver=1.9b

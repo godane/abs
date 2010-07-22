@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 59522 2009-11-24 11:02:20Z giovanni $
 # Maintainer: Giovanni Scafora <giovanni@archlinux.org>
 
 pkgname=xchm

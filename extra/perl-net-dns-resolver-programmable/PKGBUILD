@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 78215 2010-04-20 01:43:13Z dgriffiths $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=perl-net-dns-resolver-programmable

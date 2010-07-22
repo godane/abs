@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 46428 2009-07-18 10:15:15Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gnomeicu

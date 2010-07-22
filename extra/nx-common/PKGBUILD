@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75689 2010-04-02 17:16:35Z andyrtr $
 # Maintainer Tobias Powalowski <tpowa@archlinux.org>
 # Contributed: eliott <eliott@solarblue.net>, Andre Naumann <anaumann@SPARCed.org>
 pkgname=nx-common

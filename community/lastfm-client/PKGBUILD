@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 16170 2010-04-25 20:44:48Z foutrelis $
 # Maintainer: Mateusz Herych <heniekk@gmail.com>
 
 pkgname=lastfm-client

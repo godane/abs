@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 79400 2010-05-03 19:44:30Z ibiru $
 # Maintainer : Ionut Biru <ibiru@archlinux.org>
 # Contributor: William Rea <sillywilly@gmail.com>
 pkgname=python-chardet

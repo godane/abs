@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 61557 2009-12-19 19:17:15Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=hal-info

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 14039 2010-04-01 09:35:48Z allan $
 # Maintainer: Angel 'angvp' Velasquez <angvp[at]archlinux.com.ve> 
 # Contributor: kontrast <kontr4st@gmail.com> 
 pkgname=python-pycurl

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 84649 2010-07-02 16:32:34Z eric $
 # Maintainer: tobias <tobias@archlinux.org>
 
 pkgname=gimp

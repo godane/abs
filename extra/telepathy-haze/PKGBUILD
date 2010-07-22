@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85205 2010-07-10 14:47:29Z ibiru $
 # Maintainer: Ionut Biru <ibiru@archlinux.org>
 # Contributor: Timm Preetz <timm@preetz.us>
 pkgname=telepathy-haze

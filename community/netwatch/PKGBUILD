@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 17608 2010-05-24 15:34:28Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=netwatch

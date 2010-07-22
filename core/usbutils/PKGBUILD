@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 72938 2010-03-21 16:22:12Z tpowa $
 # Maintainer: Judd Vinet <jvinet@zeroflux.org>
 # Contributor: Curtis Campbell <curtisjamescampbell@hotmail.com>
 pkgname=usbutils

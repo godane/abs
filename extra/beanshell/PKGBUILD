@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 51168 2009-09-05 15:32:16Z andyrtr $
 # Maintainer: AndyRTR <andyrtr at archlinux.org>
 
 pkgname=beanshell

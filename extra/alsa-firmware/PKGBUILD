@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 79046 2010-04-30 05:38:39Z tpowa $
 # Contributor: Jochen Immendörfer <jochen dot immendoerfer at gmail dot com>
 # Package Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 pkgname=alsa-firmware

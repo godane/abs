@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75868 2010-04-04 18:42:20Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xf86-video-vmware

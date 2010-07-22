@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 37527 2009-05-02 18:30:25Z eric $
 # Maintainer: aurelien <aurelien@archlinux.org>
 pkgname=dbh
 pkgver=1.0.24

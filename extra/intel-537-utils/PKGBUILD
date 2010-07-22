@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 28601 2009-03-01 18:12:29Z tpowa $
 # Maintainer : Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=intel-537-utils

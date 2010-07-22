@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 7884 2010-01-12 07:59:59Z andrea $
 # Contributor: Douglas Soares de Andrade <dsa@aur.archlinux.br>
 
 pkgname=python-pyro

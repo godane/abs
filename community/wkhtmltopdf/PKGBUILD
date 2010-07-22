@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 19347 2010-06-22 14:11:07Z foutrelis $
 # Maintainer: Evangelos Foutras <foutrelis@gmail.com>
 
 pkgname=wkhtmltopdf

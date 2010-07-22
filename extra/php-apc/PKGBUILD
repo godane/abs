@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 49652 2009-08-14 11:52:53Z pierre $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=php-apc

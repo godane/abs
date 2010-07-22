@@ -1,4 +1,4 @@
-#$Id$
+#$Id: PKGBUILD 7597 2010-01-08 09:04:19Z angvp $
 # Maintainer: Angel 'angvp' Velasquez <angvp[at]archlinux.com.ve> 
 # Maintainer: Geoffroy Carrier <geoffroy.carrier@koon.fr>
 pkgname=lxappearance

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 55999 2009-10-17 12:20:15Z andrea $
 # Contributor: Simo Leone <simo@archlinux.org>
 
 pkgname=gtkterm

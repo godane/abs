@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 79919 2010-05-09 14:20:58Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 pkgname=xf86-video-unichrome
 pkgver=0.2.7

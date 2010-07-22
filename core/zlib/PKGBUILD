@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 80715 2010-05-20 20:58:22Z pierre $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=zlib

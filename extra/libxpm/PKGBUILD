@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 54603 2009-10-11 11:34:07Z andyrtr $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 pkgname=libxpm
 pkgver=3.5.8

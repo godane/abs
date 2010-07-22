@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 28149 2009-02-28 00:54:07Z hugo $
 # Maintainer: Travis Willard <travis@archlinux.org>
 pkgname=libmad
 pkgver=0.15.1b

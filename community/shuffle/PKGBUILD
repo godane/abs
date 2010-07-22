@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 17671 2010-05-24 20:38:13Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=shuffle

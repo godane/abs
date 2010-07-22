@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 6743 2009-12-21 12:17:19Z ibiru $
 # Contributor: Jaroslaw Swierczynski <swiergot@aur.archlinux.org>
 
 pkgname=em8300-utils

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 4927 2009-11-02 21:44:28Z ibiru $
 # Maintainer: Alexander Fehr <pizzapunk gmail com>
 
 pkgname=mget

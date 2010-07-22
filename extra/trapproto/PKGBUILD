@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 71585 2010-03-07 20:12:46Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=trapproto

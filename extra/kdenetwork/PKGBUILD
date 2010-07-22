@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 84248 2010-06-27 17:27:58Z andrea $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgbase=kdenetwork

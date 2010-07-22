@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85123 2010-07-08 20:32:07Z ronald $
 # Maintainer: Ronald van Haren <ronald.archlinux.org>
 
 pkgbase=koffice

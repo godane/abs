@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75440 2010-04-01 15:34:56Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 pkgname=libart-lgpl
 pkgver=2.3.21

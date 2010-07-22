@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75202 2010-04-01 02:17:43Z pierre $
 # Maintainer: kevin <kevin@archlinux.org>
 # Contributor: mario <mario_vazq@hotmail.com>
 pkgname=dnsutils

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 9087 2010-01-23 13:12:23Z foutrelis $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=ted

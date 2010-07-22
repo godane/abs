@@ -1,4 +1,4 @@
-$Id$
+$Id: PKGBUILD 21928 2010-07-18 21:21:53Z lcarlier $
 # Maintainer: Jaroslav Lichtblau <dragonlord@aur.archlinux.org> 
 
 pkgname=ccze

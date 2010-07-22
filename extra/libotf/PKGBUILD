@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 51888 2009-09-13 04:32:37Z eric $
 # Contributor: Ashish Shukla <wahjava.ml@gmail.com>
 
 pkgname=libotf

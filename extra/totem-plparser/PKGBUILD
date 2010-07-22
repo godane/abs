@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 80133 2010-05-12 18:36:50Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=totem-plparser

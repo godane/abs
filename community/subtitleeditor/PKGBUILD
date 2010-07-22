@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 20939 2010-07-12 18:14:50Z jlichtblau $
 # Maintainer: Jaroslav Lichtblau <dragonlord@aur.archlinux.org>
 
 pkgname=subtitleeditor

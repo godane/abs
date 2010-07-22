@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 76140 2010-04-07 22:28:05Z pierre $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=ca-certificates

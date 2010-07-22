@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 84692 2010-07-03 16:19:26Z ibiru $
 # Contributor: Tom Newsom <Jeepster@gmx.co.uk>
 
 pkgname=recode

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 78164 2010-04-20 00:29:17Z dgriffiths $
 # Contributor: K. Piche <kpiche@rogers.com>
 
 pkgname=ipcalc

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 19224 2010-06-21 13:58:59Z andrea $
 # Maintainer: pressh <pressh at gmail dot com>
 
 pkgname=ttf-inconsolata

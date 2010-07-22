@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 55320 2009-10-12 17:40:14Z andyrtr $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=renderproto

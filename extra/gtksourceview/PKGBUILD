@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 57063 2009-10-31 11:53:51Z allan $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gtksourceview

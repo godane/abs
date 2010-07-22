@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82602 2010-06-14 16:53:11Z dan $
 # Maintainer: Hugo Doria <hugo@archlinux.org>
 
 pkgname=namcap

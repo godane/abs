@@ -1,4 +1,4 @@
-#$Id$
+#$Id: PKGBUILD 78648 2010-04-27 18:34:47Z jgc $
 #Maintainer: Jan De Groot <jgc@archlinux.org>
 
 pkgname=libgnome-keyring

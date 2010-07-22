@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 84242 2010-06-27 17:27:32Z andrea $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgbase=kdeedu

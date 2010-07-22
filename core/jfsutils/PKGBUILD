@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82635 2010-06-15 04:31:03Z allan $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 pkgname=jfsutils
 pkgver=1.1.14

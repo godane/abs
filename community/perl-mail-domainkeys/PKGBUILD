@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 20895 2010-07-12 16:14:16Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=perl-mail-domainkeys

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 12169 2010-02-28 02:24:04Z schiv $
 # Contributor: dibblethewrecker dibblethewrecker.at.jiwe.dot.org
 
 pkgname=tclgeomap

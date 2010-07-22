@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 54912 2009-10-11 20:12:23Z giovanni $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 pkgname=rpcbind
 pkgver=0.2.0

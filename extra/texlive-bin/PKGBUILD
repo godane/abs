@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83754 2010-06-22 19:37:03Z jgc $
 # Maintainer: francois at archlinux dot org
 
 pkgname=texlive-bin

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75251 2010-04-01 04:53:24Z allan $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 pkgname=openslp
 pkgver=1.2.1

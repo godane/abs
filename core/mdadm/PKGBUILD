@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 72624 2010-03-18 23:00:10Z tpowa $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 # Contributor: Judd Vinet <jvinet@zeroflux.org>
 pkgname=mdadm

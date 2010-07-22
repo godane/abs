@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 78018 2010-04-19 08:18:58Z dgriffiths $
 # Contributor:  John Sowiak <john@archlinux.org>
 
 pkgname=root-tail

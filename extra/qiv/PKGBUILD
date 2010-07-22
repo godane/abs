@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 84750 2010-07-04 02:53:11Z angvp $
 # Contributor: Tom Newsom <Jeepster@gmx.co.uk>
 # Maintainer: Paul Mattal <paul@archlinux.org>
 pkgname=qiv

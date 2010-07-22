@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 78468 2010-04-24 01:46:02Z andrea $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=qt3-doc

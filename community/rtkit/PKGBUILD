@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 19806 2010-06-29 22:02:18Z heftig $
 # Maintainer: Jan "heftig" Steffens <jan.steffens@gmail.com>
 # Contributor: Corrado Primier <bardo@aur.archlinux.org>
 pkgname=rtkit

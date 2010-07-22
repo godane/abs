@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 74311 2010-03-30 18:50:23Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libbonoboui

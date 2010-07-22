@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 7165 2010-01-02 16:16:07Z aschaefer $
 # Maintainer: Aaron Schaefer <aaron@elasticdog.com>
 
 pkgname=pv

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 18065 2010-05-30 17:12:00Z mherych $
 # Maintainer: Mateusz Herych <heniekk@gmail.com>
 pkgname=ngircd
 pkgver=16

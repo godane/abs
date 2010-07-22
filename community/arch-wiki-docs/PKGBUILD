@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 19232 2010-06-21 15:08:46Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=arch-wiki-docs

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85213 2010-07-10 14:52:35Z ibiru $
 # Maintainer:  Ionut Biru <ibiru@archlinux.org>
 # Contributor: Daniel Balieiro <daniel@balieiro.com>
 pkgname=telepathy-butterfly

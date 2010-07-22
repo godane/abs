@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 50978 2009-09-04 12:12:03Z jgc $
 # Maintainer: Alexander Baldeck <alexander@archlinux.org>
 # Contributor: Jan de Groot <jgc@archlinux.org>
 pkgname=libxau

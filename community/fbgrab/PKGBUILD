@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 8867 2010-01-22 03:05:07Z dgriffiths $
 # Contributor: dibblethewrecker dibblethewrecker.at.jiwe.dot.org
 pkgname=fbgrab
 pkgver=1.0

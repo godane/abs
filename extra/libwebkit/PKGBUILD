@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85665 2010-07-17 09:53:02Z andyrtr $
 # Maintainer: Andreas Radke <andyrtr@archlinux.org>
 
 pkgname=libwebkit

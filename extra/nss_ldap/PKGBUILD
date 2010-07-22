@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 52321 2009-09-17 10:57:59Z allan $
 # Maintainer: Paul Mattal <paul@archlinux.org>
 # Contributor: Comete <la_comete@tiscali.fr>
 pkgname=nss_ldap

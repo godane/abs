@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 78921 2010-04-29 13:45:10Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=cheese

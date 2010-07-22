@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 55272 2009-10-12 16:22:20Z andyrtr $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libxvmc

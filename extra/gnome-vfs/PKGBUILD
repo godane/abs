@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75359 2010-04-01 11:48:46Z allan $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gnome-vfs

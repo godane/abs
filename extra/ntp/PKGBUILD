@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75563 2010-04-01 20:42:21Z giovanni $
 # Maintainer: dorphell <dorphell@archlinux.org>
 
 pkgname=ntp

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 17873 2010-05-25 19:55:41Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=perl-dbd-sybase

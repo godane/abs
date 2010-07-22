@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85712 2010-07-17 20:47:50Z giovanni $
 # Maintainer: Roman Kyrylych <roman@archlinux.org>
 
 pkgname=mail-notification

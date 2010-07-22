@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 12859 2010-03-14 21:48:13Z aschaefer $
 # Maintainer: Aaron Schaefer <aaron@elasticdog.com>
 
 pkgname=vim-rails

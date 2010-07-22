@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 70803 2010-03-01 11:53:37Z giovanni $
 # Maintainer: Andreas Radke <andyrtr@archlinux.org>
 
 pkgname=jpilot

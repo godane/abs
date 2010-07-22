@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83850 2010-06-23 10:39:40Z pierre $
 # Maintainer : Thomas Baechler <thomas@archlinux.org>
 
 pkgname=nvidia

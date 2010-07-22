@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 79271 2010-05-02 14:42:00Z tpowa $
 # Maintainer: judd <jvinet@zeroflux.org>
 pkgname=alsa-utils
 pkgver=1.0.23

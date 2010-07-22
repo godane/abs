@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75949 2010-04-04 20:19:39Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xf86-video-apm

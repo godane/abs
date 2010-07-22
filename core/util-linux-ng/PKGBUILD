@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 84963 2010-07-05 23:24:20Z thomas $
 # Maintainer: judd <jvinet@zeroflux.org>
 pkgname=util-linux-ng
 pkgver=2.18

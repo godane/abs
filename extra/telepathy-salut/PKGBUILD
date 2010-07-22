@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 80673 2010-05-20 17:19:37Z ibiru $
 # Maintainer:  Ionut Biru <ibiru@archlinux.org>
 # Contributor: Daniel Balieiro <daniel@balieiro.com>
 pkgname=telepathy-salut

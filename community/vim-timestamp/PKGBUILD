@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 7033 2009-12-29 22:38:56Z aschaefer $
 # Maintainer: Aaron Schaefer <aaron@elasticdog.com>
 
 pkgname=vim-timestamp

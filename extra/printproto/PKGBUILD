@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 71582 2010-03-07 20:09:38Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 # Contributor: Alexander Baldeck <alexander@archlinux.org>
 pkgname=printproto

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 28318 2009-02-28 18:47:05Z kevin $
 # Maintainer: kevin <kevin@archlinux.org>
 
 pkgname=perl-file-mimeinfo

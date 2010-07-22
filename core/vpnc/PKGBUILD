@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75214 2010-04-01 02:29:38Z pierre $
 # Maintainer: Thomas Baechler <thomas@archlinux.org>
 pkgname=vpnc
 pkgver=0.5.3

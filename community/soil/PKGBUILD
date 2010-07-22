@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 21193 2010-07-15 00:17:24Z svenstaro $
 # Maintainer: Sven-Hendrik Haase <sh@lutzhaase.com>
 
 pkgname=soil

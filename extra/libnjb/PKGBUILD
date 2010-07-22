@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 65458 2010-01-29 13:01:34Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 pkgname=libnjb
 pkgver=2.2.6

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 50371 2009-08-25 20:16:02Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=resourceproto

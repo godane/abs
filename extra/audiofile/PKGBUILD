@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 78833 2010-04-28 13:14:52Z jgc $
 # Maintainer: dorphell <dorphell@archlinux.org>
 pkgname=audiofile
 pkgver=0.2.7

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 56261 2009-10-20 19:13:10Z hugo $
 # Maintainer: Paul Mattal <paul@archlinux.org>
 
 pkgname=lirc-utils

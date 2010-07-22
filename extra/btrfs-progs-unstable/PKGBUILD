@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85293 2010-07-11 16:36:33Z tpowa $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 pkgname=btrfs-progs-unstable
 pkgver=0.19.20100607

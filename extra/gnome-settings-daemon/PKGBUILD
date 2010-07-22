@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83626 2010-06-22 11:21:41Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gnome-settings-daemon

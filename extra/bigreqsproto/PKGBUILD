@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 50983 2009-09-04 12:19:34Z jgc $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=bigreqsproto

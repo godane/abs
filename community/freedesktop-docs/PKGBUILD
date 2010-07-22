@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 15832 2010-04-16 08:46:48Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=freedesktop-docs

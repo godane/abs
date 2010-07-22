@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 84892 2010-07-05 09:10:35Z tpowa $
 # Contributor: Sergej Pupykin
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 pkgname=vde2

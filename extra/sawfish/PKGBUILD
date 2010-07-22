@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85585 2010-07-16 04:33:18Z eric $
 # Maintainer: Juergen Hoetzel <juergen@archlinux.org>
 
 pkgname=sawfish

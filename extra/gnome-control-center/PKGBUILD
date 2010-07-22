@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 78961 2010-04-29 14:57:14Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gnome-control-center

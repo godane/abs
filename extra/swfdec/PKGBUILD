@@ -1,4 +1,4 @@
-#$Id$
+#$Id: PKGBUILD 64546 2010-01-21 03:43:49Z eric $
 #Maintainer: Andreas Radke <andyrtr@archlinux.org>
 
 pkgname=swfdec

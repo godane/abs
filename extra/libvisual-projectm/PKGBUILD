@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 61635 2009-12-20 18:28:33Z andrea $
 # Contributor: Alexander Baldeck <alexander@archlinux.org>
 
 pkgname=libvisual-projectm

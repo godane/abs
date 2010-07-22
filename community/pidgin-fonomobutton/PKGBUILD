@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 5893 2009-11-22 13:09:03Z giovanni $
 # Maintainer: Giovanni Scafora <giovanni@archlinux.org>
 
 pkgname=pidgin-fonomobutton

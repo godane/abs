@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 17704 2010-05-24 20:45:00Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=vile

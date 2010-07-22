@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 17504 2010-05-24 14:12:56Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=dangerdeep-data

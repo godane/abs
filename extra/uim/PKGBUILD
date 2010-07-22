@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 60723 2009-12-06 15:21:50Z eric $
 # Maintainer: damir <damir@archlinux.org>
 
 pkgname=uim

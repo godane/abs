@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 15430 2010-04-11 12:46:45Z ttopper $
 # Maintainer: Thorsten Töpper <atsutane-tu@freethoughts.de>
 
 pkgname=i3status

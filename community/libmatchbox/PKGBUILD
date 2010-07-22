@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 9423 2010-01-25 13:34:11Z spupykin $
 # Contributor: Henrique C. Alves <hcarvalhoalves@gmail.com>
 
 pkgname=libmatchbox

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 69402 2010-02-20 12:43:15Z allan $
 # Maintainer: Thomas Baechler <thomas@archlinux.org>
 
 pkgname=pam_fprint

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 56543 2009-10-22 16:49:06Z jgc $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xineramaproto

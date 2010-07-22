@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 79958 2010-05-09 18:41:21Z jgc $
 # Maintainer: Alexander Baldeck <alexander@archlinux.org>
 # Contributor: Jan de Groot <jgc@archlinux.org>
 pkgname=libxcb

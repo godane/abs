@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85836 2010-07-20 17:12:15Z ibiru $
 # Maintainer : Ionut Biru <ibiru@archlinux.org>
 
 pkgbase=transmission

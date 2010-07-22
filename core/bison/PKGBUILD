@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 73456 2010-03-26 05:54:21Z eric $
 # Maintainer: Eric Belanger <eric@archlinux.org>
 
 pkgname=bison

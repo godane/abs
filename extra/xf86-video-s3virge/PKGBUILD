@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75895 2010-04-04 19:17:15Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 # Contributor: Alexander Baldeck <alexander@archlinux.org>
 pkgname=xf86-video-s3virge

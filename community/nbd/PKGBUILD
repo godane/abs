@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 16784 2010-05-08 20:27:43Z ibiru $
 # Maintainer : Ionut Biru <ibiru@archlinux.org>
 # Contributor: Gerhard Brauer <gerbra@archlinux.de>
 pkgname=nbd

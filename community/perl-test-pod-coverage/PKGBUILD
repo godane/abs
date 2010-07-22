@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 22186 2010-07-19 16:43:57Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=perl-test-pod-coverage

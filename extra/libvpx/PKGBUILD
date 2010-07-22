@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82822 2010-06-17 22:38:17Z ibiru $
 # Maintainer: Ionut Biru <ibiru@archlinux.org>
 pkgname=libvpx
 pkgver=0.9.1

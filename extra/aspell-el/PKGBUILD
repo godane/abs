@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 32298 2009-03-30 03:13:49Z eric $
 # Maintainer: Simo Leone <simo@archlinux.org>
 
 pkgname=aspell-el

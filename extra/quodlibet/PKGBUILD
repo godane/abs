@@ -1,4 +1,4 @@
-#$Id$
+#$Id: PKGBUILD 76132 2010-04-07 22:23:22Z eric $
 # Maintainer: Eric Belanger <eric@archlinux.org>
 
 pkgname=quodlibet

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 5681 2009-11-14 00:56:58Z dgriffiths $
 # Contributor: William Rea <sillywilly@gmail.com>
 pkgname=icon-slicer
 pkgver=0.3

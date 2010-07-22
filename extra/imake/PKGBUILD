@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 79830 2010-05-08 10:52:38Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=imake

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85612 2010-07-16 17:59:43Z ibiru $
 # Maintainer: Ionut Biru <ibiru@archlinux.org>
 pkgname=orc
 pkgver=0.4.6

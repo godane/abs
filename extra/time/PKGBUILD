@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 37559 2009-05-03 00:43:02Z eric $
 # Maintainer: damir <damir@archlinux.org>
 
 pkgname=time

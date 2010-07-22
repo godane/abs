@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 60245 2009-12-02 15:19:15Z giovanni $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=bcprov

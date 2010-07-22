@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 21211 2010-07-15 07:05:56Z lcarlier $
 # Maintainer: Jeff Mickey <j@codemac.net>
 
 pkgname=speedometer

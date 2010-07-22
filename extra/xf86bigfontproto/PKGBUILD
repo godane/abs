@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 50992 2009-09-04 12:38:04Z jgc $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xf86bigfontproto

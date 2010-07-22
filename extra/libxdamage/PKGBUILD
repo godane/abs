@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82169 2010-06-09 06:52:23Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libxdamage

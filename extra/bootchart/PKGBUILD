@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 69581 2010-02-21 10:16:26Z allan $
 # Maintainer : Aaron Griffin <aaron@archlinux.org>
 
 pkgname=bootchart

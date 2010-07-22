@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 72912 2010-03-21 15:39:35Z ibiru $
 # Maintainer: Ionut Biru <ibiru@archlinux.org>
 pkgname=gjs
 pkgver=0.6

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 57077 2009-10-31 12:35:07Z allan $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gnome-vfs-monikers

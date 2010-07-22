@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 64791 2010-01-22 07:59:00Z eric $
 # Maintainer: Damir Perisa <damir.perisa@bluewin.ch>
 
 pkgname=xdrawchem

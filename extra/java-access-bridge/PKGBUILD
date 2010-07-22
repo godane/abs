@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 49737 2009-08-15 14:30:20Z jgc $
 # Maitnainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=java-access-bridge

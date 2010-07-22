@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 55526 2009-10-13 18:33:58Z andyrtr $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xf86-video-geode

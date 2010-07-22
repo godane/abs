@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 54591 2009-10-11 11:11:00Z andyrtr $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 # Contributor: Alexander Baldeck <alexander@archlinux.org>
 pkgname=libxinerama

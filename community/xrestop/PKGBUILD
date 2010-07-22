@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 7458 2010-01-07 02:10:43Z dgriffiths $
 # Contributor: William Rea <sillywilly@gmail.com>
 
 pkgname=xrestop

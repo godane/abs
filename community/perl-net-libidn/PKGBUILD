@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 20913 2010-07-12 16:18:41Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=perl-net-libidn

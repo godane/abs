@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 75266 2010-04-01 06:25:32Z pierre $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=lighttpd

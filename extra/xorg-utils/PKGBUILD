@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 81985 2010-06-07 13:58:47Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xorg-utils

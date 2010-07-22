@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 55903 2009-10-15 23:18:35Z andrea $
 # Contributor: Aaron Griffin <aaron@archlinux.org>
 
 pkgname=spidermonkey

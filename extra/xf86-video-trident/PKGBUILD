@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85363 2010-07-12 17:31:57Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xf86-video-trident

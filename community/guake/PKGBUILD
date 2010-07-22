@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 15725 2010-04-14 17:53:55Z angvp $
 # Maintainer: Angel 'angvp' Velasquez <angvp[at]archlinux.com.ve>
 # Contributor: Wilson Pinto Júnior (N3RD3X) <n3rd3x@linuxmail.org>
 pkgname=guake

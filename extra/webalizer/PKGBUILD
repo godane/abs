@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 53121 2009-09-26 07:32:31Z allan $
 # Maintainer: Juergen Hoetzel
 
 pkgname=webalizer

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 16716 2008-10-22 02:39:42Z allan $
 # Mantainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=pyorbit

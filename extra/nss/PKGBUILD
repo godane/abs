@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 81103 2010-05-26 17:05:02Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 pkgname=nss
 pkgver=3.12.6

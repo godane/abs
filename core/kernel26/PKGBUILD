@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 84953 2010-07-05 20:48:30Z tpowa $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 # Maintainer: Thomas Baechler <thomas@archlinux.org>
 pkgbase="kernel26"

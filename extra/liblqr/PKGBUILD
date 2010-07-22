@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 49462 2009-08-08 15:03:23Z tpowa $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=liblqr

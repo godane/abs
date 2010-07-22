@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 74407 2010-03-30 22:05:46Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gnome-system-monitor

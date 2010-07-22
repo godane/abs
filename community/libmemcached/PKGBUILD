@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 20486 2010-07-08 12:52:03Z foutrelis $
 # Maintainer: Evangelos Foutras <foutrelis@gmail.com>
 
 pkgname=libmemcached

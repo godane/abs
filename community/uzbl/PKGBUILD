@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 15579 2010-04-12 21:27:38Z ibiru $
 # Maintainer : Ionut Biru <ibiru@archlinux.org>
 # Contributor: Dieter Plaetinck <dieter@plaetinck.be>
 pkgbase=uzbl

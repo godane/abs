@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 20584 2010-07-09 07:29:23Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=cross-arm-wince-cegcc-newlib

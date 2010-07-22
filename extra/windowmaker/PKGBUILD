@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 71460 2010-03-07 10:56:49Z daniel $
 # Maintainer: Daniel Isenmann <daniel@archlinux.org>
 # Contributor: Judd Vinet <jvinet@zeroflux.org>
 pkgname=windowmaker

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 8976 2010-01-23 00:53:21Z dgriffiths $
 # Maintainer: Giovanni Scafora <linuxmania@gmail.com>
 
 pkgname=ksniffer

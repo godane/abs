@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 26973 2009-02-15 00:05:10Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 pkgname=libcroco
 pkgver=0.6.2

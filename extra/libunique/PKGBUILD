@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 69618 2010-02-21 14:52:32Z jgc $
 # Maintainer: Jan de Groot  <jgc@archlinux.org>
 pkgname=libunique
 pkgver=1.1.6

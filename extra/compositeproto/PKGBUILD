@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 55018 2009-10-11 21:23:14Z andyrtr $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=compositeproto

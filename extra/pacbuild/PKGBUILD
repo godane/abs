@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 77975 2010-04-19 07:57:00Z dgriffiths $
 # Maintainer: Jason Chu <jason@archlinux.org>
 
 pkgname=pacbuild

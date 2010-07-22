@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 77176 2010-04-11 11:35:54Z ibiru $
 # Maintainer: Vesa Kaihlavirta <vesa@archlinux.org>
 pkgname=ghc
 pkgver=6.12.1

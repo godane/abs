@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 40230 2009-05-28 22:51:55Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 pkgname=ggv
 pkgver=2.12.0

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 40083 2009-05-27 15:57:59Z andrea $
 # Maintainer: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=fastjar

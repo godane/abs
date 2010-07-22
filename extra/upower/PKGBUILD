@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 80233 2010-05-13 21:56:59Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=upower

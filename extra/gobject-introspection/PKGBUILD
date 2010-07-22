@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 81938 2010-06-07 11:01:46Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 pkgname=gobject-introspection
 pkgver=0.6.14

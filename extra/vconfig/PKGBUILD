@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 35980 2009-04-19 06:38:09Z eric $
 # Maintainer: Judd Vinet <jvinet@zeroflux.org>
 pkgname=vconfig
 pkgver=1.9

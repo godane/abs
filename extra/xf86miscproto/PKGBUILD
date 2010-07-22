@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 54547 2009-10-11 09:51:49Z andyrtr $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xf86miscproto

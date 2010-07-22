@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 9737 2010-01-29 14:05:48Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 # Contributor: Charles Mauch <cmauch@gmail.com>
 pkgname=when

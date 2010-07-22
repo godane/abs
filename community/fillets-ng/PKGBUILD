@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 13330 2010-03-21 14:57:04Z jlichtblau $
 # Maintainer: Jaroslav Lichtblau <dragonlord@aur.archlinux.org>
 
 pkgname=fillets-ng

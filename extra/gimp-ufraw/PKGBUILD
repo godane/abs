@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 71761 2010-03-09 10:56:51Z andrea $
 # Maintainer: Tobias Kieslich <tobias@archlinux.org>
 
 pkgname=gimp-ufraw

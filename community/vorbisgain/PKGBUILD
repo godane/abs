@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 22308 2010-07-20 22:50:32Z mherych $
 # Maintainer: Shinlun Hsieh <yngwiexx@yahoo.com.tw>
 # Contributor: Cory Farmer <rbgkofi@ameritech.net>
 pkgname=vorbisgain

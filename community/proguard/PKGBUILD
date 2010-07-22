@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 3527 2009-10-05 08:51:53Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=proguard

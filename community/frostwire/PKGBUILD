@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 20413 2010-07-07 00:15:06Z foutrelis $
 # Maintainer: Evangelos Foutras <foutrelis@gmail.com>
 
 pkgname=frostwire

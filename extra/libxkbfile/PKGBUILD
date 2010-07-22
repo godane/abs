@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 55260 2009-10-12 16:14:36Z andyrtr $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libxkbfile

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 21542 2010-07-16 15:04:31Z tdziedzic $
 # Contributor: dibblethewrecker <dibblethewrecker.at.jiwe.dot.org>
 
 pkgname=mime-editor

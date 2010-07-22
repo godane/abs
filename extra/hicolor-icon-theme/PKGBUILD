@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 78611 2010-04-27 17:13:24Z jgc $
 # Maintainer: Jan De Groot <jgc@archlinux.org>
 
 pkgname=hicolor-icon-theme

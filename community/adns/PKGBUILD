@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 17373 2010-05-24 09:43:07Z spupykin $
 # Maintainer: dorphell <dorphell@archlinux.org>
 # Contributor: Tom Newsom <Jeepster@gmx.co.uk>
 pkgname=adns

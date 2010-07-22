@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 20032 2010-07-01 22:03:59Z ibiru $
 # Maintainer: Ionut Biru <ibiru@archlinux.org>
 pkgname=gnome-keyring-sharp
 pkgver=1.0.2

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 80821 2010-05-22 13:24:17Z andyrtr $
 # Maintainer: tobias <tobias funnychar archlinux.org>
 
 pkgname=libxfce4menu

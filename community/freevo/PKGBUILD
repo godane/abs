@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 20249 2010-07-03 18:32:41Z tdziedzic $
 # Maintainer: Ronald van Haren  <ronald.archlinux.org>
 
 pkgname=freevo

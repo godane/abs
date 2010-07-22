@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 77169 2010-04-11 11:33:46Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=metacity

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 21190 2010-07-15 00:13:05Z svenstaro $
 # Maintainer: Sven-Hendrik Haase <sh@lutzhaase.com>
 
 pkgname=box2d

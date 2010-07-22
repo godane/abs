@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 62529 2010-01-09 20:35:57Z tpowa $
 # Maintainer: Paul Mattal <paul@archlinux.org>
 pkgname=hylafax
 pkgver=6.0.4

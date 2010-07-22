@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 78916 2010-04-29 13:25:20Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=tomboy

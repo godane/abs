@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85736 2010-07-19 02:41:06Z kevin $
 # Maintainer: judd <jvinet@zeroflux.org>
 pkgbase=dhcp
 pkgname=('dhcp'

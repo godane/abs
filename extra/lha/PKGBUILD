@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 36954 2009-04-29 01:01:20Z eric $
 # Contributor: Tom Newsom <Jeepster@gmx.co.uk>
 
 pkgname=lha

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85347 2010-07-12 17:26:15Z jgc $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xf86-video-neomagic

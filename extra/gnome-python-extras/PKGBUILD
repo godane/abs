@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 64884 2010-01-22 16:45:31Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gnome-python-extras

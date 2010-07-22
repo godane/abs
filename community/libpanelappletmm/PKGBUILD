@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 17245 2010-05-22 14:24:42Z ibiru $
 # Maintainer: Ionut Biru <ibiru@archlinux.org>
 # Contributor: uastasi  <uastasi@archlinux.us>
 pkgname=libpanelappletmm

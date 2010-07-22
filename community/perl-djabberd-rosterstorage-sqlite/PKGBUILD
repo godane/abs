@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 18315 2010-06-02 20:23:52Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=perl-djabberd-rosterstorage-sqlite

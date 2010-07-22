@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 81150 2010-05-26 20:31:33Z ibiru $
 # Contributor: Hugo Doria <hugo@archlinux.org>
 
 pkgname=tomcat

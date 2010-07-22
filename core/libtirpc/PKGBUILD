@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 62190 2010-01-04 08:39:59Z tpowa $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 pkgname=libtirpc
 pkgver=0.2.1

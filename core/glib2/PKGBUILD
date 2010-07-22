@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 79346 2010-05-03 10:44:26Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=glib2

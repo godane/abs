@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 17584 2010-05-24 15:29:45Z spupykin $
 # Contributor: Apollon Oikonomopoulos <apoikos@yahoo.gr>
 pkgname=luma
 pkgver=2.4

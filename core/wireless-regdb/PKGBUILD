@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 60013 2009-11-30 13:47:29Z thomas $
 # Maintainer: Thomas Bächler <thomas@archlinux.org>
 
 pkgname=wireless-regdb

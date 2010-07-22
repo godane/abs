@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 21592 2010-07-16 19:40:26Z tdziedzic $
 # Contributor: William Rea <sillywilly@gmail.com>
 
 pkgname=liboop

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 18892 2010-06-17 00:37:24Z ibiru $
 # Maintainer : Ionut Biru <ibiru@archlinux.org>
 # Contributor: Timm Preetz <timm@preetz.us>
 pkgname=java-gnome

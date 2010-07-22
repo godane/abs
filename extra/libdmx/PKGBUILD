@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 54578 2009-10-11 10:56:29Z andyrtr $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libdmx

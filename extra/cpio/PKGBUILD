@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 76085 2010-04-07 18:00:10Z tpowa $
 # Maintainer: judd <jvinet@zeroflux.org>
 pkgname=cpio
 pkgver=2.11

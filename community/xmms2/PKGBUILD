@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 17916 2010-05-26 23:17:17Z ibiru $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=xmms2

@@ -1,4 +1,4 @@
-#$Id$
+#$Id: PKGBUILD 82274 2010-06-09 19:35:19Z ibiru $
 # Maintainer: Daniel Isenmann <daniel@archlinux.org>
 pkgname=sg3_utils
 pkgver=1.29

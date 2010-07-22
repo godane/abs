@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85275 2010-07-11 10:26:53Z thomas $
 # Maintainer: Eric Belanger <eric@archlinux.org>
 
 pkgbase=lvm2

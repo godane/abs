@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 67387 2010-02-06 15:27:38Z andrea $
 # Maintainer : Aaron Griffin <aaron@archlinux.org>
 
 pkgname=vim-colorsamplerpack

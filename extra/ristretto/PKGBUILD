@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 39718 2009-05-20 16:54:13Z ronald $
 # Maintainer: Ronald van Haren <ronald.archlinux.org>
 
 pkgname=ristretto

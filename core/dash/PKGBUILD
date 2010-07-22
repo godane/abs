@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 81892 2010-06-06 21:30:28Z dan $
 # Maintainer: Dan McGee <dan@archlinux.org>
 
 pkgname=dash

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 18815 2008-11-09 12:15:36Z jgc $
 # Maintainer: Daniel Isenmann <daniel [at] archlinux.org>
 # Contributor: dorphell <dorphell@gmx.net>
 pkgname=gc

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 20587 2010-07-09 07:30:01Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=cross-arm-wince-cegcc-w32api

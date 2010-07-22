@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 65390 2010-01-28 05:26:34Z eric $
 # Maintainer: Firmicus <firmicus ατ gmx δοτ net>
 
 pkgname=texlive-core

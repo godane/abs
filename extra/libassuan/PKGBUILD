@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 78414 2010-04-23 17:39:31Z andrea $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=libassuan

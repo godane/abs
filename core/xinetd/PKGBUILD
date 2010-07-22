@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 31124 2009-03-24 12:46:33Z allan $
 # Maintainer:  Judd <jvinet@zeroflux.org>
 pkgname=xinetd
 pkgver=2.3.14

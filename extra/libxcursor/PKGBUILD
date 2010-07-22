@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 50976 2009-09-04 12:09:53Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 # Contributor: Alexander Baldeck <alexander@archlinux.org>
 pkgname=libxcursor

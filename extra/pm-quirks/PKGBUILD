@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83844 2010-06-23 08:48:25Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=pm-quirks

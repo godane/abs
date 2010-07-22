@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 9816 2008-08-19 05:02:59Z eric $
 # Maintainer: eric <eric@archlinux.org>
 
 pkgname=hexcurse

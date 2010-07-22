@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83954 2010-06-24 13:41:41Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=evince

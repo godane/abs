@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 21624 2010-07-16 20:10:34Z tdziedzic $
 # Contributor: Tom Newsom <Jeepster@gmx.co.uk>
 
 pkgname=metakit

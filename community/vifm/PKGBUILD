@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 11697 2010-02-15 18:55:12Z jlichtblau $
 # Maintainer: Jaroslav Lichtblau <dragonlord@aur.archlinux.org>
 
 pkgname=vifm

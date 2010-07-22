@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 19741 2010-06-28 16:41:42Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=gtk2hs-glib

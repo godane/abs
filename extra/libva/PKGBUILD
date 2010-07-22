@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85255 2010-07-11 10:12:04Z ibiru $
 # Maintainer : Ionut Biru <ibiru@archlinux.org>
 pkgname=libva
 pkgver=0.31.0_p13

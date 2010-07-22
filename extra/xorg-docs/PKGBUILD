@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 56811 2009-10-28 07:58:51Z andyrtr $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xorg-docs

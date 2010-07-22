@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 72353 2010-03-14 14:22:20Z ibiru $
 # Maintainer:  Ionut Biru <ibiru@archlinux.org>
 # Contributor: Daniel Balieiro <daniel@balieiro.com>
 pkgname=python-telepathy

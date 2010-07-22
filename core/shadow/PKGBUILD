@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 81313 2010-05-28 01:29:23Z ibiru $
 # Maintainer: Aaron Griffin <aaron@archlinux.org>
 
 pkgname=shadow

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 78901 2010-04-29 13:12:05Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=yelp

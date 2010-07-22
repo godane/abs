@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 20140 2010-07-02 17:35:49Z ibiru $
 # Maintainer : Ionut Biru <ibiru@archlinux.org>
 # Contributor: Joeny Ang <ang(dot)joeny(at)gmail(dot)com>
 pkgname=libraw

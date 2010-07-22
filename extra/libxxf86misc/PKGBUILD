@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 55245 2009-10-12 16:01:59Z andyrtr $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libxxf86misc

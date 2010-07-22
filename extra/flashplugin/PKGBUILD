@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82452 2010-06-11 10:13:20Z ibiru $
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=flashplugin

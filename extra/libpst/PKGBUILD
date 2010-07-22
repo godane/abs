@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 82950 2010-06-19 22:03:46Z ibiru $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 pkgname=libpst
 pkgver=0.6.41

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 57490 2009-10-31 18:31:09Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 pkgname=xorg-xauth
 pkgver=1.0.4

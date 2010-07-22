@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 73991 2010-03-29 19:55:13Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gnome2-user-docs

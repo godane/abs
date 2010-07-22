@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 11209 2010-02-07 18:33:21Z dgriffiths $
 # Contributor: Aaron Schaefer <aaron@elasticdog.com>
 
 pkgname=duff

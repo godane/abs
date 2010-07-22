@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 2741 2009-09-21 23:46:46Z ibiru $
 # Maintainer: dibblethewrecker <dibblethewrecker.at.jiwe.org>
 
 pkgname=gdal-grass

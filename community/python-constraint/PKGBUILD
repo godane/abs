@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 21712 2010-07-16 23:16:40Z tdziedzic $
 # Maintainer: Douglas Soares de Andrade <dsandrade@gmail.com>
 
 pkgname=python-constraint

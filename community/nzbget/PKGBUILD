@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 16899 2010-05-12 17:57:00Z jlichtblau $
 # Maintainer: Jaroslav Lichtblau <dragonlord@aur.archlinux.org>
 
 pkgname=nzbget

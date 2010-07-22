@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 79185 2010-05-01 16:37:13Z andyrtr $
 # Maintainer: Andreas Radke <andyrtr@archlinux.org>
 
 pkgname=claws-mail

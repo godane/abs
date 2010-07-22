@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 79159 2010-05-01 05:18:26Z eric $
 # Maintainer: Eric Belanger <eric@archlinux.org>
 
 pkgname=psmisc

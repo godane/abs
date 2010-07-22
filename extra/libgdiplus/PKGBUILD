@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 79379 2010-05-03 18:11:54Z daniel $
 # Maintainer: Daniel Isenmann <daniel@archlinux.org>
 
 pkgname=libgdiplus

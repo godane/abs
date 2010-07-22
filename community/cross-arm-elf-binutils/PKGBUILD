@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 16192 2010-04-26 14:12:58Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=cross-arm-elf-binutils

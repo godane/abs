@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 16705 2010-05-05 18:08:13Z schiv $
 # Maintainer: Ray Rashif <schivmeister@gmail.com>
 
 pkgname=dssi-vst

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83507 2010-06-21 22:24:13Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=evolution-sharp

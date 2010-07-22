@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 83568 2010-06-22 07:18:48Z ibiru $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gnome-session

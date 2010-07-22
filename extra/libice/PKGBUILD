@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 50980 2009-09-04 12:14:58Z jgc $
 # Contributor: Alexander Baldeck <alexander@archlinux.org>
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 pkgname=libice

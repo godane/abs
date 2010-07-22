@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 85324 2010-07-12 17:03:09Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xf86-video-intel

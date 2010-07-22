@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 79727 2010-05-06 12:45:59Z jgc $
 # Maintainer: damir <damir@archlinux.org>
 
 pkgbase=libxml++

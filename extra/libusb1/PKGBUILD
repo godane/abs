@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 79849 2010-05-08 12:19:42Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 pkgname=libusb1
 pkgver=1.0.8

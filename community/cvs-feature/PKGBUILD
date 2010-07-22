@@ -1,4 +1,4 @@
-# $Id$
+# $Id: PKGBUILD 14097 2010-04-01 16:18:12Z spupykin $
 # Maintainer: Douglas Soares de Andrade <dsandrade@gmail.com>
 
 pkgname=cvs-feature
