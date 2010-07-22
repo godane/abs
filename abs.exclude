@@ -1,0 +1,7 @@
+.git/
+README.md
+scripts/
+gnome-unstable/
+xorg18/
+abs.exclude
+abs.conf
