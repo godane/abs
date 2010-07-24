@@ -1,9 +1,9 @@
-# $Id: PKGBUILD 18588 2010-06-08 15:51:01Z ibiru $
+# $Id: PKGBUILD 22599 2010-07-23 20:53:34Z ibiru $
 # Maintainer: Mateusz Herych <heniekk@gmail.com>
 
 pkgname=libquicktime
 pkgver=1.1.5
-pkgrel=4
+pkgrel=5
 pkgdesc="A library for reading and writing quicktime files."
 arch=('i686' 'x86_64')
 license=('GPL')
