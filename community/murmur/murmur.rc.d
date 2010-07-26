@@ -1,30 +1,31 @@
 #!/bin/bash
 
-NAMED_ARGS=
-[ -f /etc/conf.d/named ] && . /etc/conf.d/named
+CONF=/etc/conf.d/murmur
 
 . /etc/rc.conf
 . /etc/rc.d/functions
 
-PID=`pidof -o %PPID /usr/sbin/named`
+[ -f $CONF ] && . $CONF
+
+PID=$(pidof -o %PPID /usr/sbin/murmurd)
 case "$1" in
   start)
-    stat_busy "Starting DNS"
-    [ -z "$PID" ] && /usr/sbin/named ${NAMED_ARGS}
+    stat_busy "Starting murmur"
+    [ -z "$PID" ] && /usr/sbin/murmurd $PARAMS
     if [ $? -gt 0 ]; then
       stat_fail
     else
-      add_daemon named
+      add_daemon murmur
       stat_done
     fi
     ;;
   stop)
-    stat_busy "Stopping DNS"
+    stat_busy "Stopping murmur"
     [ ! -z "$PID" ]  && kill $PID &> /dev/null
     if [ $? -gt 0 ]; then
       stat_fail
     else
-      rm_daemon named
+      rm_daemon murmur
       stat_done
     fi
     ;;
@@ -34,6 +35,6 @@ case "$1" in
     $0 start
     ;;
   *)
-    echo "usage: $0 {start|stop|restart}"  
+    echo "usage: $0 {start|stop|restart}"
 esac
 exit 0
