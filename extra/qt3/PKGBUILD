@@ -2,7 +2,8 @@
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 # Contributor: John Proctor <jproctor@prium.net>
 
-pkgname=qt3
+pkgbase=qt3
+pkgname=('qt3' 'qt3-doc')
 pkgver=3.3.8
 pkgrel=17
 pkgdesc="The QT gui toolkit."
@@ -42,24 +43,24 @@ build() {
   cd ${srcdir}/$pkgfqn
   # apply qt patches from kde.org
   for i in ../qt-copy-kde-patches/*; do
-    patch -Np0 -i $i || return 1
+    patch -Np0 -i $i
   done
   # apply other qt patches and one security fix from debian/gentoo
   for i in ../qt-patches/*; do
-    patch -Np1 -i $i || return 1
+    patch -Np1 -i $i
   done
   # fix utf8 bug
-  patch -Np0 -i ../utf8-bug-qt3.diff || return 1
+  patch -Np0 -i ../utf8-bug-qt3.diff
   # fix asia fonts
-  patch -Np0 -i ../qt-font-default-subst.diff || return 1
+  patch -Np0 -i ../qt-font-default-subst.diff
   # fix segfaults on exit when using mysql DB driver
-  patch -Np0 -i ../mysql.patch || return 1
+  patch -Np0 -i ../mysql.patch
   # fix CJK font/chars select error (FS#11245)
-  patch -p1 -i ${srcdir}/eastern_asian_languagues.diff || return 1
+  patch -p1 -i ${srcdir}/eastern_asian_languagues.diff
   # fix build problem against new unixODBC
-  patch -p1 -i ${srcdir}/qt-odbc.patch || return 1
+  patch -p1 -i ${srcdir}/qt-odbc.patch
 
-  patch -p0 -i ${srcdir}/qt3-png14.patch || return 1
+  patch -p0 -i ${srcdir}/qt3-png14.patch
   # start compiling qt
   sed -i 's|-cp -P -f|-cp -L -f|' qmake/Makefile.unix
   rm -rf doc/html examples tutorial
@@ -91,7 +92,7 @@ build() {
   [ "$CARCH" = "x86_64" ] && sed -i "s|/opt/qt/lib64|/opt/qt/lib|g" ${srcdir}/$pkgfqn/tools/designer/uilib/Makefile
 
   cd ${srcdir}/$pkgfqn
-  make -C qmake || return 1
+  make -C qmake
   cd ${srcdir}/$pkgfqn/plugins/src/sqldrivers/mysql
   ${srcdir}/$pkgfqn/bin/qmake -o Makefile "INCPATH+=/usr/include/mysql" "LIBS+=-L/usr/lib/mysql -lmysqlclient" mysql.pro
   cd ${srcdir}/$pkgfqn/plugins/src/sqldrivers/psql
@@ -100,7 +101,11 @@ build() {
   cd ${srcdir}/$pkgfqn
   # fix the broken makefiles
   #sed -i 's|[[:space:]]*strip.*doc/html.*$|#|g' src/Makefile
-  make || return 1
+  make
+}
+
+package_qt3() { 
+  cd ${srcdir}/$pkgfqn
   make INSTALL_ROOT=${pkgdir} install
   rm -rf ${pkgdir}/opt/qt/{phrasebooks,templates,translations}
   sed -i "s|-L${srcdir}/$pkgfqn/lib ||g" ${pkgdir}/opt/qt/lib/*.prl
@@ -115,4 +120,18 @@ build() {
 
   install -d -m755 ${pkgdir}/etc/ld.so.conf.d/
   echo '/opt/qt/lib' > ${pkgdir}/etc/ld.so.conf.d/qt3.conf
+}
+
+package_qt3-doc() {
+  pkgdesc="The QT gui toolkit documentation"
+  arch=('any')
+  depends=('qt3')
+  license=('GPL2' 'custom:QPL')
+  cd ${srcdir}/$pkgfqn
+  install -d ${pkgdir}/opt/qt/doc/
+  cp -r doc/html ${pkgdir}/opt/qt/doc/
+
+  # install QPL license
+  install -Dm644 ${srcdir}/qt-x11-free-$pkgver/LICENSE.QPL \
+	${pkgdir}/usr/share/licenses/$pkgname/LICENSE.QPL
 }
