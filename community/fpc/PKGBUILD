@@ -6,17 +6,16 @@
 # Original PKGBUILD: Andre Naumann <anaumann@SPARCed.org>
 # See http://bbs.archlinux.org/viewtopic.php?t=9318&highlight=fpc
 
-pkgname=fpc
+pkgbase=fpc
+pkgname=('fpc' 'fpc-src')
 pkgver=2.4.0
-pkgrel=1
+pkgrel=2
 pkgdesc="The Free Pascal Compiler is a Turbo Pascal 7.0 and Delphi compatible 32bit Pascal Compiler. It comes with fully TP 7.0 compatible run-time library."
 arch=('i686' 'x86_64')
 url="http://www.freepascal.org/"
 license=('GPL' 'LGPL' 'custom')
-backup=("etc/fpc.cfg")
 depends=(ncurses)
 makedepends=(fpc)
-options=(zipman)
 source=(ftp://ftp.freepascal.org/pub/fpc/dist/$pkgver/source/fpcbuild-$pkgver.tar.gz)
 #ftp://ftp.chg.ru/pub/lang/pascal/fpc/dist/source-$pkgver/fpcbuild-$pkgver.tar.gz
 #ftp://ftp.chg.ru/pub/lang/pascal/fpc/snapshot/v22/source/fpcbuild.zip
@@ -24,12 +23,19 @@ md5sums=('af49e9a8bb632f361395add30ece8934')
 
 build() {
   cd ${srcdir}/fpcbuild-$pkgver
-  make NOGDB=1 build || return 1
-  make NOGDB=1 PREFIX=${pkgdir}/usr install || return 1
+  make NOGDB=1 build
+}
+
+package_fpc() {
+  backup=("etc/fpc.cfg")
+  options=(zipman)
+
+  cd ${srcdir}/fpcbuild-$pkgver
+  make NOGDB=1 PREFIX=${pkgdir}/usr install
 
   # install package license
   install -m 755 -d ${pkgdir}/usr/share/licenses/${pkgname}
-  install -m 644 fpcsrc/rtl/COPYING.FPC ${pkgdir}/usr/share/licenses/${pkgname}/ || return 1
+  install -m 644 fpcsrc/rtl/COPYING.FPC ${pkgdir}/usr/share/licenses/${pkgname}/
 
   # create symlink for compiler
   [ "$CARCH" = "i686" ] && ln -s /usr/lib/fpc/${pkgver}/ppc386 ${pkgdir}/usr/bin/
@@ -37,7 +43,17 @@ build() {
  
   # install sample config file
   mkdir -p ${pkgdir}/etc
-  ${pkgdir}/usr/lib/fpc/${pkgver}/samplecfg /usr/lib/fpc/${pkgver} ${pkgdir}/etc || return 1
+  ${pkgdir}/usr/lib/fpc/${pkgver}/samplecfg /usr/lib/fpc/${pkgver} ${pkgdir}/etc
 
   mv $pkgdir/usr/man $pkgdir/usr/share/
+}
+
+package_fpc-src() {
+  pkgdesc='Sources for the FreePascal compiler (required by the Lazarus IDE)'
+  license=('GPL')
+  arch=('any')
+  options=('!strip')
+  cd $srcdir/fpcbuild-$pkgver/fpcsrc
+  mkdir -p $pkgdir/usr/lib/fpc/src
+  cp -R . $pkgdir/usr/lib/fpc/src
 }
