@@ -2,19 +2,18 @@
 # Contributor: Jason Chu <jason@archlinux.org>
 # Maintainer: Daniel J Griffiths <ghost1227@archlinux.us>
 
-pkgname=jdk
+pkgbase=jdk
+pkgname=('jre' 'jdk')
 pkgver=6u20
 pkgrel=1
-pkgdesc="Sun's Java Development Kit"
 arch=('i686' 'x86_64')
   [ "${CARCH}" = "i686" ]   && ARCH=i586
   [ "${CARCH}" = "x86_64" ] && ARCH=amd64
 url="http://java.sun.com"
-depends=('glibc' 'jre')
-install="jdk.install"
 source=(http://download.java.net/dlj/binaries/jdk-${pkgver}-dlj-linux-${ARCH}.bin
         https://jdk-distros.dev.java.net/source/browse/*checkout*/jdk-distros/trunk/utils/construct.sh
 	jdk.profile
+	jre.profile
 	java-control-panel.desktop 
 	java-monitoring-and-management-console.desktop
 	java-policy-settings.desktop 
@@ -23,6 +22,7 @@ source=(http://download.java.net/dlj/binaries/jdk-${pkgver}-dlj-linux-${ARCH}.bi
 [ "$CARCH" = "i686" ]   && md5sums=('37afae8ef2481b85b4c9b0356c5d7b40'
 			            '94065b612df0046d9ae758943f9f6a75'
 				    '7aaac9ec3e440b92361c6561ac00424a'
+				    '50b4f5ac4129097461d246645d73a622'
 				    'e4d814c0f310d77ed6990c731bccd0fb'
 				    '4bc2b0be93f76ed07b471e3c89eb5a8a'
 				    '8e3cec7ab641ec449cabd068be583f5c'
@@ -31,14 +31,12 @@ source=(http://download.java.net/dlj/binaries/jdk-${pkgver}-dlj-linux-${ARCH}.bi
 [ "$CARCH" = "x86_64" ] && md5sums=('e0d03306f57ce1b49d972a21cbb920a0'
 			            '94065b612df0046d9ae758943f9f6a75'
 	          		    '7aaac9ec3e440b92361c6561ac00424a'
+				    '50b4f5ac4129097461d246645d73a622'
 				    'e4d814c0f310d77ed6990c731bccd0fb'
 				    '4bc2b0be93f76ed07b471e3c89eb5a8a'
 				    '8e3cec7ab641ec449cabd068be583f5c'
 				    '9ba148ebabce8ed3351b813a9a66b6e5'
 				    '568451cf45fc8c7adb83a222a61ca2c6')
-replaces=('j2sdk')
-conflicts=('java-environment' 'j2sdk')
-provides=('java-environment=6' 'j2sdk')
 license=('custom')
 
 build() {
@@ -54,7 +52,45 @@ build() {
 	sh construct.sh unbundle-jdk linux-jdk linux-jre
 }
 
-package() {
+package_jre() {
+	pkgdesc="Sun's java runtime environment"
+	depends=('glibc' 'libxtst')
+	install="jre.install"
+	replaces=('j2re')
+	conflicts=('j2re' 'java-runtime')
+	provides=('j2re' 'java-runtime=6')
+
+	cd ${srcdir}
+
+	mkdir -p ${pkgdir}/opt/java
+	mv linux-jdk/jre ${pkgdir}/opt/java
+
+	install -Dm755 ${srcdir}/${pkgname}.profile ${pkgdir}/etc/profile.d/${pkgname}.sh
+
+	mkdir -p ${pkgdir}/usr/lib/mozilla/plugins
+
+	if [ "$CARCH" = "i686" ]; then
+	    ln -s /opt/java/jre/lib/i386/libnpjp2.so ${pkgdir}/usr/lib/mozilla/plugins
+	else ln -s /opt/java/jre/lib/amd64/libnpjp2.so ${pkgdir}/usr/lib/mozilla/plugins
+	fi
+
+	mkdir -p ${pkgdir}/usr/share/licenses/jre
+	cp ${pkgdir}/opt/java/jre/COPYRIGHT ${pkgdir}/usr/share/licenses/jre
+	cp ${pkgdir}/opt/java/jre/LICENSE ${pkgdir}/usr/share/licenses/jre
+	cp ${pkgdir}/opt/java/jre/THIRDPARTYLICENSEREADME.txt ${pkgdir}/usr/share/licenses/jre
+
+	# Fix system prefs folder (FS#18872)
+	install -dm755 ${pkgdir}/etc/.java/.systemPrefs
+}
+
+package_jdk() {
+	pkgdesc="Sun's Java Development Kit"
+        depends=('glibc' 'jre')
+	install="jdk.install"
+	replaces=('j2sdk')
+	conflicts=('java-environment' 'j2sdk')
+	provides=('java-environment=6' 'j2sdk')
+
 	cd ${srcdir}
 
 	#copy icon
