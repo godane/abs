@@ -9,9 +9,3 @@ for r in ${repos[@]}; do
   if [[ $r = github ]]; then flag="--all"; fi
   git push $flag $r
 done
-
-if [[ -d ../community ]]
-then
-  pushd ../community 
-  git push stargate
-fi
