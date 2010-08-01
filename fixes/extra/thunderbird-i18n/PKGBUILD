@@ -1,0 +1,606 @@
+# $Id: PKGBUILD 85845 2010-07-20 17:52:21Z ibiru $
+# Maintainer: Jan de Groot <jgc@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+# Contributor: Thomas Baechler <thomas@archlinux.org>
+
+pkgbase=thunderbird-i18n
+pkgname=('thunderbird-af' 'thunderbird-be' 'thunderbird-bg' 'thunderbird-ca' 'thunderbird-cs'
+	'thunderbird-da' 'thunderbird-de' 'thunderbird-el' 'thunderbird-en-gb' 'thunderbird-es-ar'
+	'thunderbird-es' 'thunderbird-et' 'thunderbird-eu' 'thunderbird-fi' 'thunderbird-fr' 'thunderbird-ga'
+	'thunderbird-he' 'thunderbird-hu' 'thunderbird-it' 'thunderbird-ja' 'thunderbird-ko'
+	'thunderbird-lt' 'thunderbird-nb' 'thunderbird-nl' 'thunderbird-nn'
+	'thunderbird-pa' 'thunderbird-pl' 'thunderbird-pt-br' 'thunderbird-pt' 'thunderbird-ro'
+	'thunderbird-ru' 'thunderbird-sk' 'thunderbird-sv' 'thunderbird-tr' 'thunderbird-uk'
+	'thunderbird-zh-cn' 'thunderbird-zh-tw')
+pkgver=3.1.1
+pkgrel=1
+pkgdesc="Language packs for Thunderbird"
+arch=('any')
+url="http://www.mozilla.com/"
+license=('MPL' 'GPL')
+depends=("thunderbird>=$pkgver")
+groups=('thunderbird-i18n')
+conflicts=('thunderbird-i18n')
+_url=http://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/${pkgver}/linux-i686/xpi
+source=($pkgbase-$pkgver-af.xpi::$_url/af.xpi
+        $pkgbase-$pkgver-be.xpi::$_url/be.xpi
+        $pkgbase-$pkgver-bg.xpi::$_url/bg.xpi
+        $pkgbase-$pkgver-ca.xpi::$_url/ca.xpi
+        $pkgbase-$pkgver-cs.xpi::$_url/cs.xpi
+        $pkgbase-$pkgver-da.xpi::$_url/da.xpi
+        $pkgbase-$pkgver-de.xpi::$_url/de.xpi
+        $pkgbase-$pkgver-el.xpi::$_url/el.xpi
+        $pkgbase-$pkgver-en-GB.xpi::$_url/en-GB.xpi
+        $pkgbase-$pkgver-es-AR.xpi::$_url/es-AR.xpi
+        $pkgbase-$pkgver-es-ES.xpi::$_url/es-ES.xpi
+	$pkgbase-$pkgver-et.xpi::$_url/et.xpi
+        $pkgbase-$pkgver-eu.xpi::$_url/eu.xpi
+        $pkgbase-$pkgver-fi.xpi::$_url/fi.xpi
+        $pkgbase-$pkgver-fr.xpi::$_url/fr.xpi
+        $pkgbase-$pkgver-ga-IE.xpi::$_url/ga-IE.xpi
+        $pkgbase-$pkgver-he.xpi::$_url/he.xpi
+        $pkgbase-$pkgver-hu.xpi::$_url/hu.xpi
+        $pkgbase-$pkgver-it.xpi::$_url/it.xpi
+        $pkgbase-$pkgver-ja.xpi::$_url/ja.xpi
+        $pkgbase-$pkgver-ko.xpi::$_url/ko.xpi
+        $pkgbase-$pkgver-lt.xpi::$_url/lt.xpi
+        $pkgbase-$pkgver-nb-NO.xpi::$_url/nb-NO.xpi
+        $pkgbase-$pkgver-nl.xpi::$_url/nl.xpi
+        $pkgbase-$pkgver-nn-NO.xpi::$_url/nn-NO.xpi
+        $pkgbase-$pkgver-pa-IN.xpi::$_url/pa-IN.xpi
+        $pkgbase-$pkgver-pl.xpi::$_url/pl.xpi
+        $pkgbase-$pkgver-pt-BR.xpi::$_url/pt-BR.xpi
+        $pkgbase-$pkgver-pt-PT.xpi::$_url/pt-PT.xpi
+	$pkgbase-$pkgver-ro.xpi::$_url/ro.xpi
+        $pkgbase-$pkgver-ru.xpi::$_url/ru.xpi
+        $pkgbase-$pkgver-sk.xpi::$_url/sk.xpi
+        $pkgbase-$pkgver-sv-SE.xpi::$_url/sv-SE.xpi
+        $pkgbase-$pkgver-tr.xpi::$_url/tr.xpi
+        $pkgbase-$pkgver-uk.xpi::$_url/uk.xpi
+        $pkgbase-$pkgver-zh-CN.xpi::$_url/zh-CN.xpi
+        $pkgbase-$pkgver-zh-TW.xpi::$_url/zh-TW.xpi)
+noextract=("$pkgbase-$pkgver-af.xpi"
+           "$pkgbase-$pkgver-be.xpi"
+           "$pkgbase-$pkgver-bg.xpi"
+           "$pkgbase-$pkgver-ca.xpi"
+           "$pkgbase-$pkgver-cs.xpi"
+	   "$pkgbase-$pkgver-da.xpi"
+           "$pkgbase-$pkgver-de.xpi"
+           "$pkgbase-$pkgver-el.xpi"
+           "$pkgbase-$pkgver-en-GB.xpi"
+           "$pkgbase-$pkgver-es-AR.xpi"
+           "$pkgbase-$pkgver-es-ES.xpi"
+           "$pkgbase-$pkgver-eu.xpi"
+           "$pkgbase-$pkgver-fi.xpi"
+           "$pkgbase-$pkgver-fr.xpi"
+           "$pkgbase-$pkgver-ga-IE.xpi"
+           "$pkgbase-$pkgver-he.xpi"
+           "$pkgbase-$pkgver-hu.xpi"
+           "$pkgbase-$pkgver-it.xpi"
+           "$pkgbase-$pkgver-ja.xpi"
+           "$pkgbase-$pkgver-ko.xpi"
+           "$pkgbase-$pkgver-lt.xpi"
+           "$pkgbase-$pkgver-nb-NO.xpi"
+           "$pkgbase-$pkgver-nl.xpi"
+           "$pkgbase-$pkgver-nn-NO.xpi"
+           "$pkgbase-$pkgver-pa-IN.xpi"
+           "$pkgbase-$pkgver-pl.xpi"
+           "$pkgbase-$pkgver-pt-BR.xpi"
+           "$pkgbase-$pkgver-pt-PT.xpi"
+	   "$pkgbase-$pkgver-ro.xpi"
+           "$pkgbase-$pkgver-ru.xpi"
+           "$pkgbase-$pkgver-sk.xpi"
+           "$pkgbase-$pkgver-sv-SE.xpi"
+           "$pkgbase-$pkgver-tr.xpi"
+           "$pkgbase-$pkgver-uk.xpi"
+           "$pkgbase-$pkgver-zh-CN.xpi"
+           "$pkgbase-$pkgver-zh-TW.xpi")
+
+build() {
+  cd ${srcdir}
+}
+
+package_thunderbird-af() {
+  pkgdesc="Afrikaans (South Africa) language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-af.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-be() {
+  pkgdesc="Belarusian language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-be.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-bg() {
+  pkgdesc="Bulgarian language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-bg.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-ca() {
+  pkgdesc="Catalan language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-ca.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-cs() {
+  pkgdesc="Czech language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-cs.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-da() {
+  pkgdesc="Danish language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-da.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-de() {
+  pkgdesc="German language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-de.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-el() {
+  pkgdesc="Greek language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-el.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-en-gb() {
+  pkgdesc="English (GB) language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-en-GB.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-es-ar() {
+  pkgdesc="Spanish (AR) language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-es-AR.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-es() {
+  pkgdesc="Spanish language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-es-ES.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-et() {
+  pkgdesc="Estonian language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-et.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-eu() {
+  pkgdesc="Basque language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-eu.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-fi() {
+  pkgdesc="Finnish language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-fi.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-fr() {
+  pkgdesc="French language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-fr.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-ga() {
+  pkgdesc="Irish language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-ga-IE.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-he() {
+  pkgdesc="Hebrew language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-he.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-hu() {
+  pkgdesc="Hungarian language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-hu.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-it() {
+  pkgdesc="Italian language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-it.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-ja() {
+  pkgdesc="Japanese language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-ja.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-ko() {
+  pkgdesc="Korean language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-ko.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-lt() {
+  pkgdesc="Lithuanian language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-lt.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-mk() {
+  pkgdesc="Macedonian language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-mk.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-nb() {
+  pkgdesc="Norwegian (Bokmal) language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-nb-NO.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-nl() {
+  pkgdesc="Dutch language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-nl.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-nn() {
+  pkgdesc="Norwegian (Nynorsk) language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-nn-NO.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-pa() {
+  pkgdesc="Punjabi language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-pa-IN.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-pl() {
+  pkgdesc="Polish language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-pl.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-pt-br() {
+  pkgdesc="Portoguese (Brasil) language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-pt-BR.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-pt() {
+  pkgdesc="Portuguese language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-pt-PT.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-ro() {
+  pkgdesc="Romanian language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-ro.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-ru() {
+  pkgdesc="Russian language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-ru.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-sk() {
+  pkgdesc="Slovak language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-sk.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-sl() {
+  pkgdesc="Slovenian language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-sl.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-sv() {
+  pkgdesc="Swedish language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-sv-SE.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-tr() {
+  pkgdesc="Turkish language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-tr.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-uk() {
+  pkgdesc="Ukrainian language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-uk.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-zh-cn() {
+  pkgdesc="Chinese (simplified) language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-zh-CN.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+
+package_thunderbird-zh-tw() {
+  pkgdesc="Chinese (traditional) language packs for Thunderbird"
+  cd ${srcdir}
+  langfile=$pkgbase-$pkgver-zh-TW.xpi
+  lang=${langfile/.xpi/}
+  lang=${lang/$pkgbase-$pkgver-/}
+  bsdtar xf ${langfile} || return 1
+  sed -i "s|jar:chrome/${lang}.jar|jar:${lang}.jar|" chrome.manifest || return 1
+  install -D -m644 chrome/${lang}.jar "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.jar" || return 1
+  install -D -m644 chrome.manifest "${pkgdir}/usr/lib/thunderbird-3.1/chrome/${lang}.manifest" || return 1
+}
+md5sums=('d2024bdba9c75eb5f7509fcb7f4d0293'
+         'e5318bff2ba6085ea2b9c679db129303'
+         'a92da739cb27e6e32d173716f106c336'
+         '09a43e2813eed42f22bb474f5871324c'
+         '66094b66f7457201e92ce45e475c75df'
+         '25b47460344fdd41822f3ae48b545c47'
+         '82b3f8bd989ca0418b3c2658882178c2'
+         'fb67bc5beaaf724d6125658857c30df7'
+         '541ac0214222b0c3a9928df23fa9cf8b'
+         'ca2e2d0eda0f0e844ef0212317592e54'
+         '988169e3d762e7a1393b8629fc56e8f8'
+         '009e73e2418e4fa6896639608c2f6485'
+         'a4c3eb1c641e40009f0297cc4bfd9dfb'
+         '7bd5034c3a10315e04fcd40f0ed734c0'
+         '7dd76283ef784e5e21011eea486857cc'
+         '825b320057a28036afcfe057c59b3efa'
+         '371545bcad08275ae40f73057f6c23d9'
+         'ceb7246e11d05e8aa0364dde829fb48c'
+         '67b905874fb8754bf21f0fe6568abbd3'
+         'ae90bd4a0f69a03d6f411dbcb08da9ef'
+         '1c93a00c07c01380e628b59861699ad4'
+         'b4dc17ed7043f067ceae8d79aeb97f08'
+         'fe9939a5587cc820df4f061684c0bb82'
+         '50f1663561ed2065c0ca0b26977f601b'
+         '54373412fe1a10428fe16d0f80062fec'
+         'ca20743b8aac87a247c4278e25cab669'
+         '6ecc0f2d5cb47b9b264bd853fb856b78'
+         '9e5d00fe397426b84ee83630f875adff'
+         '59f78192969b3b9a716094bc59347723'
+         '71a0cdf9cf8bc7197e955b18e89d764f'
+         'a0dbc74110c5fd98d23d00db6c4bde9b'
+         '1c245997d48e8e4e82b4ba7343a57989'
+         'ae3698e4c2392204d35227d050a3d0c1'
+         'bf685abc6d75363bc017786748accb33'
+         'd5463346cd6d59081d5a426affb6a801'
+         '7a245d474e420f3f4b4ea725992f8054'
+         'a189d89b6ba7a2eb7a40194ad656fbac')
