@@ -1,15 +1,15 @@
-# $Id: PKGBUILD 20803 2010-07-11 23:01:18Z tdziedzic $
+# $Id: PKGBUILD 22911 2010-08-01 04:53:12Z mherych $
 # Maintainer:
 
 pkgname=yaws
 pkgver=1.88
-pkgrel=1
+pkgrel=2
 pkgdesc='Yet Another Web Server -- The pure Erlang HTTP server/framework'
 arch=('i686' 'x86_64')
 url='http://yaws.hyber.org'
 license=('BSD')
 depends=('pam' 'erlang')
-backup=('etc/yaws.conf')
+backup=('etc/yaws/yaws.conf')
 source=("http://yaws.hyber.org/download/${pkgname}-${pkgver}.tar.gz")
 md5sums=('950f8199592c6490556632e20e59a353')
 
