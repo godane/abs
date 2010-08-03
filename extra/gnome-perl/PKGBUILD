@@ -1,10 +1,10 @@
-# $Id: PKGBUILD 69444 2010-02-20 14:32:52Z allan $
+# $Id: PKGBUILD 84580 2010-07-01 01:38:35Z kevin $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gnome-perl
 _realname=Gnome2
 pkgver=1.042
-pkgrel=3
+pkgrel=4
 pkgdesc="Perl bindings for libgnome"
 arch=('i686' 'x86_64')
 license=('LGPL')

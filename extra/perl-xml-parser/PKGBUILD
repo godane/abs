@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 84522 2010-06-30 17:48:08Z andrea $
+# $Id: PKGBUILD 84524 2010-06-30 17:48:41Z andrea $
 # Maintainer: firmicus <francois@archlinux.org>
 # Contributor: dorphell <dorphell@archlinux.org>
 # Contributor: herb <hrose@archlinux.org>
@@ -6,7 +6,7 @@
 pkgname=perl-xml-parser
 _realname=XML-Parser
 pkgver=2.36
-pkgrel=6
+pkgrel=7
 pkgdesc="Expat-based XML parser module for perl"
 arch=(i686 x86_64)
 license=('GPL' 'PerlArtistic')

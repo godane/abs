@@ -1,14 +1,14 @@
-# $Id: PKGBUILD 53385 2009-09-30 19:53:46Z francois $
+# $Id: PKGBUILD 84621 2010-07-01 18:26:39Z kevin $
 # Maintainer: Firmicus <francois.archlinux.org>
 # Contributor: Tom K <tomk@runbox.com>
 
 pkgname=mod_perl
 _realname=mod_perl
 pkgver=2.0.4
-pkgrel=6
+pkgrel=7
 pkgdesc="Apache module that embeds the Perl interpreter within the server"
 url="http://search.cpan.org/dist/${_realname}/"
-depends=('perl=5.10.1' 'apache' 'db>=4.8' 'apr-util')
+depends=('perl=5.12.1' 'apache' 'db>=4.8' 'apr-util')
 license=('APACHE')
 arch=('i686' 'x86_64')
 options=(!emptydirs)

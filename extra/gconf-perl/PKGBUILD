@@ -1,10 +1,10 @@
-# $Id: PKGBUILD 69434 2010-02-20 14:17:33Z allan $
+# $Id: PKGBUILD 84539 2010-06-30 19:17:55Z kevin $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gconf-perl
 _realname=Gnome2-GConf
 pkgver=1.044
-pkgrel=2
+pkgrel=3
 pkgdesc="Gnome2-GConf perl bindings for gconf"
 arch=('i686' 'x86_64')
 license=('LGPL')

@@ -1,9 +1,9 @@
-# $Id: PKGBUILD 85030 2010-07-07 13:41:44Z giovanni $
+# $Id: PKGBUILD 86661 2010-08-02 22:11:04Z giovanni $
 # Maintainer: Giovanni Scafora <giovanni@archlinux.org>
 # Contributor: Douglas Soares de Andrade <douglas@archlinux.org>
 
 pkgname=mercurial
-pkgver=1.6
+pkgver=1.6.2
 pkgrel=1
 pkgdesc="A scalable distributed SCM tool"
 arch=('i686' 'x86_64')
@@ -13,7 +13,7 @@ depends=('python')
 optdepends=('tk: for the hgk GUI')
 source=(http://www.selenic.com/mercurial/release/${pkgname}-${pkgver}.tar.gz
         mercurial.profile)
-md5sums=('e97772cb424d29d9382c41daafa6f92d'
+md5sums=('847359d7488caf8074a69d4b87ca64d2'
          '43e1d36564d4c7fbe9a091d3ea370a44')
 
 build() {

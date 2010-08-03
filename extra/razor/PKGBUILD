@@ -1,10 +1,10 @@
-# $Id: PKGBUILD 37033 2009-04-30 04:12:08Z eric $
+# $Id: PKGBUILD 84617 2010-07-01 18:02:55Z kevin $
 # Maintainer: Dale Blount <dale@archlinux.org>
 # Contributor: Manolis Tzanidakis
 
 pkgname=razor
 pkgver=2.84
-pkgrel=2.1
+pkgrel=3
 pkgdesc="A distributed, collaborative, spam detection and filtering network."
 arch=(i686 x86_64)
 url="http://razor.sourceforge.net"

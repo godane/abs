@@ -1,11 +1,11 @@
-# $Id: PKGBUILD 66859 2010-02-01 20:19:33Z giovanni $
+# $Id: PKGBUILD 82220 2010-06-09 14:43:20Z kevin $
 # Maintainer: Kevin Piche <kevin@archlinux.org>
 # Contributor: Manolis Tzanidakis
 
 pkgname=perl-net-dns
 _realname=Net-DNS
 pkgver=0.66
-pkgrel=1
+pkgrel=2
 pkgdesc="Perl Module: Interface to the DNS resolver."
 arch=(i686 x86_64)
 license=('PerlArtistic')

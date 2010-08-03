@@ -1,9 +1,9 @@
-# $Id: PKGBUILD 86407 2010-08-01 14:36:46Z ibiru $
+# $Id: PKGBUILD 86489 2010-08-02 09:35:28Z ibiru $
 # Maintainer: Hugo Doria <hugo@archlinux.org>
 
 pkgname=wireshark
 pkgver=1.2.10
-pkgrel=1
+pkgrel=2
 pkgdesc="A free network protocol analyzer for Unix/Linux and Windows"
 arch=('i686' 'x86_64')
 license=('GPL2')

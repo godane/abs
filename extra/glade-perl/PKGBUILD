@@ -1,10 +1,10 @@
-# $Id: PKGBUILD 54828 2009-10-11 19:43:29Z jgc $
+# $Id: PKGBUILD 84540 2010-06-30 19:18:05Z kevin $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=glade-perl
 _realname=Gtk2-GladeXML
 pkgver=1.007
-pkgrel=1
+pkgrel=2
 pkgdesc="Gtk2-GladeXML perl bindings for glade 2.x"
 arch=(i686 x86_64)
 license=('LGPL')

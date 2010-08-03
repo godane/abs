@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 60166 2009-12-01 16:06:12Z giovanni $
+# $Id: PKGBUILD 82522 2010-06-12 19:48:30Z kevin $
 # Maintainer: tobias <tobias@archlinux.org>
 # Contributor: Tobias Kieslich <tobias@justdreams.de>
 # Contributor: François Charette <francois.archlinux.org>
@@ -6,11 +6,11 @@
 pkgname=perl-event
 _srcname=Event
 pkgver=1.13
-pkgrel=1
+pkgrel=2
 pkgdesc="Framework for GUI events"
 arch=('i686' 'x86_64')
 license=('PerlArtistic' 'GPL')
-url="http://search.cpan.org/dist/${_realname}/"
+url="http://search.cpan.org/dist/${_srcname}/"
 depends=('perl>=5.10.0')
 options=(!emptydirs)
 source=(http://search.cpan.org/CPAN/authors/id/J/JP/JPRIT/${_srcname}-${pkgver}.tar.gz)
