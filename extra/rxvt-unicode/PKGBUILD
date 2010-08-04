@@ -1,10 +1,10 @@
-# $Id: PKGBUILD 67624 2010-02-09 04:30:31Z eric $
+# $Id: PKGBUILD 86729 2010-08-03 18:22:52Z ibiru $
 # Maintainer: tobias <tobias@archlinux.org>
 # Contributor: dibblethewrecker dibblethewrecker.at.jiwe.dot.org
 
 pkgname=rxvt-unicode
 pkgver=9.07
-pkgrel=1
+pkgrel=2
 pkgdesc="An unicode enabled rxvt-clone terminal emulator (urxvt)"
 arch=(i686 x86_64)
 depends=('gcc-libs' 'libxft' 'libxpm')

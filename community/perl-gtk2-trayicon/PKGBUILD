@@ -1,10 +1,10 @@
-# $Id: PKGBUILD 20889 2010-07-12 16:12:49Z spupykin $
+# $Id: PKGBUILD 22975 2010-08-03 16:15:35Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 # Maintainer: Tom K <tomk@runbox.com>
 
 pkgname=perl-gtk2-trayicon
 pkgver=0.06
-pkgrel=4
+pkgrel=5
 pkgdesc="Perl interface to the EggTrayIcon library"
 arch=('i686' 'x86_64')
 url="http://search.cpan.org/dist/TrayIcon.html"
