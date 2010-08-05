@@ -1,0 +1,72 @@
+# Contributor: damian01w <damian01w@gmail.com>
+
+pkgbase=alienarena
+pkgname=('alienarena' 'alienarena-data')
+pkgver=20100726
+pkgrel=1
+gamever=7_45
+pkgdesc="Multiplayer retro sci-fi deathmatch game"
+arch=('i686' 'x86_64')
+url='http://icculus.org/alienarena/rpa/'
+license=('GPL')
+depends=('curl' 'libgl' 'libjpeg' 'libxxf86dga' 'libxxf86vm' 'mesa' 'sdl' 'openal' 'libvorbis')
+makedepends=('hd2u' 'unzip')
+source=(http://icculus.org/alienarena/Files/alienarena${gamever}-Linux${pkgver}.zip
+	'alienarena.desktop')
+
+md5sums=('7a02717b308f737b320586d3f1ea39e8'
+         '46bbe3e3a93b2e5009ffd663ad462915')
+
+ 
+_datadir="/usr/share/${pkgbase}"
+_libdir="/usr/lib/${pkgbase}"
+
+build() {
+    true
+}
+
+package_alienarena() {
+    depends=('curl' 'libgl' 'libjpeg' 'libxxf86dga' 'libxxf86vm' 'mesa' 'sdl' 'openal' 'libvorbis' 'alienarena-data')
+    cd $srcdir/${pkgbase}${gamever}/source
+ 
+    # Arch isn't multilib
+    sed -i -e "s:lib64:lib:" Makefile || return 1
+
+    # Needed to compile fine with new versions of xf86dgaproto (Thanks Calimero)
+    sed -i "s/xf86dga.h/Xxf86dga.h/g" unix/gl_glx.c
+ 
+    make PREFIX=/usr \
+	WITH_DATADIR=yes WITH_LIBDIR=yes \
+	DATADIR="${_datadir}" LIBDIR="${_libdir}" \
+     || return 1
+ 
+    #Binary
+
+    install -D -m755 release/game.so $pkgdir/${_libdir}/arena/game.so || return 1
+    install -D -m755 release/crx $pkgdir/usr/bin/${pkgbase} || return 1
+    install -D -m755 release/crded $pkgdir/usr/bin/${pkgbase}-ded || return 1
+ 
+    cd ..
+ 
+    # Desktop entry
+    install -D -m644 aa.png $pkgdir/usr/share/pixmaps/${pkgbase}.png || return 1
+    install -D -m644 $srcdir/${pkgbase}.desktop $pkgdir/usr/share/applications/${pkgbase}.desktop || return 1
+ 
+    # Docs
+    pwd
+    cd docs
+    dos2unix README.txt
+    mkdir -p $pkgdir/usr/share/doc/$pkgbase
+    install -m644 -t $pkgdir/usr/share/doc/${pkgbase} {license,README}.txt || return 1
+}
+
+package_alienarena-data() {
+    arch=('any')
+    depends=( )
+    cd $srcdir/${pkgbase}${gamever}
+
+    # Data files
+    find arena botinfo data1 -type f | while read _f ; do
+    install -D -m644 "$_f" "$pkgdir/$_datadir/$_f" || return 1
+    done
+}
