@@ -1,16 +1,16 @@
-#$Id: PKGBUILD 22781 2010-07-29 19:53:22Z angvp $
+#$Id: PKGBUILD 23022 2010-08-04 20:41:21Z angvp $
 # Maintainer: Angel 'angvp' Velasquez <angvp[at]archlinux.com.ve>
 # Maintainer: Douglas Soares de Andrade <dsa@aur.archlinux.org>
 
 pkgname=python-scipy
 pkgver=0.8.0
-pkgrel=1
+pkgrel=2
 pkgdesc="SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering."
 arch=('i686' 'x86_64')
 url="http://www.scipy.org"
 license=('BSD')
-depends=('lapack' 'blas' 'python')
-makedepends=('python-numpy>=1.4.0' 'gcc' 'gcc-fortran')
+depends=('lapack' 'blas' 'python' 'python-numpy')
+makedepends=('gcc' 'gcc-fortran')
 conflicts=('scipy' 'scipy_core')
 source=("http://downloads.sourceforge.net/scipy/scipy-${pkgver}.tar.gz")
 md5sums=('f0bfc6141b90e6a31555b31486602251')
