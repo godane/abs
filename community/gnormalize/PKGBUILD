@@ -1,11 +1,11 @@
-# $Id: PKGBUILD 17913 2010-05-26 11:53:59Z cbrannon $
+# $Id: PKGBUILD 20178 2010-07-02 23:50:06Z tdziedzic $
 # Maintainer: Chris Brannon <cmbrannon79@gmail.com>
 # Contributor: Corrado Primier <bardo@aur.archlinux.org>
 # Contributor:JZsolt Varadi (karmaxxl) 
 
 pkgname=gnormalize
 pkgver=0.63
-pkgrel=2
+pkgrel=3
 pkgdesc="An audio normalizer, converter, encoder/decoder, ripper, tagger and player"
 arch=(any)
 url="http://gnormalize.sourceforge.net/"

@@ -1,9 +1,9 @@
-# $Id: PKGBUILD 85504 2010-07-14 19:22:52Z giovanni $
+# $Id: PKGBUILD 86666 2010-08-02 22:25:54Z giovanni $
 # Maintainer: Giovanni Scafora <giovanni@archlinux.org>
 # Contributor: Andrew Simmons <andrew.simmons@gmail.com>
 
 pkgname=gparted
-pkgver=0.6.1
+pkgver=0.6.2
 pkgrel=1
 pkgdesc="A Partition Magic clone, frontend to GNU Parted"
 arch=('i686' 'x86_64')
@@ -20,7 +20,7 @@ optdepends=('e2fsprogs: for ext2/ext3 partitions'
             'gksu: to run gparted directly from menu')
 install=gparted.install
 source=(http://downloads.sourceforge.net/project/${pkgname}/${pkgname}/${pkgname}-${pkgver}/${pkgname}-${pkgver}.tar.bz2)
-md5sums=('f4c6bbc284b73e91cc4343c0b021e4e9')
+md5sums=('faa454e4e3cc5d42e8fd740bb77f1a3a')
 
 build() {
   cd "${srcdir}/${pkgname}-${pkgver}"

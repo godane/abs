@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 84953 2010-07-05 20:48:30Z tpowa $
+# $Id: PKGBUILD 86792 2010-08-04 14:39:45Z thomas $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 # Maintainer: Thomas Baechler <thomas@archlinux.org>
 pkgbase="kernel26"
@@ -6,11 +6,10 @@ pkgname=('kernel26' 'kernel26-headers' 'kernel26-manpages' 'kernel26-docs') # Bu
 # pkgname=kernel26-custom       # Build kernel with a different name
 _kernelname=${pkgname#kernel26}
 _basekernel=2.6.34
-pkgver=${_basekernel}.1
-pkgrel=1
+pkgver=${_basekernel}.2
+pkgrel=2
 makedepends=('xmlto' 'docbook-xsl')
-#_patchname="patch-${pkgver}-${pkgrel}-ARCH"
-_patchname="patch-${pkgver}-1-ARCH"
+_patchname="patch-${pkgver}-${pkgrel}-ARCH"
 arch=(i686 x86_64)
 license=('GPL2')
 url="http://www.kernel.org"
@@ -21,7 +20,7 @@ source=(ftp://ftp.kernel.org/pub/linux/kernel/v2.6/linux-$_basekernel.tar.bz2
         # standard config files for mkinitcpio ramdisk
         kernel26.preset)
 md5sums=('10eebcb0178fb4540e2165bfd7efc7ad'
-         '2fbd20a8a1387589b0cc8969851ba27c'
+         '2a8f0f455395296a1678b226ae63c5a7'
          '79a11916d1ff63a51eaebe0e750fa9b7'
          'a7e0aae92e964a0df9e42bdebd548e8c'
          '25584700a0a679542929c4bed31433b6')
@@ -228,10 +227,10 @@ package_kernel26-docs() {
 pkgdesc="Kernel hackers manual - HTML documentation that comes with the Linux kernel."
 
 cd ${srcdir}/linux-$_basekernel
-mkdir -p $pkgdir/usr/src/linux-$pkgver-ARCH
-mv Documentation $pkgdir/usr/src/linux-$pkgver-ARCH
+mkdir -p $pkgdir/usr/src/linux-$_kernver
+mv Documentation $pkgdir/usr/src/linux-$_kernver
 find $pkgdir -type f -exec chmod 444 {} \;
 find $pkgdir -type d -exec chmod 755 {} \;
 # remove a file already in kernel26 package
-rm -f $pkgdir/usr/src/linux-$pkgver-ARCH/Documentation/DocBook/Makefile
+rm -f $pkgdir/usr/src/linux-$_kernver/Documentation/DocBook/Makefile
 }

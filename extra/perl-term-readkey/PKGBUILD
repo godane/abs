@@ -1,16 +1,16 @@
-# $Id: PKGBUILD 32165 2009-03-29 13:30:02Z francois $
+# $Id: PKGBUILD 82218 2010-06-09 14:30:24Z kevin $
 # Contributor: Wael Nasreddine <gandalf@siemens-mobiles.org>
 # Contributor: Francois Charette <francois.archlinux.org> 
 
 pkgname=perl-term-readkey
 _realname=TermReadKey
 pkgver=2.30.01
-pkgrel=1
+pkgrel=2
 pkgdesc="Provides simple control over terminal driver modes"
 arch=('i686' 'x86_64')
 license=('custom')
 depends=('perl>=5.10.0' 'glibc')
-url="http://cpan.org/modules/by-module/Term"
+url="http://search.cpan.org/~stsi/${_realname}/"
 source=(http://search.cpan.org/CPAN/authors/id/S/ST/STSI/${_realname}-$pkgver.tar.gz)
 options=('!emptydirs')
 build()
