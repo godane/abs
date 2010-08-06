@@ -4,7 +4,7 @@
 pkgbase=qt
 pkgname=('qt' 'qt-doc')
 pkgver=4.6.3
-pkgrel=2
+pkgrel=1
 arch=('i686' 'x86_64')
 url='http://qt.nokia.com/'
 license=('GPL3' 'LGPL')
@@ -31,7 +31,7 @@ build() {
 
   # see http://cvs.fedoraproject.org/viewvc/rpms/qt/devel/
   # use system ssl cert bundle
-  patch -p1 -i $srcdir/ca-certificates.patch
+  patch -p1 -i $srcdir/ca-certificates.patch || return 1
 
   sed -i "s|-O2|$CXXFLAGS|" mkspecs/common/g++.conf
   sed -i "/^QMAKE_RPATH/s| -Wl,-rpath,||g" mkspecs/common/g++.conf
@@ -78,7 +78,6 @@ build() {
 }
 
 package_qt() {
-  pkgdesc="A cross-platform application and UI framework"
   depends=('libpng' 'fontconfig' 'libtiff' 'libmng' 'sqlite3' 'xdg-utils' 'ca-certificates'
      'hicolor-icon-theme' 'alsa-lib' 'glib2' 'dbus' 'libxrender' 'libgl' 'libsm')
   optdepends=('postgresql-libs' 'libmysqlclient' 'unixodbc')
@@ -118,7 +117,7 @@ package_qt-doc() {
   conflicts=("qt4-doc=${pkgver}")
   cd ${srcdir}/${_pkgfqn}
   install -d ${pkgdir}/usr/share/doc/qt
-  cp -r doc/* ${pkgdir}/usr/share/doc/qt
-  cp -r demos ${pkgdir}/usr/share/doc/qt
-  cp -r examples ${pkgdir}/usr/share/doc/qt
+  cp -r doc/* ${pkgdir}/usr/share/doc/qt || return 1
+  cp -r demos ${pkgdir}/usr/share/doc/qt || return 1
+  cp -r examples ${pkgdir}/usr/share/doc/qt || return 1
 }
