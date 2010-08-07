@@ -1,9 +1,9 @@
-# $Id: PKGBUILD 86383 2010-07-31 10:31:30Z ibiru $
+# $Id: PKGBUILD 86882 2010-08-06 15:46:45Z ibiru $
 # Contributor: Hugo Doria <hugo@archlinux.org>
 # Contributor: Guillaume ALAUX <guillaume at alaux dot net>
 pkgname=tomcat
 pkgver=5.5.30
-pkgrel=1
+pkgrel=2
 arch=('i686' 'x86_64')
 pkgdesc="Servlet container for Java Servlet and JavaServer Pages"
 url="http://tomcat.apache.org/"
@@ -27,7 +27,7 @@ build() {
   cd commons-daemon-1.0.2-native-src/unix
   sh configure --with-java=/usr/lib/jvm/java-6-openjdk
   make clean
-  make || return 1
+  make
   cp jsvc ../..
 
   # get rid of some cruft
