@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 16692 2010-05-05 17:46:06Z schiv $
+# $Id: PKGBUILD 86992 2010-08-08 20:57:26Z schiv $
 # Maintainer: Ray Rashif <schivmeister@gmail.com>
 # Contributor: Felipe Machado aka arch_audio <machado.felipe@gmail.com>
 
@@ -6,18 +6,25 @@ pkgname=rubberband
 pkgver=1.5.0
 pkgrel=1
 pkgdesc="Time-stretching and pitch-shifting audio library and utility"
-arch=(i686 x86_64)
+arch=('i686' 'x86_64')
 url="http://www.breakfastquay.com/rubberband/"
 license=('GPL')
 depends=('libsamplerate' 'fftw' 'vamp-plugin-sdk')
 makedepends=('ladspa')
 source=(http://code.breakfastquay.com/attachments/download/1/$pkgname-$pkgver.tar.bz2)
+md5sums=('c5f288d644fcd46bd159e187bcc33f25')
 
 build() {
   cd "$srcdir/$pkgname-$pkgver"
 
   ./configure --prefix=/usr
-  make || return 1
-  make DESTDIR="$pkgdir/" install
+  make
 }
-md5sums=('c5f288d644fcd46bd159e187bcc33f25')
+
+package() {
+  cd "$srcdir/$pkgname-$pkgver"
+
+	make DESTDIR="$pkgdir/" install
+}
+
+# vim:set ts=2 sw=2 et:
