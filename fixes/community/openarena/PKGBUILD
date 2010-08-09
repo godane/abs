@@ -1,0 +1,78 @@
+# $Id: PKGBUILD 23316 2010-08-09 21:14:20Z svenstaro $
+# Maintainer: Sven-Hendrik Haase <sh@lutzhaase.com>
+# Contributor: Arkham <arkham at archlinux dot us>
+# Contributor: Christoph Zeiler <archNOSPAM_at_moonblade.dot.org>
+
+pkgbase=openarena
+pkgname=('openarena' 'openarena-data')
+_pkgname=openarena
+pkgver=0.8.5
+_oldver=0.8.1
+pkgrel=1
+pkgdesc="A violent, sexy, multiplayer first person shooter based on the ioquake3 engine"
+arch=('i686' 'x86_64')
+url="http://openarena.ws/"
+license=('GPL')
+depends=('libgl' 'sdl' 'libvorbis' 'curl')
+makedepends=('openal' 'mesa')
+source=(http://download.tuxfamily.org/$_pkgname/rel/081/oa081.zip
+        http://download.tuxfamily.org/$_pkgname/rel/085/oa085p.zip
+        $url/svn/source/081/$_pkgname-engine-$_oldver-1.tar.bz2
+        $_pkgname.png
+        $_pkgname-server.png
+        $_pkgname.desktop
+        $_pkgname-server.desktop)
+md5sums=('49006bcb02b4e8ea3d06749e8f4e4887'
+         'b2a0437da751cd50dd2351ed9e0c4e9d'
+         '4ee696eacc4b0350f9dbb5588dcd74a2'
+         'c69f824dc500d436fc631b78b6a62dc8'
+         '17e2f4fa060ed97ff6fe1eaff647bcfb'
+         '229c87648c10e48b523c25d24aba8372'
+         '00649517a4dd08cd9c6e99d6703f01f1')
+
+build() {
+    # uncomment to disable semi-nude models:
+    # 	rm -f $pkgname-$_oldver/baseoa/pak2-players-mature.pk3
+    # (resulting version won't work with most servers!!)
+
+    cd $srcdir/$_pkgname-engine-$_oldver
+
+    make DEFAULT_BASEDIR=/usr/share/$_pkgname \
+        BUILD_CLIENT_SMP=0 \
+        USE_LOCAL_HEADERS=0 \
+        GENERATE_DEPENDENCIES=0 \
+        OPTIMIZE=
+}
+
+package_openarena() {
+    depends=('libgl' 'sdl' 'libvorbis' 'curl' 'openarena-data')
+    cd $srcdir/$_pkgname-engine-$_oldver
+
+    install -d $pkgdir/usr/{bin,share/{$_pkgname,applications,pixmaps}}
+
+    make COPYDIR=$pkgdir/usr/share/$_pkgname copyfiles
+
+    [ "$CARCH" = "x86_64" ] && {
+        mv -f $pkgdir/usr/share/$_pkgname/$_pkgname.$CARCH $pkgdir/usr/bin/$_pkgname
+        mv -f $pkgdir/usr/share/$_pkgname/oa_ded.$CARCH $pkgdir/usr/bin/$_pkgname-server
+    } || {
+        mv -f $pkgdir/usr/share/$_pkgname/$_pkgname.i386 $pkgdir/usr/bin/$_pkgname
+        mv -f $pkgdir/usr/share/$_pkgname/oa_ded.i386 $pkgdir/usr/bin/$_pkgname-server
+    }
+
+    find $pkgdir/usr/share -type f -exec chmod 644 {} +
+
+    install -m 644 $srcdir/$_pkgname{,-server}.png $pkgdir/usr/share/pixmaps/
+    install -m 644 $srcdir/$_pkgname{,-server}.desktop $pkgdir/usr/share/applications/
+}
+
+package_openarena-data() {
+    arch=('any')
+    cd $srcdir/$_pkgname-engine-$_oldver
+    install -d $pkgdir/usr/share/$_pkgname/
+    cp -rf $srcdir/$_pkgname-$_oldver/{baseoa,missionpack}/ $pkgdir/usr/share/$_pkgname/
+
+    find $pkgdir/usr/share -type f -exec chmod 644 {} +
+}
+
+# vim: sw=2:ts=2 et:
