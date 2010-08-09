@@ -1,13 +1,12 @@
-# $Id: PKGBUILD 86355 2010-07-30 06:41:21Z ibiru $
+# $Id: PKGBUILD 86923 2010-08-06 21:38:51Z ibiru $
 # Maintainer: Giovanni Scafora <giovanni@archlinux.org>
 # Contributor: Sarah Hay <sarahhay@mb.sympatico.ca>
 # Contributor: Martin Sandsmark <martin.sandsmark@kde.org>
 
 pkgbase=vlc
-pkgname=('vlc'
-         'vlc-plugin')
+pkgname=('vlc' 'vlc-plugin')
 pkgver=1.1.2
-pkgrel=1
+pkgrel=2
 arch=('i686' 'x86_64')
 url="http://www.videolan.org/vlc/"
 license=('GPL')
