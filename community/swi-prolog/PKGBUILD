@@ -1,14 +1,14 @@
-# $Id: PKGBUILD 85196 2010-07-10 05:12:09Z eric $
-# Maintainer:
+# $Id: PKGBUILD 23313 2010-08-09 19:18:38Z tdziedzic $
+# Maintainer: Thomas Dziedzic < gostrc at gmail >
 # Contributor: John Proctor <jproctor@prium.net>
 # Contributor: Juergen Hoetzel <juergen@archlinux.org>
 
 pkgname=swi-prolog
-pkgver=5.10.0
+pkgver=5.10.1
 pkgrel=1
-pkgdesc="Prolog environment"
+pkgdesc='Prolog environment'
 arch=('i686' 'x86_64')
-url="http://www.swi-prolog.org/"
+url='http://www.swi-prolog.org/'
 license=('GPL' 'LGPL')
 depends=('gmp' 'readline' 'openssl')
 makedepends=('libxft' 'libjpeg' 'unixodbc' 'libxpm' 'libxinerama')
@@ -18,17 +18,21 @@ optdepends=('unixodbc: for using the odbc4pl library' \
             'libxinerama: for using the pl2xpce library' \
             'libxft: for using the pl2xpce library')
 options=('!makeflags')
-source=(http://www.swi-prolog.org/download/stable/src/pl-${pkgver}.tar.gz)
-md5sums=('ebff502a0faa40e584255b6ddb163da9')
-sha1sums=('0115ec399b59848879e9053fbefeec209477f7c7')
+source=("http://www.swi-prolog.org/download/stable/src/pl-${pkgver}.tar.gz")
+md5sums=('9168a2c872d2130467c3e74b80ed3ee0')
 
 build() {
-  cd "${srcdir}/pl-${pkgver}"
-  ./configure --prefix=/usr --with-world
+  cd pl-${pkgver}
+
+  ./configure \
+    --prefix=/usr \
+    --with-world
+
   make
 }
 
 package() {
-  cd "${srcdir}/pl-${pkgver}"
-  make DESTDIR="${pkgdir}" install
+  cd pl-${pkgver}
+
+  make DESTDIR=${pkgdir} install
 }
