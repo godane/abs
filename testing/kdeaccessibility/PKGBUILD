@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 86189 2010-07-27 09:09:44Z andrea $
+# $Id: PKGBUILD 87096 2010-08-10 18:55:58Z ronald $
 # Maintainer: Andrea Scarpino <andrea@archlinux.org>
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
@@ -8,15 +8,15 @@ pkgname=('kdeaccessibility-colorschemes'
          'kdeaccessibility-kmag'
          'kdeaccessibility-kmousetool'
          'kdeaccessibility-kmouth')
-pkgver=4.4.95
+pkgver=4.5.0
 pkgrel=1
 arch=('i686' 'x86_64')
 url='http://accessibility.kde.org'
 license=('GPL' 'FDL')
 groups=('kde' 'kdeaccessibility')
 makedepends=('pkgconfig' 'cmake' 'automoc4' 'kdebase-runtime' 'docbook-xsl')
-source=("http://download.kde.org/unstable/${pkgver}/src/${pkgbase}-${pkgver}.tar.bz2")
-sha1sums=('9c77dcdf813370effce686e5ec2d66bafac84d62')
+source=("http://download.kde.org/stable/${pkgver}/src/${pkgbase}-${pkgver}.tar.bz2")
+sha1sums=('9be1d2394765bedea566ad0727dfac80cc37ffbd')
 
 build() {
 	cd $srcdir

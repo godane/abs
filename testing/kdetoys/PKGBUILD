@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 86197 2010-07-27 09:10:34Z andrea $
+# $Id: PKGBUILD 87103 2010-08-10 18:56:35Z ronald $
 # Maintainer: Andrea Scarpino <andrea@archlinux.org>
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
@@ -6,15 +6,15 @@ pkgbase=kdetoys
 pkgname=('kdetoys-amor'
          'kdetoys-kteatime'
          'kdetoys-ktux')
-pkgver=4.4.95
+pkgver=4.5.0
 pkgrel=1
 arch=('i686' 'x86_64')
 url='http://www.kde.org'
 license=('GPL' 'LGPL' 'FDL')
 groups=('kde' 'kdetoys')
 makedepends=('pkgconfig' 'cmake' 'automoc4' 'kdebase-workspace' 'docbook-xsl')
-source=("http://download.kde.org/unstable/${pkgver}/src/${pkgbase}-${pkgver}.tar.bz2")
-sha1sums=('c523778de4257e37a64159222ac31553b13ec452')
+source=("http://download.kde.org/stable/${pkgver}/src/${pkgbase}-${pkgver}.tar.bz2")
+sha1sums=('7f54336bbac1c5614003581567a0859ac8a28b6d')
 
 build() {
 	cd $srcdir
