@@ -1,8 +1,8 @@
-# $Id: PKGBUILD 23237 2010-08-09 02:14:08Z svenstaro $
+# $Id: PKGBUILD 23265 2010-08-09 14:44:48Z svenstaro $
 # Maintainer: Sven-Hendrik Haase <sh@lutzhaase.com>
 
 pkgname=openarena-data
-_pkgname=openarena
+_pkgbasnamee=openarena
 pkgver=0.8.5
 _oldver=0.8.1
 pkgrel=1

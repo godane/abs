@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 86194 2010-07-27 09:10:19Z andrea $
+# $Id: PKGBUILD 87101 2010-08-10 18:56:25Z ronald $
 # Maintainer: Andrea Scarpino <andrea@archlinux.org>
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
@@ -10,7 +10,7 @@ pkgname=('kdenetwork-filesharing'
          'kdenetwork-kppp'
          'kdenetwork-krdc'
          'kdenetwork-krfb')
-pkgver=4.4.95
+pkgver=4.5.0
 pkgrel=1
 arch=('i686' 'x86_64')
 url='http://www.kde.org'
@@ -20,8 +20,8 @@ makedepends=('pkgconfig' 'cmake' 'automoc4' 'boost' 'speex' 'ortp' 'libotr'
 	'qca-ossl' 'kdebase-workspace' 'kdebase-lib' 'libvncserver' 'libmsn'
 	'ppp' 'libv4l' 'libidn' 'rdesktop' 'qimageblitz' 'libxdamage' 'libgadu'
 	'telepathy-qt4' 'docbook-xsl' 'libktorrent')
-source=("http://download.kde.org/unstable/${pkgver}/src/${pkgbase}-${pkgver}.tar.bz2")
-sha1sums=('2374f6c85dabe19c4d17cb037da59f8e7f499dca')
+source=("http://download.kde.org/stable/${pkgver}/src/${pkgbase}-${pkgver}.tar.bz2")
+sha1sums=('be2ac295380c79efba986d33fc0d285b9e3e565f')
 
 build() {
 	cd ${srcdir}

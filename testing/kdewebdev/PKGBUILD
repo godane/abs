@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 86199 2010-07-27 09:10:42Z andrea $
+# $Id: PKGBUILD 87105 2010-08-10 18:56:47Z ronald $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgbase=kdewebdev
@@ -6,7 +6,7 @@ pkgname=('kdewebdev-kfilereplace'
          'kdewebdev-kimagemapeditor'
          'kdewebdev-klinkstatus'
          'kdewebdev-kommander')
-pkgver=4.4.95
+pkgver=4.5.0
 pkgrel=1
 arch=('i686' 'x86_64')
 url='http://www.kde.org'
@@ -14,8 +14,8 @@ license=('GPL' 'LGPL' 'FDL')
 groups=('kde' 'kdewebdev')
 makedepends=('pkgconfig' 'cmake' 'automoc4' 'ruby' 'tidyhtml' 'kdepim-runtime'
 	'docbook-xsl')
-source=("http://download.kde.org/unstable/${pkgver}/src/${pkgbase}-${pkgver}.tar.bz2")
-sha1sums=('42857d4f51f27f6f8ed38705a2c3c9eec0548159')
+source=("http://download.kde.org/stable/${pkgver}/src/${pkgbase}-${pkgver}.tar.bz2")
+sha1sums=('18fc93e59452d1a5a33098eb89049241a2a86cc5')
 
 build() {
 	cd $srcdir

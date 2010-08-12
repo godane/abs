@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 86193 2010-07-27 09:10:04Z andrea $
+# $Id: PKGBUILD 87100 2010-08-10 18:56:20Z ronald $
 # Maintainer: Andrea Scarpino <andrea@archlinux.org>
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
@@ -10,7 +10,7 @@ pkgname=('kdemultimedia-dragonplayer'
          'kdemultimedia-kmix'
          'kdemultimedia-kscd'
          'kdemultimedia-mplayerthumbs')
-pkgver=4.4.95
+pkgver=4.5.0
 pkgrel=1
 arch=('i686' 'x86_64')
 url='http://www.kde.org'
@@ -18,9 +18,9 @@ license=('GPL' 'LGPL' 'FDL')
 groups=('kde' 'kdemultimedia')
 makedepends=('pkgconfig' 'cmake' 'automoc4' 'kdebase-runtime' 'tunepimp' 'ffmpeg'
 	'mplayer' 'docbook-xsl')
-source=("http://download.kde.org/unstable/${pkgver}/src/${pkgbase}-${pkgver}.tar.bz2"
+source=("http://download.kde.org/stable/${pkgver}/src/${pkgbase}-${pkgver}.tar.bz2"
         'mplayerthumbs.config')
-sha1sums=('c116d87a515f4289f90aec35faba0a34c173653c'
+sha1sums=('325d270322a2140f3dd288b4f26971d63d3059bb'
           'ba016fa2563c14ffcba852c62506b66bfc6ee683')
 
 build() {

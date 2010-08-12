@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 86191 2010-07-27 09:09:54Z andrea $
+# $Id: PKGBUILD 87098 2010-08-10 18:56:09Z ronald $
 # Maintainer: Andrea Scarpino <andrea@archlinux.org>
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
@@ -13,7 +13,7 @@ pkgname=('kdeartwork-aurorae'
          'kdeartwork-styles'
          'kdeartwork-wallpapers'
          'kdeartwork-weatherwallpapers')
-pkgver=4.4.95
+pkgver=4.5.0
 pkgrel=1
 arch=('i686' 'x86_64')
 url='http://www.kde.org'
@@ -21,8 +21,8 @@ license=('GPL' 'LGPL' 'FDL')
 groups=('kde' 'kdeartwork')
 makedepends=('pkgconfig' 'cmake' 'automoc4' 'xscreensaver' 'eigen' 'kdebase-workspace'
 	'docbook-xsl')
-source=("http://download.kde.org/unstable/${pkgver}/src/${pkgbase}-${pkgver}.tar.bz2")
-sha1sums=('8858ada3de11d7f32984c8567008c2ebc63c433d')
+source=("http://download.kde.org/stable/${pkgver}/src/${pkgbase}-${pkgver}.tar.bz2")
+sha1sums=('7093bfd01310c15114e61859d6321115ed3e6431')
 
 build() {
 	cd $srcdir
