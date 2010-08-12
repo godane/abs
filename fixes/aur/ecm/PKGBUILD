@@ -1,0 +1,22 @@
+# Contributor: Christoph Zeiler <rabyte*gmail>
+
+pkgname=ecm
+pkgver=1.0
+pkgrel=2
+pkgdesc="Converts CD image files into a lossless format optimized for compression tools"
+arch=('i686' 'x86_64')
+url="http://www.neillcorlett.com/ecm/"
+license=('GPL')
+depends=('glibc')
+provides=('unecm')
+source=(http://www.neillcorlett.com/downloads/ecm100.zip)
+md5sums=('debcc0772cea7e8b1ae2562a38788fb6')
+
+build() {
+  for i in {,un}ecm; do
+	gcc ${CFLAGS} $i.c -o $i || return 1
+	install -Dm755 $i $pkgdir/usr/bin/$i
+  done
+}
+
+# vim:set ts=2 sw=2 et:
