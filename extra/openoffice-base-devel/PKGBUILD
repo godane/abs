@@ -1,10 +1,10 @@
-# $Id: PKGBUILD 86074 2010-07-25 13:56:56Z andyrtr $
+# $Id: PKGBUILD 87272 2010-08-11 17:50:15Z andyrtr $
 # Maintainer: AndyRTR <andyrtr@archlinux.org>
 # Contributor: Hussam Al-Tayeb <ht990332@gmail.com>
 
 pkgbase="openoffice-base-devel"
 pkgname=('openoffice-base-devel' 'openoffice-sdk-devel')
-_OO_milestone=DEV300_m85
+_OO_milestone=DEV300_m86
 pkgver=3.4_${_OO_milestone/DEV/dev}
 pkgrel=1
 arch=('i686' 'x86_64')
@@ -31,8 +31,9 @@ source=(${_OO_milestone}.tar.xz
 	buildfix_FormulaMissingHeader.diff
 	http://cgit.freedesktop.org/ooo-build/ooo-build/plain/patches/dev300/cppu-lbnames-enable-gcc-4.5.diff
 	http://cgit.freedesktop.org/ooo-build/ooo-build/plain/patches/dev300/sal-cpprt-gcc-4.5-workaround.diff
-	dictionaries-needs-th-gen-idx.pl.diff
 	cppunit_gcc45.diff
+	http://www.openoffice.org/nonav/issues/showattachment.cgi/70906/fixup.patch
+	http://www.openoffice.org/nonav/issues/showattachment.cgi/70985/vcl.empty-library_path.patch
 	openoffice.profile)
 options=('!distcc' '!ccache' '!makeflags')
 
@@ -72,9 +73,11 @@ build() {
 	# gcc4.5 fix
 	patch -Np0 -i ${srcdir}/cppu-lbnames-enable-gcc-4.5.diff
 	patch -Np0 -i ${srcdir}/sal-cpprt-gcc-4.5-workaround.diff
-	# http://www.openoffice.org/issues/show_bug.cgi?id=113223
-	patch -Np1 -i ${srcdir}/dictionaries-needs-th-gen-idx.pl.diff
-
+	# buildfix for http://www.openoffice.org/issues/show_bug.cgi?id=113563
+	patch -Np1 -i ${srcdir}/fixup.patch
+	# buildfix for http://www.openoffice.org/issues/show_bug.cgi?id=113773, http://www.openoffice.org/issues/show_bug.cgi?id=113632
+	patch -Np1 -i ${srcdir}/vcl.empty-library_path.patch
+	
 	# allows soffice to find the user's firefox profile so that it can read
 	# its digital certificates. Nss stores digital certificates in your mozilla firefox profile. 
 	patch -Np0 -i ${srcdir}/soffice-detect-mozilla-certificates.diff
@@ -312,7 +315,6 @@ package_openoffice-base-devel() {
 
 	## Develize it!
 	cd ${pkgdir}/usr/lib/
-#	mv openoffice openoffice-dev
 	mv openoffice.org openoffice.org-dev
 	mv openoffice.org3 openoffice.org3-dev
 	# fix link
@@ -324,9 +326,6 @@ package_openoffice-base-devel() {
 
 	cd ${pkgdir}/usr/bin
 	rm -f soffice spadmin
-#	ln -sf /usr/lib/openoffice-dev/program/soffice soffice-dev
-#	ln -sf /usr/lib/openoffice-dev/program/spadmin spadmin-dev
-#	ln -sf /usr/lib/openoffice-dev/program/unopkg unopkg-dev
 	ln -sf /usr/lib/openoffice.org3-dev/program/soffice soffice-dev
 	ln -sf /usr/lib/openoffice.org3-dev/program/spadmin spadmin-dev
 	ln -sf /usr/lib/openoffice.org3-dev/program/unopkg unopkg-dev
@@ -342,7 +341,6 @@ package_openoffice-base-devel() {
 	sed -i -e 's|Icon=|Icon=dev-|g' ${pkgdir}/usr/share/applications/*.desktop
 	sed -i -e 's|OpenOffice\.org\ 3\.4|OpenOffice\.org\ devel|g' ${pkgdir}/usr/share/applications/*.desktop
 
-#	cd ${pkgdir}/usr/lib/openoffice-dev/program/
 	ln -vsf /usr/lib/openoffice.org3-dev/program/soffice.bin soffice-dev.bin
 	
        # set desktop variable to force gtk/gnome vcl usage
@@ -351,8 +349,6 @@ package_openoffice-base-devel() {
 
 	# link the mozilla-plugin
 	mkdir -p ${pkgdir}/usr/lib/mozilla/plugins/
-#	cd ${pkgdir}/usr/lib/mozilla/plugins/
-#	ln -v -s /usr/lib/openoffice-dev/program/libnpsoplugin.so . 
 	ln -vs /usr/lib/openoffice.org3-dev/program/libnpsoplugin.so  ${pkgdir}/usr/lib/mozilla/plugins/libnpsoplugin.so
 	mv ${pkgdir}/usr/lib/mozilla/plugins/libnpsoplugin.so ${pkgdir}/usr/lib/mozilla/plugins/libnpsoplugin-dev.so
 }
@@ -395,16 +391,11 @@ package_openoffice-sdk-devel() {
 	done
 
 	cd ${pkgdir}/usr/lib/
-#	mv openoffice.org openoffice
-
-# 	cd ${pkgdir}/usr/lib/openoffice/
-#	mv basis3.4 basis-link
 
 	# fix ownership and permissions
 	chown root.root -R ${pkgdir}/
 	
 	## Develize it!
 	cd ${pkgdir}/usr/lib/
-#	mv openoffice openoffice-dev
 	mv openoffice.org openoffice.org-dev
 }
