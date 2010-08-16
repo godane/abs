@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 36977 2009-04-29 06:02:51Z eric $
+# $Id: PKGBUILD 36975 2009-04-29 06:00:04Z eric $
 # Maintainer: roberto <roberto@archlinux.org>
 # Contributor: Tom Newsom <Jeepster@gmx.co.uk>
 pkgname=bladeenc

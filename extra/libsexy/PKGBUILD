@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 57005 2009-10-31 07:28:44Z allan $
+# $Id: PKGBUILD 57006 2009-10-31 07:29:59Z allan $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 pkgname=libsexy
 pkgver=0.1.11

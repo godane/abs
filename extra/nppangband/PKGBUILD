@@ -1,12 +1,13 @@
-# $Id: PKGBUILD 57635 2009-11-01 07:44:21Z james $
+# $Id: PKGBUILD 58001 2009-11-03 08:18:40Z giovanni $
 # Maintainer: James Rayner <iphitus@gmail.com>
 
 pkgname=nppangband
 pkgver=0.5.0.25
-pkgrel=1
+pkgrel=1.1
 pkgdesc="A variant of Angband that attempts to take popular ideas from other variants"
 url="http://www.assembla.com/wiki/show/NPPAngband"
 depends=('ncurses' 'libx11')
+makedepends=('libxaw' 'xorg-font-utils')
 source=(http://www.assembla.com/spaces/NPPAngband/documents/dmfeFgWJir3PuseJe5afGb/download/npp050-rev25-src.zip)
 license=('custom')
 arch=('i686' 'x86_64')

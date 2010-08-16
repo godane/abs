@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 7479 2010-01-07 02:59:50Z dgriffiths $
+# $Id: PKGBUILD 7480 2010-01-07 03:00:10Z dgriffiths $
 # Contributor: dibblethewrecker dibblethewrecker.at.jiwe.dot.org
 
 pkgname=tkgm_util

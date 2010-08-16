@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 51322 2009-09-07 15:47:43Z tpowa $
+# $Id: PKGBUILD 51321 2009-09-07 15:46:45Z tpowa $
 # Maintainer : Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=mkpxelinux

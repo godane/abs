@@ -1,9 +1,9 @@
-# $Id: PKGBUILD 20578 2010-07-09 07:27:55Z spupykin $
+# $Id: PKGBUILD 23521 2010-08-12 09:23:12Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=cross-arm-wince-cegcc-gcc-base
 pkgver=0.59.1
-pkgrel=1
+pkgrel=2
 _prefix=/opt/cegcc
 pkgdesc="CE GCC bundle - cross compilation tools for WinCE"
 arch=(i686 x86_64)
@@ -11,13 +11,14 @@ license=(GPL)
 options=(!libtool)
 url="http://cegcc.sf.net"
 depends=('glibc' 'mpfr' 'cloog-ppl')
+makedepends=(cross-arm-wince-cegcc-binutils)
 source=(http://arch.pp.ru/~sergej/dl/cegcc-$pkgver.tar.bz2)
 md5sums=('5e3c1098abdf8e5db2a3518ee3578b4b')
 
 build() {
   cd $srcdir/cegcc/src
 
-  mkdir build-gcc-base
+  mkdir build-gcc-base || true
   cd build-gcc-base
 
   export PATH=$_prefix/bin:$PATH
@@ -49,4 +50,6 @@ build() {
 
   make all-gcc || (cd gcc && make) && make all-gcc || return 1
   make DESTDIR=$pkgdir install-gcc || return 1
+  find $pkgdir/${_prefix} -type f -name \*.a -exec arm-wince-cegcc-ranlib {} \;
+  cd $pkgdir/${_prefix} && ln -s arm-wince-cegcc arm-cegcc
 }

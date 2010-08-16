@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 49636 2009-08-14 06:19:29Z tobias $
+# $Id: PKGBUILD 49607 2009-08-14 03:32:08Z tobias $
 # Maintainer : Aaron Griffin <aaron@archlinux.org>
 
 pkgname=vim-guicolorscheme

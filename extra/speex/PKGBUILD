@@ -1,10 +1,10 @@
-# $Id: PKGBUILD 42625 2009-06-17 11:31:27Z allan $
+# $Id: PKGBUILD 7447 2008-08-02 04:56:05Z eric $
 # Contributer: Jason Chu <jason@archlinux.org>
 # Maintainer: Jason Chu <jason@archlinux.org>
 
 pkgname=speex
 pkgver=1.2rc1
-pkgrel=1.1
+pkgrel=1
 pkgdesc="A free codec for free speech"
 arch=('i686' 'x86_64')
 license=('BSD')

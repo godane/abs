@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 5143 2009-11-07 00:38:21Z dgriffiths $
+# $Id: PKGBUILD 5144 2009-11-07 00:41:40Z ibiru $
 # Maintainer: Charles Mauch <cmauch@gmail.com>
 
 pkgname=hashcash

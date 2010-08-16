@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 15858 2008-10-19 15:43:28Z thayer $
+# $Id: PKGBUILD 15775 2008-10-18 20:40:50Z eric $
 # Maintainer: Thayer Williams <thayer@archlinux.org>
 
 pkgname=trayer

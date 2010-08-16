@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 56212 2009-10-20 09:35:11Z andyrtr $
+# $Id: PKGBUILD 56211 2009-10-20 09:32:31Z andyrtr $
 # Contributor: Tobias Kieslich <tobias (at) archlinux.org>
 
 pkgname=thunar-volman

@@ -1,9 +1,9 @@
-# $Id: PKGBUILD 37029 2009-04-30 04:02:57Z eric $
+# $Id: PKGBUILD 8433 2008-08-11 03:21:13Z eric $
 # Maintainer: dorphell <dorphell@archlinux.org>
 
 pkgname=zip
 pkgver=3.0
-pkgrel=1.1
+pkgrel=1
 pkgdesc="Creates PKZIP-compatible .zip files"
 arch=(i686 x86_64)
 url="http://www.info-zip.org/pub/infozip/Zip.html"

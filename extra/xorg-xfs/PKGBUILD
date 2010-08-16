@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 50031 2009-08-18 15:04:49Z jgc $
+# $Id: PKGBUILD 49791 2009-08-15 16:43:48Z jgc $
 # Maintainer: Alexander Baldeck <alexander@archlinux.org>
 # Contributor: Jan de Groot <jgc@archlinux.org>
 pkgname=xorg-xfs

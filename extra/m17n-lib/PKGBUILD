@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 57532 2009-10-31 20:25:39Z eric $
+# $Id: PKGBUILD 57526 2009-10-31 20:17:19Z eric $
 # Contributor: Camille Moncelier <pix@devlife.org>
 
 pkgname=m17n-lib

@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 36339 2009-04-21 02:17:26Z eric $
+# $Id: PKGBUILD 36334 2009-04-21 02:04:21Z eric $
 # Maintainer: dorphell <dorphell@archlinux.org>
 # Contributor: Judd Vinet <jvinet@zeroflux.org>
 pkgname=x2x

@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 20964 2010-07-13 09:29:50Z spupykin $
+# $Id: PKGBUILD 20984 2010-07-13 09:55:52Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=cross-arm-wince-cegcc-libstdcppdll
@@ -52,7 +52,7 @@ if [ $NOEXTRACT -ne 1 ]; then
 	--disable-libssp
 fi
 
-  make || return 1
+#  make || return 1
 
   #
   # libstdc++

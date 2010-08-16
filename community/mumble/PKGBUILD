@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 23350 2010-08-10 02:31:41Z svenstaro $
+# $Id: PKGBUILD 23688 2010-08-14 16:39:46Z svenstaro $
 # Maintainer: Sven-Hendrik Haase <sh@lutzhaase.com>
 # Contributor: Lauri Niskanen <ape@ape3000.com>
 # Contributor: Sebastian.Salich@gmx.de
@@ -9,14 +9,13 @@
 
 pkgname=mumble
 pkgver=1.2.2
-pkgrel=8
+pkgrel=10
 arch=('i686' 'x86_64')
 pkgdesc="A voice chat application similar to TeamSpeak"
 license=('GPL')
 depends=('qt' 'speex' 'celt-0.7' 'lsb-release' 'libxi' 'avahi' 'libsndfile' 'protobuf')
 makedepends=('boost' 'mesa' 'avahi')
-optdepends=('pulseaudio: for pulseaudio back-end' 'portaudio: for portaudio back-end' 'g15daemon: G15 Keyboard support')
-conflicts=('mumble-client')
+#optdepends=('portaudio: for portaudio back-end' 'g15daemon: G15 Keyboard support')
 options=('!libtool') 
 install=mumble.install
 url="http://mumble.sourceforge.net/"
@@ -31,7 +30,7 @@ build() {
   # Building mumble
   /usr/bin/qmake main.pro \
     CONFIG+="no-bundled-speex no-speechd no-bundled-celt no-g15 no-xevie no-server \
-     no-embed-qt-translations packaged" \
+     no-embed-qt-translations no-pulseaudio packaged" \
     DEFINES+="PLUGIN_PATH=/usr/lib/mumble/plugins"
   make
 }
@@ -56,3 +55,5 @@ package() {
   install -m644 -D ./man/mum* $pkgdir/usr/share/man/man1/
   install -m644 -D ./icons/mumble.svg $pkgdir/usr/share/icons/hicolor/scalable/apps/mumble.svg
 }
+
+# vim: sw=2:ts=2 et:

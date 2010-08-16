@@ -10,7 +10,7 @@ arch=(i686 x86_64)
 license=('GPL')
 url="http://search.cpan.org/dist/${_realname}/"
 depends=('perl>=5.10.0')
-replaces=string-shellquote
+replaces=('string-shellquote')
 source=(http://www.cpan.org/modules/by-module/URI/ROSCH/${_realname}-${pkgver}.tar.gz)
 options=(!emptydirs)
 md5sums=('b42822efe385f6604f55b0cea5ac0b76')

@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 82294 2010-06-10 03:52:16Z allan $
+# $Id: PKGBUILD 87248 2010-08-11 14:10:45Z allan $
 # Maintainer: Allan McRae <allan@archlinux.org>
 # Contributor: judd <jvinet@zeroflux.org>
 
@@ -6,7 +6,7 @@
 
 pkgname=libtool
 pkgver=2.2.10
-pkgrel=1
+pkgrel=3
 pkgdesc="A generic library support script"
 arch=('i686' 'x86_64')
 url="http://www.gnu.org/software/libtool"
@@ -21,7 +21,8 @@ md5sums=('b745d220e88163fcd9eea0a90ccf21b0')
 build() {
   cd ${srcdir}/${pkgname}-${pkgver}
   ./configure --prefix=/usr
-  make || return 1
+  make
+  make check
 }
 
 package() {

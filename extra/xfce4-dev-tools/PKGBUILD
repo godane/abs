@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 28225 2009-02-28 12:05:31Z andyrtr $
+# $Id: PKGBUILD 28094 2009-02-27 22:11:11Z andyrtr $
 # Maintainer: Tobias Kieslich <tobias funnychar archlinux.org>
 
 pkgname=xfce4-dev-tools

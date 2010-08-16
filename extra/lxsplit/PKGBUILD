@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 26538 2009-02-08 23:14:14Z eric $
+# $Id: PKGBUILD 26529 2009-02-08 21:47:07Z eric $
 # Contributor: Damir Perisa <damir.perisa@bluewin.ch>
 
 pkgname=lxsplit

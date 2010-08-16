@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 7501 2010-01-07 03:33:00Z dgriffiths $
+# $Id: PKGBUILD 7502 2010-01-07 03:33:19Z dgriffiths $
 # Maintainer: Jeff Mickey <j@codemac.net>
 
 pkgname=rexima

@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 36734 2009-04-27 03:02:17Z eric $
+# $Id: PKGBUILD 36702 2009-04-26 23:32:54Z eric $
 # Maintainer: Alexander Baldeck <alexander@archlinux.org>
 # Contributor: Jan de Groot <jgc@archlinux.org>
 pkgname=xorg-res-utils

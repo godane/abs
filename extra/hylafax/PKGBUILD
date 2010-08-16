@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 62529 2010-01-09 20:35:57Z tpowa $
+# $Id: PKGBUILD 62528 2010-01-09 20:34:27Z tpowa $
 # Maintainer: Paul Mattal <paul@archlinux.org>
 pkgname=hylafax
 pkgver=6.0.4
@@ -15,6 +15,7 @@ backup=(var/spool/hylafax/bin/{faxrcvd,notify} \
 	var/spool/hylafax/etc/hosts.hfaxd) 
 source=(ftp://ftp.hylafax.org/source/${pkgname}-${pkgver}.tar.gz hylafax \
         hylafax.cron.daily config.local)
+options=('!makeflags')
 
 # build as root for successful build!
 build() {

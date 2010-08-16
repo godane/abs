@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 36388 2009-04-22 01:31:06Z eric $
+# $Id: PKGBUILD 36385 2009-04-22 01:10:54Z eric $
 # Maintainer: Juergen Hoetzel <juergen@archlinux.org>
 pkgname=xemacs-base
 pkgver=2.19

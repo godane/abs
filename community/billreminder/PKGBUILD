@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 1073 2009-08-12 20:17:20Z dgriffiths $
+# $Id: PKGBUILD 1074 2009-08-12 20:21:58Z ibiru $
 # Maintainer: Hugo Doria <hugo@archlinux.org>
 
 pkgname=billreminder

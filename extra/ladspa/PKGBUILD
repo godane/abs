@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 18545 2008-11-06 23:58:57Z jgc $
+# $Id: PKGBUILD 18544 2008-11-06 23:58:14Z jgc $
 # Maintainer: damir <damir@archlinux.org>
 
 pkgname=ladspa

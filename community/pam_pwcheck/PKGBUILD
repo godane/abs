@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 7507 2010-01-07 03:43:09Z dgriffiths $
+# $Id: PKGBUILD 7508 2010-01-07 03:43:27Z dgriffiths $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=pam_pwcheck

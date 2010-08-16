@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 50028 2009-08-18 14:54:30Z jgc $
+# $Id: PKGBUILD 49882 2009-08-16 19:52:26Z jgc $
 # Maintainer: Thomas Baechler <thomas@archlinux.org>
 
 pkgname=fprint_demo

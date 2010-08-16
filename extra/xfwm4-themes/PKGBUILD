@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 28216 2009-02-28 11:27:39Z andyrtr $
+# $Id: PKGBUILD 28064 2009-02-27 20:44:58Z andyrtr $
 # Maintainer: Tobias Kieslich <tobias funnychar archlinux.org>
 
 pkgname=xfwm4-themes

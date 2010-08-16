@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 37020 2009-04-30 00:06:28Z eric $
+# $Id: PKGBUILD 37013 2009-04-29 22:54:35Z eric $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=emovix

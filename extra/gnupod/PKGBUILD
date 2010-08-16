@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 57649 2009-11-01 10:21:11Z james $
+# $Id: PKGBUILD 57655 2009-11-01 11:20:06Z giovanni $
 # Maintainer: James Rayner <iphitus@gmail.com>
 # Contributor: Tom K <tomk@runbox.com>
 pkgname=gnupod

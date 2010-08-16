@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 3823 2009-10-09 16:58:12Z ibiru $
+# $Id: PKGBUILD 3822 2009-10-09 16:56:12Z ibiru $
 # Contributor: Artem Sorokin <mail.dextor@gmail.com>
 pkgname=polymer
 pkgver=0.3.2

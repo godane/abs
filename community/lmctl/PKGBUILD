@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 5161 2009-11-07 01:42:14Z dgriffiths $
+# $Id: PKGBUILD 5272 2009-11-07 13:24:02Z ibiru $
 # Maintainer: Jeff Mickey <j@codemac.net>
 # Contributor: Shadowhand <woody.gilk@gmail.com>
 
@@ -29,6 +29,6 @@ build() {
 	make DESTDIR=$startdir/pkg install || return 1
 	
 	# install the init scripts
-	install -D -m755 $startdir/lmctl.rc.d $startdir/pkg/etc/rc.d/lmctl
-	install -D -m644 $startdir/lmctl.conf.d $startdir/pkg/etc/conf.d/lmctl
+	install -D -m755 $srcdir/lmctl.rc.d $startdir/pkg/etc/rc.d/lmctl
+	install -D -m644 $srcdir/lmctl.conf.d $startdir/pkg/etc/conf.d/lmctl
 }

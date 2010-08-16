@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 10833 2010-02-02 19:21:36Z jlichtblau $
+# $Id: PKGBUILD 10834 2010-02-02 19:30:09Z jlichtblau $
 # Maintainer: Jaroslav Lichtblau <dragonlord@aur.archlinux.org>
 
 pkgname=gstreamermm

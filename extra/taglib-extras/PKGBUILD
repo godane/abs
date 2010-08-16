@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 52966 2009-09-23 19:59:18Z andrea $
+# $Id: PKGBUILD 52970 2009-09-23 20:36:32Z giovanni $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=taglib-extras

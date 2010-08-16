@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 68085 2010-02-10 17:56:14Z giovanni $
+# $Id: PKGBUILD 68086 2010-02-10 17:57:04Z giovanni $
 # Maintainer: Giovanni Scafora <giovanni@archlinux.org>
 
 pkgname=ogmtools

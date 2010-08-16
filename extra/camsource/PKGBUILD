@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 68021 2010-02-10 14:12:50Z giovanni $
+# $Id: PKGBUILD 68022 2010-02-10 14:13:39Z giovanni $
 # Maintainer: Giovanni Scafora <giovanni@archlinux.org>
 
 pkgname=camsource

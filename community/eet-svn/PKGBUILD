@@ -1,10 +1,10 @@
-# $Id: PKGBUILD 22279 2010-07-20 12:40:51Z rvanharen $
+# $Id: PKGBUILD 22196 2010-07-19 17:15:50Z rvanharen $
 # Maintainer: Ronald van Haren <ronald.archlinux.org>
 # Contributor: Ronald van Haren <ronald.archlinux.org>
 
 pkgname=eet-svn
 pkgver=50262
-pkgrel=1.1
+pkgrel=1
 pkgdesc="A data storage and compression library"
 arch=('i686' 'x86_64')
 groups=('e17-libs-svn' 'e17-svn')

@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 62214 2010-01-04 09:19:11Z tpowa $
+# $Id: PKGBUILD 62211 2010-01-04 09:17:10Z tpowa $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=libgssglue

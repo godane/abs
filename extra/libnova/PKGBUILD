@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 62101 2010-01-02 09:15:25Z tpowa $
+# $Id: PKGBUILD 62102 2010-01-02 09:17:17Z tpowa $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=libnova

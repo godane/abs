@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 54833 2009-10-11 19:46:09Z giovanni $
+# $Id: PKGBUILD 54835 2009-10-11 19:46:55Z giovanni $
 # Maintainer: juergen <juergen@archlinux.org>
 # Contributor: Tom Newsom <Jeepster@gmx.co.uk>
 #
@@ -27,8 +27,8 @@ build() {
   ./configure --prefix=/usr --sysconfdir=/etc
   /usr/bin/make || return 1
   /usr/bin/make DESTDIR=$startdir/pkg install || return 1
-  /bin/install -D -m755 $startdir/metalog $startdir/pkg/etc/rc.d/metalog
-  /bin/install -D -m644 $startdir/metalog.confd $startdir/pkg/etc/conf.d/metalog
+  /bin/install -D -m755 $startdir/src/metalog $startdir/pkg/etc/rc.d/metalog
+  /bin/install -D -m644 $startdir/src/metalog.confd $startdir/pkg/etc/conf.d/metalog
   /bin/install -D -m644 metalog.conf $startdir/pkg/etc/metalog.conf
 }
 

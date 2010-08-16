@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 58247 2009-11-06 14:41:31Z eric $
+# $Id: PKGBUILD 58245 2009-11-06 14:34:42Z eric $
 # Maintainer: dorphell <dorphell@archlinux.org>
 
 pkgname=bc

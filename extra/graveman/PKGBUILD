@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 55997 2009-10-17 12:14:14Z andrea $
+# $Id: PKGBUILD 56018 2009-10-17 23:33:19Z giovanni $
 # Contributor: Judd Vinet <jvinet@zeroflux.org>
 
 pkgname=graveman

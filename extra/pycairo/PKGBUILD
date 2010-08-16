@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 66479 2010-01-31 10:33:16Z jgc $
+# $Id: PKGBUILD 66480 2010-01-31 10:33:32Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=pycairo

@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 49914 2009-08-16 21:16:15Z jgc $
+# $Id: PKGBUILD 49847 2009-08-16 18:36:23Z jgc $
 # Maintainer: Jeff 'codemac' Mickey <jeff@archlinux.org>
 
 pkgname=cvsps

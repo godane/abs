@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 66427 2010-01-31 08:35:56Z tpowa $
+# $Id: PKGBUILD 66423 2010-01-31 08:27:38Z tpowa $
 # Maintainer: dorphell <dorphell@archlinux.org>
 # Committer: Judd Vinet <jvinet@zeroflux.org>
 pkgname=dosfstools

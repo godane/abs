@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 7160 2010-01-02 13:26:11Z spupykin $
+# $Id: PKGBUILD 7161 2010-01-02 13:29:14Z spupykin $
 # Maintainer: Alexander Fehr <pizzapunk gmail com>
 
 pkgname=parcellite

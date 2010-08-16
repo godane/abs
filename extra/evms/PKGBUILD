@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 55539 2009-10-13 19:25:39Z eric $
+# $Id: PKGBUILD 55530 2009-10-13 19:00:41Z eric $
 # Maintainer: Judd Vinet <jvinet@zeroflux.org>
 
 pkgname=evms

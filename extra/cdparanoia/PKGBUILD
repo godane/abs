@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 53530 2009-10-02 03:48:49Z eric $
+# $Id: PKGBUILD 53529 2009-10-02 03:47:22Z eric $
 # Maintainer: Alexander Fehr <pizzapunk gmail com>
 
 pkgname=cdparanoia

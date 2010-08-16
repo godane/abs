@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 7317 2010-01-04 15:48:22Z spupykin $
+# $Id: PKGBUILD 7318 2010-01-04 15:50:07Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=postgresql-tsearch2
