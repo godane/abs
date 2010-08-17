@@ -3,5 +3,6 @@ README.md
 scripts/
 gnome-unstable/
 xorg18/
+strings-repo/
 abs.exclude
 abs.conf
