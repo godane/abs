@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 55991 2009-10-17 11:56:13Z andrea $
+# $Id: PKGBUILD 56015 2009-10-17 23:21:11Z giovanni $
 # Contributor: Damir Perisa <damir.perisa@bluewin.ch>
 
 pkgname=lzop

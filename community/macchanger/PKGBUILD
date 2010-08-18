@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 7198 2010-01-03 07:54:48Z dgriffiths $
+# $Id: PKGBUILD 7199 2010-01-03 07:55:05Z dgriffiths $
 
 pkgname=macchanger
 pkgver=1.5.0

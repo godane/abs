@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 50982 2009-09-04 12:17:17Z jgc $
+# $Id: PKGBUILD 51052 2009-09-04 17:24:42Z jgc $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libfontenc

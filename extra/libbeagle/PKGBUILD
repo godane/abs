@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 46514 2009-07-18 18:09:18Z jgc $
+# $Id: PKGBUILD 46513 2009-07-18 18:08:39Z jgc $
 # Maintainer: Daniel Isenmann <daniel@archlinux.org>
 
 pkgname=libbeagle

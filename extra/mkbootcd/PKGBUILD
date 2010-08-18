@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 12671 2008-09-17 21:19:41Z tpowa $
+# $Id: PKGBUILD 12672 2008-09-17 21:20:37Z tpowa $
 # Maintainer : Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=mkbootcd

@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 64685 2010-01-21 21:49:23Z juergen $
+# $Id: PKGBUILD 64706 2010-01-21 22:40:28Z juergen $
 # Maintainer: Juergen Hoetzel <juergen@archlinux.org>
 
 pkgname=rep-gtk

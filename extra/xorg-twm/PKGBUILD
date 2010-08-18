@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 36509 2009-04-24 01:26:09Z eric $
+# $Id: PKGBUILD 36506 2009-04-24 01:14:24Z eric $
 # Maintainer: Alexander Baldeck <alexander@archlinux.org>
 # Contributor: Jan de Groot <jgc@archlinux.org>
 pkgname=xorg-twm

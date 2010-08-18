@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 86683 2010-08-03 08:22:27Z tpowa $
+# $Id: PKGBUILD 86682 2010-08-03 08:22:05Z tpowa $
 # Maintainer : Thomas Baechler <thomas@archlinux.org>
 
 pkgname=nvidia

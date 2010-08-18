@@ -1,11 +1,11 @@
-$Id: PKGBUILD 15984 2010-04-19 20:37:12Z angvp $
+$Id: PKGBUILD 16297 2010-04-28 14:10:18Z angvp $
 # Maintainer: Andrea Scarpino <bash.lnx@gmail.com>
 # Contributor: Bjorn Lindeijer <bjorn@lindeijer.nl>
 # Contributor: William Rea <sillywilly@gmail.com>
 
 pkgname=ruby-gnomecanvas
 pkgver=0.19.3
-pkgrel=3
+pkgrel=3.1
 pkgdesc="Ruby GnomeCanvas bindings."
 arch=('i686' 'x86_64')
 url="http://ruby-gnome2.sourceforge.jp"

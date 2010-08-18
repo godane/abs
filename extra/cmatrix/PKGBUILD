@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 53888 2009-10-03 19:02:27Z eric $
+# $Id: PKGBUILD 53887 2009-10-03 18:54:48Z eric $
 # Contributor: john
 
 pkgname=cmatrix

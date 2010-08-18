@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 27825 2009-02-26 09:04:34Z eric $
+# $Id: PKGBUILD 27826 2009-02-26 09:06:53Z eric $
 # Maintainer: Kevin Piche <kevin@archlinux.org>
 pkgname=hping
 pkgver=3.0.0

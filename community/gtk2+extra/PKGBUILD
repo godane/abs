@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 5975 2009-11-24 14:10:08Z spupykin $
+# $Id: PKGBUILD 5976 2009-11-24 14:14:52Z spupykin $
 # Contributor: Tom Newsom <Jeepster@gmx.co.uk>
 
 pkgname=gtk2+extra

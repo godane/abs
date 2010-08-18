@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 999 2009-08-11 09:11:22Z spupykin $
+# $Id: PKGBUILD 1000 2009-08-11 09:12:57Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=unifdef

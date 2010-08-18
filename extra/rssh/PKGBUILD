@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 57421 2009-10-31 14:48:15Z allan $
+# $Id: PKGBUILD 57422 2009-10-31 14:49:34Z allan $
 # Maintainer: Judd Vinet <jvinet@zeroflux.org>
 pkgname=rssh
 pkgver=2.3.2

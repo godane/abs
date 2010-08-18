@@ -1,9 +1,9 @@
-# $Id: PKGBUILD 81476 2010-05-31 03:17:14Z eric $
+# $Id: PKGBUILD 87448 2010-08-13 19:17:21Z ibiru $
 # Maintainer: Eric Belanger <eric@archlinux.org>
 
 pkgname=xchat
 pkgver=2.8.8
-pkgrel=1
+pkgrel=2
 pkgdesc="A GTK+ based IRC client"
 arch=('i686' 'x86_64')
 url="http://www.xchat.org/"

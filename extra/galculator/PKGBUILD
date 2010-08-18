@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 33668 2009-04-04 15:48:19Z alexanderf $
+# $Id: PKGBUILD 33669 2009-04-04 15:48:46Z alexanderf $
 # Maintainer: Alexander Fehr <pizzapunk gmail com>
 
 pkgname=galculator

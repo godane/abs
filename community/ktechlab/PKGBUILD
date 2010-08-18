@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 5613 2009-11-12 13:58:49Z spupykin $
+# $Id: PKGBUILD 5614 2009-11-12 14:06:56Z spupykin $
 # Maintainer: JJDaNiMoTh <jjdanimoth.aur@gmail.com>
 pkgname=ktechlab
 pkgver=0.3.7

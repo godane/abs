@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 59043 2009-11-19 16:20:45Z andrea $
+# $Id: PKGBUILD 59046 2009-11-19 16:26:44Z giovanni $
 # Contributor: damir <damir@archlinux.org>
 
 pkgname=mysql-python

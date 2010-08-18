@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 19662 2008-11-28 20:35:54Z jgc $
+# $Id: PKGBUILD 19660 2008-11-28 20:33:47Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 pkgname=esound
 pkgver=0.2.41

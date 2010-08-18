@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 6640 2009-12-18 14:10:30Z spupykin $
+# $Id: PKGBUILD 6641 2009-12-18 14:12:03Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=miredo

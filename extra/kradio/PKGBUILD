@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 54843 2009-10-11 19:49:18Z giovanni $
+# $Id: PKGBUILD 54846 2009-10-11 19:50:30Z giovanni $
 # Maintainer : Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=kradio

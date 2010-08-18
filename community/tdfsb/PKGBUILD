@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 5923 2009-11-23 15:37:35Z giovanni $
+# $Id: PKGBUILD 5924 2009-11-23 15:38:37Z giovanni $
 # Maintainer: Giovanni Scafora <giovanni@archlinux.org>
 
 pkgname=tdfsb

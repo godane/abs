@@ -1,10 +1,11 @@
-# $Id: PKGBUILD 56001 2009-10-17 12:27:14Z andrea $
+# $Id: PKGBUILD 56020 2009-10-17 23:36:59Z giovanni $
 # Contributor: Kevin Piche <kevin@archlinux.org>
 
 pkgname=cpudyn
 pkgver=1.0.1
 pkgrel=3
 pkgdesc="CPU dynamic frequency control"
+arch=(i686 x86_64)
 url="http://mnm.uib.es/~gallir/cpudyn"
 arch=('i686' 'x86_64')
 license=('GPL2')

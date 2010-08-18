@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 59983 2009-11-29 20:25:27Z jgc $
+# $Id: PKGBUILD 59982 2009-11-29 20:19:34Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 pkgname=fontconfig
 pkgver=2.8.0

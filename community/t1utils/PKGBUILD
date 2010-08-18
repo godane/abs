@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 8807 2010-01-21 15:35:33Z spupykin $
+# $Id: PKGBUILD 8809 2010-01-21 15:39:00Z spupykin $
 # Maintainer: Simo Leone <neotuli@gmail.com>
 
 pkgname=t1utils

@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 67312 2010-02-06 08:33:20Z eric $
+# $Id: PKGBUILD 67313 2010-02-06 08:33:50Z eric $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=shared-mime-info

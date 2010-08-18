@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 56910 2009-10-30 16:29:38Z giovanni $
+# $Id: PKGBUILD 56826 2009-10-28 08:21:58Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libatasmart

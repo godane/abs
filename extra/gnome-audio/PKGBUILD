@@ -10,7 +10,7 @@ license=('custom')
 url="http://www.gnome.org"
 groups=('gnome-extra')
 options=(!makeflags)
-source=(http://ftp.gnome.org/pub/gnome/sources/${pkgname}/2.22/${pkgname}-${pkgver}.tar.bz2)
+source=(ftp://ftp.gnome.org/pub/gnome/sources/${pkgname}/2.22/${pkgname}-${pkgver}.tar.bz2)
 md5sums=('e80c94dc42e2ccb2e50e74a382eed666')
 
 build() {

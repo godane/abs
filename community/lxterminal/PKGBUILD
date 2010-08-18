@@ -1,4 +1,4 @@
-$Id: PKGBUILD 12330 2010-03-02 01:36:27Z angvp $
+$Id: PKGBUILD 12331 2010-03-02 01:38:44Z angvp $
 # Maintainer: Angel 'angvp' Velasquez <angvp[at]archlinux.com.ve>
 # Maintainer: Geoffroy Carrier <geoffroy.carrier@koon.fr>
 pkgname=lxterminal

@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 67469 2010-02-07 10:45:50Z thomas $
+# $Id: PKGBUILD 67472 2010-02-07 10:46:15Z thomas $
 # Maintainer: Thomas Baechler <thomas@archlinux.org>
 pkgname="v86d"
 pkgver=0.1.9

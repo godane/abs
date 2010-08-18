@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 48383 2009-08-01 16:48:05Z jgc $
+# $Id: PKGBUILD 48373 2009-08-01 16:23:01Z jgc $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libfs

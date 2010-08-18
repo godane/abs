@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 36378 2009-04-21 21:12:51Z eric $
+# $Id: PKGBUILD 36369 2009-04-21 20:53:52Z eric $
 # Contributor: Damir Perisa <damir.perisa@bluewin.ch>
 
 pkgname=xbl

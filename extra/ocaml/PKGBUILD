@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 66794 2010-02-01 14:58:30Z giovanni $
+# $Id: PKGBUILD 66795 2010-02-01 15:06:32Z giovanni $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=ocaml	

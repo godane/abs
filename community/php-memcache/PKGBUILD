@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 9636 2010-01-27 19:53:51Z foutrelis $
+# $Id: PKGBUILD 9637 2010-01-27 19:54:15Z foutrelis $
 # Maintainer: Evangelos Foutras <foutrelis@gmail.com>
 
 pkgname=php-memcache

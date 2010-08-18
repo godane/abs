@@ -1,11 +1,11 @@
-# $Id: PKGBUILD 7844 2010-01-11 23:23:53Z dgriffiths $
+# $Id: PKGBUILD 82 2009-07-17 19:56:55Z aaron $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 # Contributor: Brian Nguyen <bhnguyen@gmail.com>
 # Original Packager: Tom K <tomk@runbox.com>
 
 pkgname=hevea
 pkgver=1.10
-pkgrel=1.1
+pkgrel=1
 pkgdesc="A quite complete and fast LATEX to HTML translator"
 arch=(i686 x86_64)
 depends=('ocaml')

@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 5179 2009-11-07 02:07:21Z dgriffiths $
+# $Id: PKGBUILD 5262 2009-11-07 12:52:52Z ibiru $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=freedroid
