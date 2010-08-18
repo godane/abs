@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 49910 2009-08-16 20:58:20Z jgc $
+# $Id: PKGBUILD 49853 2009-08-16 18:53:06Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=dbus-qt3

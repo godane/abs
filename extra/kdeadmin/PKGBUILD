@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 86331 2010-07-29 10:53:10Z andrea $
+# $Id: PKGBUILD 86330 2010-07-29 10:53:03Z andrea $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgbase=kdeadmin

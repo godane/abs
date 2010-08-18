@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 19304 2008-11-20 02:45:32Z allan $
+# $Id: PKGBUILD 19307 2008-11-20 05:24:57Z eric $
 # Maintainer: Paul Mattal <paul@archlinux.org>
 pkgname=mailman
 pkgver=2.1.11

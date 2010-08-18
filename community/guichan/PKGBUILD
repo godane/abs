@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 4401 2009-10-22 15:06:35Z ibiru $
+# $Id: PKGBUILD 4400 2009-10-22 15:03:46Z ibiru $
 # Maintainer: Mateusz Herych <heniekk@gmail.com>
 # Contributor: Bjørn Lindeijer <bjorn@lindeijer.nl>
 pkgname=guichan

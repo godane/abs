@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 65057 2010-01-24 04:35:40Z eric $
+# $Id: PKGBUILD 65058 2010-01-24 04:36:11Z eric $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=xorg-apps

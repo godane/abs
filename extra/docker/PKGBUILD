@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 36980 2009-04-29 06:48:31Z eric $
+# $Id: PKGBUILD 36979 2009-04-29 06:44:04Z eric $
 # Contributor: Jochem Kossen <j.kossen@home.nl>
 
 pkgname=docker

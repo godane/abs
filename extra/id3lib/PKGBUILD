@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 2134 2008-05-26 00:30:40Z eric $
+# $Id: PKGBUILD 2130 2008-05-26 00:08:23Z eric $
 # Maintainer: 
 # Contributor: Jochem Kossen <j.kossen@home.nl>
 pkgname=id3lib

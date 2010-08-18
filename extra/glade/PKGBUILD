@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 44689 2009-07-03 17:59:28Z jgc $
+# $Id: PKGBUILD 44620 2009-07-02 21:38:57Z jgc $
 # Maintainer: Douglas Soares de Andrade <douglas@archlinux.org>
 
 pkgname=glade

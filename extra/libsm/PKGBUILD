@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 50377 2009-08-25 20:20:25Z jgc $
+# $Id: PKGBUILD 49409 2009-08-07 15:26:02Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libsm

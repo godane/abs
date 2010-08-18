@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 57676 2009-11-01 14:14:29Z jgc $
+# $Id: PKGBUILD 57679 2009-11-01 14:22:29Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libxi

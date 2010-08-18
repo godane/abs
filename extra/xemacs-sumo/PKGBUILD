@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 36401 2009-04-22 01:55:49Z eric $
+# $Id: PKGBUILD 36387 2009-04-22 01:21:40Z eric $
 # Maintainer: juergen <juergen@archlinux.org>
 
 pkgname=xemacs-sumo

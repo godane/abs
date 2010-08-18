@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 59311 2009-11-22 00:10:55Z giovanni $
+# $Id: PKGBUILD 59294 2009-11-21 20:34:51Z jgc $
 # Maintainer: Hugo Doria <hugo@archlinux.org>
 
 pkgname=ipod-sharp

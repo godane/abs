@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 54888 2009-10-11 20:03:52Z giovanni $
+# $Id: PKGBUILD 54891 2009-10-11 20:04:37Z giovanni $
 # Maintainer: Tom K <tomk@runbox.com>
 
 pkgname=gnu-netcat

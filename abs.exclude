@@ -1,7 +1,9 @@
 .git/
+.gitignore
 README.md
-scripts/
-gnome-unstable/
-xorg18/
-abs.exclude
 abs.conf
+abs.exclude
+gnome-unstable/
+scripts/
+strings-repo/
+xorg18/

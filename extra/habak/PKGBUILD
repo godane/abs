@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 4098 2008-07-03 15:12:34Z ronald $
+# $Id: PKGBUILD 4097 2008-07-03 14:48:26Z ronald $
 # Maintainer: Ronald van Haren <ronald@archlinux.org>
 # Contributor: Simo Leone <simo@archlinux.org>
 pkgname=habak

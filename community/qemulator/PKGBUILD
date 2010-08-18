@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 1071 2009-08-12 20:14:05Z dgriffiths $
+# $Id: PKGBUILD 1116 2009-08-12 20:38:55Z ibiru $
 # Maintainer: Alexander Fehr <pizzapunk gmail com>
 
 pkgname=qemulator
@@ -9,7 +9,7 @@ arch=('i686' 'x86_64')
 url="http://qemulator.createweb.de/"
 license=('GPL')
 depends=('qemu' 'pygtk' 'xdg-utils')
-install=$pkgname.install
+install=qemulator.install
 source=(http://qemulator.createweb.de/downloads/Qemulator-$pkgver.tar.gz)
 md5sums=('a2ab585f2a987b5fafa5f76b785d6c1a')
 

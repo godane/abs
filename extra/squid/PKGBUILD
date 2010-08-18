@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 79516 2010-05-04 03:34:08Z kevin $
+# $Id: PKGBUILD 79502 2010-05-04 00:58:56Z kevin $
 # Maintainer: Kevin Piche <kevin@archlinux.org>
 # Contributor: Tom Newsom <Jeepster@gmx.co.uk>
 
@@ -12,7 +12,7 @@ depends=('openssl' 'pam' 'cron' 'perl')
 makedepends=('libcap>=2.16')
 license=('GPL')
 backup=(etc/squid/squid.conf etc/squid/mime.conf etc/conf.d/squid)
-install=squid.install
+install=${pkgname}.install
 source=(http://www.squid-cache.org/Versions/v2/2.7/${pkgname}-${pkgver}.tar.bz2
         squid-makefiles.patch squid squid.conf.d squid.pam
         squid.cron fix-for-new-cap-headers.patch)

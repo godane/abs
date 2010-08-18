@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 36976 2009-04-29 06:01:13Z eric $
+# $Id: PKGBUILD 36973 2009-04-29 05:58:02Z eric $
 # Maintainer: damir <damir@archlinux.org>
 
 pkgname=biogrep

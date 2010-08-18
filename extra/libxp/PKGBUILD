@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 49762 2009-08-15 15:08:45Z jgc $
+# $Id: PKGBUILD 49759 2009-08-15 15:00:29Z jgc $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libxp

@@ -1,4 +1,4 @@
-#$Id: PKGBUILD 37370 2009-05-01 06:37:35Z eric $
+#$Id: PKGBUILD 37369 2009-05-01 06:35:08Z eric $
 #Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gperf

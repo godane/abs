@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 37201 2009-05-01 03:40:39Z eric $
+# $Id: PKGBUILD 37199 2009-05-01 03:25:47Z eric $
 # Contributor: Low Kian Seong <fastmail_low@speedymail.org>
 # Maintainer: Judd Vinet <jvinet@zeroflux.org>
 pkgname=lzo

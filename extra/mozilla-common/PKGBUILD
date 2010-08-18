@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 42379 2009-06-13 13:08:37Z jgc $
+# $Id: PKGBUILD 42378 2009-06-13 13:07:05Z jgc $
 # Maintainer: dale <dale@archlinux.org>
 
 pkgname=mozilla-common

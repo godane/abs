@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 67896 2010-02-09 12:39:02Z thomas $
+# $Id: PKGBUILD 67897 2010-02-09 12:39:22Z thomas $
 # Maintainer: Thomas Baechler <thomas@archlinux.org>
 pkgname=libv4l
 pkgver=0.6.4

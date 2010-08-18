@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 52633 2009-09-22 00:18:13Z eric $
+# $Id: PKGBUILD 52632 2009-09-22 00:12:10Z eric $
 # Maintainer: Eric Belanger <eric@archlinux.org>
 
 pkgname=htop

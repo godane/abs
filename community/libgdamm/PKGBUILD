@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 4383 2009-10-22 13:22:17Z ibiru $
+# $Id: PKGBUILD 4382 2009-10-22 13:21:25Z ibiru $
 # Contributor: Jan de Groot <jan@jgc.homeip.net>
 
 pkgname=libgdamm

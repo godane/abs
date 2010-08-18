@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 86334 2010-07-29 11:54:38Z andrea $
+# $Id: PKGBUILD 86332 2010-07-29 11:54:14Z andrea $
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgbase=kdeutils

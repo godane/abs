@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 17480 2008-10-30 16:52:29Z pierre $
+# $Id: PKGBUILD 17474 2008-10-30 16:25:54Z pierre $
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=openexr

@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 33080 2009-04-04 07:02:59Z allan $
+# $Id: PKGBUILD 33084 2009-04-04 08:09:50Z allan $
 # Maintainer: judd <jvinet@zeroflux.org>
 # Committer: Judd Vinet <jvinet@zeroflux.org>
 pkgname=mailx

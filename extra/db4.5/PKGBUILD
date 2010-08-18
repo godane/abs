@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 49913 2009-08-16 21:13:45Z jgc $
+# $Id: PKGBUILD 49851 2009-08-16 18:49:51Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 pkgname=db4.5
 pkgver=4.5.20

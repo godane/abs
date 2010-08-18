@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 54818 2009-10-11 19:40:37Z giovanni $
+# $Id: PKGBUILD 54821 2009-10-11 19:41:33Z giovanni $
 # Maintainer: dorphell <dorphell@archlinux.org>
 # Contributer: Jason Chu <jchu@xentac.net>
 pkgname=sweep

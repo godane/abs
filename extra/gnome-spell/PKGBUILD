@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 49984 2009-08-18 09:08:07Z jgc $
+# $Id: PKGBUILD 49931 2009-08-16 21:48:16Z jgc $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gnome-spell

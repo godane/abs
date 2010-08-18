@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 52033 2009-09-14 13:59:39Z hugo $
+# $Id: PKGBUILD 52041 2009-09-14 15:18:27Z giovanni $
 # Maintainer: Hugo Doria <hugo@archlinux.org>
 # Contributor: Gregor Ibic <gregor.ibic@intelicom.si>
 
@@ -20,4 +20,5 @@ build() {
   make sense || return 1
   find ${srcdir}/${pkgname}-${pkgver} -perm /u+x -type f \
     -execdir install -D -m755 "{}" ${pkgdir}/usr/bin/"{}" ";"
+  install -D -m644 COPYRIGHT $startdir/pkg/usr/share/licenses/$pkgname/LICENSE.txt
 }

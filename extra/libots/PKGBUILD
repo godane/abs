@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 27807 2009-02-26 04:14:03Z eric $
+# $Id: PKGBUILD 27806 2009-02-26 04:05:23Z eric $
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libots

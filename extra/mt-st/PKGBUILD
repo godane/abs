@@ -1,9 +1,10 @@
-# $Id: PKGBUILD 53022 2009-09-25 05:08:10Z paul $
+# $Id: PKGBUILD 53023 2009-09-25 05:09:23Z paul $
 # Maintainer: dorphell <dorphell@archlinux.org>
 pkgname=mt-st
 pkgver=1.1
 pkgrel=2
 pkgdesc="Linux SCSI tape driver aware magnetic tape control"
+arch=(i686 x86_64)
 url="ftp://ftp.ibiblio.org/pub/linux/system/backup/"
 depends=('glibc')
 arch=('i686' 'x86_64')

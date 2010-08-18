@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 67192 2010-02-04 14:05:42Z giovanni $
+# $Id: PKGBUILD 67193 2010-02-04 14:06:29Z giovanni $
 # Maintainer: Vesa Kaihlavirta <vesa@archlinux.org>
 # Contributor: Roman Cheplyaka <roma@ro-che.info>
 pkgname=libedit

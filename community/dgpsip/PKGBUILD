@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 7616 2010-01-08 22:57:34Z dgriffiths $
+# $Id: PKGBUILD 7617 2010-01-08 22:57:57Z dgriffiths $
 # Contributor: dibblethewrecker dibblethewrecker.at.jiwe.dot.org
 
 pkgname=dgpsip

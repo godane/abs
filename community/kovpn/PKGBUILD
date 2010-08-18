@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 9441 2010-01-25 14:10:37Z spupykin $
+# $Id: PKGBUILD 9444 2010-01-25 14:13:42Z spupykin $
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 # Contributor: Douglas Soares de Andrade <dsandrade@gmail.com>
 
@@ -11,6 +11,7 @@ arch=('i686' 'x86_64')
 url="http://www.kde-apps.org/content/show.php?content=37043"
 license=('GPL')
 depends=('openvpn' 'kdelibs3' 'xdg-utils')
+makedepends=('automake' 'autoconf')
 options=('libtool')
 install=kovpn.install
 source=("http://projects.fslab.de/projects/kovpn/chrome/site/kovpn-${_pkgver}.tar.bz2"
